@@ -1,0 +1,54 @@
+---
+title: "Global spatially variable feature baselines in R: SPARK-X and nnSVG"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+These methods test whether a feature varies in space **without** conditioning on cell type. We use them as (i) baselines, and (ii) **within-cell-type** tests, by running them on the cells of a single type. That is the simplest ctSVP strategy for single-cell imaging data.
+
+```{r install}
+devtools::install_github("xzhoulab/SPARK")
+BiocManager::install(c("nnSVG", "SpatialExperiment", "scuttle", "Statial"))
+```
+
+## Data: Keren 2018 MIBI (`kerenSCE`)
+
+```{r data}
+library(Statial); library(SingleCellExperiment)
+data("kerenSCE")
+img    <- kerenSCE[, kerenSCE$imageID == unique(kerenSCE$imageID)[1]]
+expr   <- assay(img, "intensities")
+coords <- as.matrix(colData(img)[, c("x", "y")]); rownames(coords) <- colnames(img)
+```
+
+## SPARK-X: non-parametric kernel covariance test, linear in n
+
+Top performer in the 2025 Genome Biology benchmark of 14 SVG methods. It is also the best-calibrated.
+
+```{r sparkx}
+library(SPARK)
+# Global test
+sx <- sparkx(count_in = expr, locus_in = coords, numCores = 4, option = "mixture")
+head(sx$res_mtest[order(sx$res_mtest$adjustedPval), ])   # combinedPval, adjustedPval
+
+# Within-cell-type test = a simple ctSVP detector
+ctsv_sparkx <- lapply(split(colnames(img), img$cellType), function(cells) {
+  if (length(cells) < 50) return(NULL)                    # too few cells for a stable test
+  r <- sparkx(expr[, cells], coords[cells, ], numCores = 4, verbose = FALSE)$res_mtest
+  data.frame(feature = rownames(r), p_value = r$combinedPval)
+})
+```
+
+## nnSVG: nearest-neighbour Gaussian process with feature-specific length scale
+
+```{r nnsvg}
+library(nnSVG); library(SpatialExperiment)
+spe <- SpatialExperiment(assays = list(logcounts = asinh(expr / 5)),   # arcsinh-transformed intensities
+                         spatialCoords = coords)
+spe <- nnSVG(spe, assay_name = "logcounts", n_threads = 4)
+head(as.data.frame(rowData(spe))[order(rowData(spe)$rank), c("LR_stat", "prop_sv", "pval", "padj", "rank")])
+# prop_sv = spatial variance / total variance: an interpretable effect size
+```
