@@ -1,0 +1,5 @@
+dataset,data,pairs_seen_in_2plus_images,called_in_any,replicated_2plus,replication_rate
+hartmann_mibi,observed,245,203,131,0.645320197044335
+schurch_codex,observed,560,413,271,0.6561743341404358
+hartmann_mibi,permuted null,245,0,0,
+schurch_codex,permuted null,560,0,0,

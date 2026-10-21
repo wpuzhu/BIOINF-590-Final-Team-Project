@@ -1,0 +1,1024 @@
+"dataset","image","cell_type","feature","method","stat","p_value","n_cells"
+"jackson_imc","image1","CK low HR low tumor cell","EGFR_Tm169","ct_STANCE",NA,0.101719380830823,40
+"jackson_imc","image1","CK low HR low tumor cell","ECadhe_Er167","ct_STANCE",NA,0.0016477052785183,40
+"jackson_imc","image1","CK low HR low tumor cell","Estroge_Gd156","ct_STANCE",NA,0.530792642377361,40
+"jackson_imc","image1","CK low HR low tumor cell","GATA3_Dy163","ct_STANCE",NA,1.55164738428152e-34,40
+"jackson_imc","image1","CK low HR low tumor cell","Ki67_Er168","ct_STANCE",NA,1.53433896323978e-10,40
+"jackson_imc","image1","CK low HR low tumor cell","SMA_Nd148","ct_STANCE",NA,0.622913304775495,40
+"jackson_imc","image1","CK low HR low tumor cell","Vimenti_Sm149","ct_STANCE",NA,0.594850591464592,40
+"jackson_imc","image1","CK low HR low tumor cell","cleaved_Yb176","ct_STANCE",NA,0.99111399385361,40
+"jackson_imc","image1","CK low HR low tumor cell","cerbB_Eu151","ct_STANCE",NA,0.0925581805064385,40
+"jackson_imc","image1","CK low HR low tumor cell","p53_Tb159","ct_STANCE",NA,0.734307049706139,40
+"jackson_imc","image1","CK low HR low tumor cell","panCyto_Lu175","ct_STANCE",NA,0.00136655885208405,40
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Nd143","ct_STANCE",NA,0.620333802599282,40
+"jackson_imc","image1","CK low HR low tumor cell","Twist_Nd145","ct_STANCE",NA,0.0439521247889014,40
+"jackson_imc","image1","CK low HR low tumor cell","Progest_Gd158","ct_STANCE",NA,0.950227746865101,40
+"jackson_imc","image1","CK low HR low tumor cell","cMyc_Nd150","ct_STANCE",NA,0.265666124359321,40
+"jackson_imc","image1","CK low HR low tumor cell","Fibrone_Nd142","ct_STANCE",NA,0.214774870552504,40
+"jackson_imc","image1","CK low HR low tumor cell","Keratin_Sm147","ct_STANCE",NA,0.905119963733013,40
+"jackson_imc","image1","CK low HR low tumor cell","Slug_Gd155","ct_STANCE",NA,0.328273128882653,40
+"jackson_imc","image1","CK low HR low tumor cell","CD20_Dy164","ct_STANCE",NA,0.839959626916806,40
+"jackson_imc","image1","CK low HR low tumor cell","vWF_Yb172","ct_STANCE",NA,0.074056540395477,40
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Pr141","ct_STANCE",NA,0.445383054524204,40
+"jackson_imc","image1","CK low HR low tumor cell","CD44_Gd160","ct_STANCE",NA,0.00115284330664195,40
+"jackson_imc","image1","CK low HR low tumor cell","CD45_Dy162","ct_STANCE",NA,0.00546884072856861,40
+"jackson_imc","image1","CK low HR low tumor cell","CD68_Nd146","ct_STANCE",NA,0.000302541873634655,40
+"jackson_imc","image1","CK low HR low tumor cell","CD3epsi_Sm152","ct_STANCE",NA,0.036608672678393,40
+"jackson_imc","image1","CK low HR low tumor cell","Carboni_Er166","ct_STANCE",NA,0.11405403532694,40
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Nd144","ct_STANCE",NA,0.031198812800484,40
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Yb174","ct_STANCE",NA,0.0766669014587409,40
+"jackson_imc","image1","CK low HR low tumor cell","phospho_Histone","ct_STANCE",NA,0.327559892013539,40
+"jackson_imc","image1","CK low HR low tumor cell","phospho_S6","ct_STANCE",NA,0.00579493096121341,40
+"jackson_imc","image1","CK low HR low tumor cell","phospho_mTOR","ct_STANCE",NA,0.0798478897899997,40
+"jackson_imc","image1","CK+ HR+ tumor cell","EGFR_Tm169","ct_STANCE",NA,1.71976197807463e-05,40
+"jackson_imc","image1","CK+ HR+ tumor cell","ECadhe_Er167","ct_STANCE",NA,5.3971122421219e-05,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Estroge_Gd156","ct_STANCE",NA,0.249070922398972,40
+"jackson_imc","image1","CK+ HR+ tumor cell","GATA3_Dy163","ct_STANCE",NA,0.579232001820781,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Ki67_Er168","ct_STANCE",NA,0.118382311689363,40
+"jackson_imc","image1","CK+ HR+ tumor cell","SMA_Nd148","ct_STANCE",NA,0.503748308564774,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Vimenti_Sm149","ct_STANCE",NA,0.140235592329552,40
+"jackson_imc","image1","CK+ HR+ tumor cell","cleaved_Yb176","ct_STANCE",NA,0.165046873473758,40
+"jackson_imc","image1","CK+ HR+ tumor cell","cerbB_Eu151","ct_STANCE",NA,0.109485488402121,40
+"jackson_imc","image1","CK+ HR+ tumor cell","p53_Tb159","ct_STANCE",NA,0.0438206657883359,40
+"jackson_imc","image1","CK+ HR+ tumor cell","panCyto_Lu175","ct_STANCE",NA,3.16425660379241e-05,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Nd143","ct_STANCE",NA,0.12179360538752,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Twist_Nd145","ct_STANCE",NA,0.00492941336740964,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Progest_Gd158","ct_STANCE",NA,0.0172585084043798,40
+"jackson_imc","image1","CK+ HR+ tumor cell","cMyc_Nd150","ct_STANCE",NA,0.0496330374813802,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Fibrone_Nd142","ct_STANCE",NA,0.257448868965665,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Keratin_Sm147","ct_STANCE",NA,0.75164593479104,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Slug_Gd155","ct_STANCE",NA,0.791421285253436,40
+"jackson_imc","image1","CK+ HR+ tumor cell","CD20_Dy164","ct_STANCE",NA,0.603183508516281,40
+"jackson_imc","image1","CK+ HR+ tumor cell","vWF_Yb172","ct_STANCE",NA,0.000581008135367053,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Pr141","ct_STANCE",NA,0.200501343354196,40
+"jackson_imc","image1","CK+ HR+ tumor cell","CD44_Gd160","ct_STANCE",NA,0.314516691642005,40
+"jackson_imc","image1","CK+ HR+ tumor cell","CD45_Dy162","ct_STANCE",NA,0.139914076406483,40
+"jackson_imc","image1","CK+ HR+ tumor cell","CD68_Nd146","ct_STANCE",NA,0.716656996547301,40
+"jackson_imc","image1","CK+ HR+ tumor cell","CD3epsi_Sm152","ct_STANCE",NA,0.154144546121692,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Carboni_Er166","ct_STANCE",NA,0.000121461497179553,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Nd144","ct_STANCE",NA,0.0404715142686068,40
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Yb174","ct_STANCE",NA,0.00147310351335003,40
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_Histone","ct_STANCE",NA,0.212883908443924,40
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_S6","ct_STANCE",NA,1.69945971552069e-16,40
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_mTOR","ct_STANCE",NA,9.27212006835368e-05,40
+"jackson_imc","image1","T cells","EGFR_Tm169","ct_STANCE",NA,0.0181705495115274,58
+"jackson_imc","image1","T cells","ECadhe_Er167","ct_STANCE",NA,0.355724981187668,58
+"jackson_imc","image1","T cells","Estroge_Gd156","ct_STANCE",NA,0.128236222406695,58
+"jackson_imc","image1","T cells","GATA3_Dy163","ct_STANCE",NA,0.924680664273515,58
+"jackson_imc","image1","T cells","Ki67_Er168","ct_STANCE",NA,0.961716678933716,58
+"jackson_imc","image1","T cells","SMA_Nd148","ct_STANCE",NA,4.99527836899598e-21,58
+"jackson_imc","image1","T cells","Vimenti_Sm149","ct_STANCE",NA,0.000195965129748817,58
+"jackson_imc","image1","T cells","cleaved_Yb176","ct_STANCE",NA,0.0288691971692928,58
+"jackson_imc","image1","T cells","cerbB_Eu151","ct_STANCE",NA,0.0399673396305189,58
+"jackson_imc","image1","T cells","p53_Tb159","ct_STANCE",NA,5.09701768232353e-06,58
+"jackson_imc","image1","T cells","panCyto_Lu175","ct_STANCE",NA,0.886280533526484,58
+"jackson_imc","image1","T cells","Cytoker_Nd143","ct_STANCE",NA,0.851778121644508,58
+"jackson_imc","image1","T cells","Twist_Nd145","ct_STANCE",NA,0.0398085160525537,58
+"jackson_imc","image1","T cells","Progest_Gd158","ct_STANCE",NA,4.87501910558257e-06,58
+"jackson_imc","image1","T cells","cMyc_Nd150","ct_STANCE",NA,0.238788423929761,58
+"jackson_imc","image1","T cells","Fibrone_Nd142","ct_STANCE",NA,0.000533503331758987,58
+"jackson_imc","image1","T cells","Keratin_Sm147","ct_STANCE",NA,0.904556802528306,58
+"jackson_imc","image1","T cells","Slug_Gd155","ct_STANCE",NA,0.595395284136569,58
+"jackson_imc","image1","T cells","CD20_Dy164","ct_STANCE",NA,7.9418760034139e-10,58
+"jackson_imc","image1","T cells","vWF_Yb172","ct_STANCE",NA,4.55723293206664e-05,58
+"jackson_imc","image1","T cells","Cytoker_Pr141","ct_STANCE",NA,0.0267700886848355,58
+"jackson_imc","image1","T cells","CD44_Gd160","ct_STANCE",NA,1.3688093391404e-08,58
+"jackson_imc","image1","T cells","CD45_Dy162","ct_STANCE",NA,8.95744916175631e-35,58
+"jackson_imc","image1","T cells","CD68_Nd146","ct_STANCE",NA,1.44193353116384e-19,58
+"jackson_imc","image1","T cells","CD3epsi_Sm152","ct_STANCE",NA,0.213943311666549,58
+"jackson_imc","image1","T cells","Carboni_Er166","ct_STANCE",NA,1.9569059706447e-05,58
+"jackson_imc","image1","T cells","Cytoker_Nd144","ct_STANCE",NA,0.445648008552456,58
+"jackson_imc","image1","T cells","Cytoker_Yb174","ct_STANCE",NA,0.850539010263563,58
+"jackson_imc","image1","T cells","phospho_Histone","ct_STANCE",NA,0.0468022932707864,58
+"jackson_imc","image1","T cells","phospho_S6","ct_STANCE",NA,0.712792185393023,58
+"jackson_imc","image1","T cells","phospho_mTOR","ct_STANCE",NA,0.00139101985092658,58
+"jackson_imc","image1","apoptotic tumor cell","EGFR_Tm169","ct_STANCE",NA,0.541382670963619,298
+"jackson_imc","image1","apoptotic tumor cell","ECadhe_Er167","ct_STANCE",NA,0.0761940820551321,298
+"jackson_imc","image1","apoptotic tumor cell","Estroge_Gd156","ct_STANCE",NA,0.0788511598997578,298
+"jackson_imc","image1","apoptotic tumor cell","GATA3_Dy163","ct_STANCE",NA,0.017893158597792,298
+"jackson_imc","image1","apoptotic tumor cell","Ki67_Er168","ct_STANCE",NA,0.846295452908958,298
+"jackson_imc","image1","apoptotic tumor cell","SMA_Nd148","ct_STANCE",NA,0.924717650741429,298
+"jackson_imc","image1","apoptotic tumor cell","Vimenti_Sm149","ct_STANCE",NA,0.28660026374528,298
+"jackson_imc","image1","apoptotic tumor cell","cleaved_Yb176","ct_STANCE",NA,0.0653642944211409,298
+"jackson_imc","image1","apoptotic tumor cell","cerbB_Eu151","ct_STANCE",NA,0.0868448803064073,298
+"jackson_imc","image1","apoptotic tumor cell","p53_Tb159","ct_STANCE",NA,0.116086722255047,298
+"jackson_imc","image1","apoptotic tumor cell","panCyto_Lu175","ct_STANCE",NA,0.00765067073236407,298
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Nd143","ct_STANCE",NA,0.687734783220915,298
+"jackson_imc","image1","apoptotic tumor cell","Twist_Nd145","ct_STANCE",NA,0.621206986339895,298
+"jackson_imc","image1","apoptotic tumor cell","Progest_Gd158","ct_STANCE",NA,0.0168565259816062,298
+"jackson_imc","image1","apoptotic tumor cell","cMyc_Nd150","ct_STANCE",NA,0.012547213147974,298
+"jackson_imc","image1","apoptotic tumor cell","Fibrone_Nd142","ct_STANCE",NA,0.128420845009755,298
+"jackson_imc","image1","apoptotic tumor cell","Keratin_Sm147","ct_STANCE",NA,0.00693751198280749,298
+"jackson_imc","image1","apoptotic tumor cell","Slug_Gd155","ct_STANCE",NA,0.390710408220035,298
+"jackson_imc","image1","apoptotic tumor cell","CD20_Dy164","ct_STANCE",NA,0.232104664903078,298
+"jackson_imc","image1","apoptotic tumor cell","vWF_Yb172","ct_STANCE",NA,0.851349708607234,298
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Pr141","ct_STANCE",NA,0.549360340334364,298
+"jackson_imc","image1","apoptotic tumor cell","CD44_Gd160","ct_STANCE",NA,0.0576340439338135,298
+"jackson_imc","image1","apoptotic tumor cell","CD45_Dy162","ct_STANCE",NA,0.807980861719186,298
+"jackson_imc","image1","apoptotic tumor cell","CD68_Nd146","ct_STANCE",NA,0.594893427950103,298
+"jackson_imc","image1","apoptotic tumor cell","CD3epsi_Sm152","ct_STANCE",NA,0.0039435382354992,298
+"jackson_imc","image1","apoptotic tumor cell","Carboni_Er166","ct_STANCE",NA,0.210603978572289,298
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Nd144","ct_STANCE",NA,0.0971311653780898,298
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Yb174","ct_STANCE",NA,0.130883232607543,298
+"jackson_imc","image1","apoptotic tumor cell","phospho_Histone","ct_STANCE",NA,0.840399180032191,298
+"jackson_imc","image1","apoptotic tumor cell","phospho_S6","ct_STANCE",NA,0.588797275535061,298
+"jackson_imc","image1","apoptotic tumor cell","phospho_mTOR","ct_STANCE",NA,0.624077975277991,298
+"jackson_imc","image1","basal CK tumor cell","EGFR_Tm169","ct_STANCE",NA,0.474809364911121,75
+"jackson_imc","image1","basal CK tumor cell","ECadhe_Er167","ct_STANCE",NA,0.680343192024866,75
+"jackson_imc","image1","basal CK tumor cell","Estroge_Gd156","ct_STANCE",NA,0.0256139055989292,75
+"jackson_imc","image1","basal CK tumor cell","GATA3_Dy163","ct_STANCE",NA,0.432664962330671,75
+"jackson_imc","image1","basal CK tumor cell","Ki67_Er168","ct_STANCE",NA,1.17808989431901e-05,75
+"jackson_imc","image1","basal CK tumor cell","SMA_Nd148","ct_STANCE",NA,0.229364824945993,75
+"jackson_imc","image1","basal CK tumor cell","Vimenti_Sm149","ct_STANCE",NA,0.201389787974429,75
+"jackson_imc","image1","basal CK tumor cell","cleaved_Yb176","ct_STANCE",NA,0.966711548346443,75
+"jackson_imc","image1","basal CK tumor cell","cerbB_Eu151","ct_STANCE",NA,0.536608368107249,75
+"jackson_imc","image1","basal CK tumor cell","p53_Tb159","ct_STANCE",NA,0.449407905006469,75
+"jackson_imc","image1","basal CK tumor cell","panCyto_Lu175","ct_STANCE",NA,5.46660991138777e-48,75
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Nd143","ct_STANCE",NA,0.112971652541531,75
+"jackson_imc","image1","basal CK tumor cell","Twist_Nd145","ct_STANCE",NA,0.849897219104129,75
+"jackson_imc","image1","basal CK tumor cell","Progest_Gd158","ct_STANCE",NA,0.350461366123222,75
+"jackson_imc","image1","basal CK tumor cell","cMyc_Nd150","ct_STANCE",NA,0.421300970167578,75
+"jackson_imc","image1","basal CK tumor cell","Fibrone_Nd142","ct_STANCE",NA,0.148883479188577,75
+"jackson_imc","image1","basal CK tumor cell","Keratin_Sm147","ct_STANCE",NA,3.63719863462256e-23,75
+"jackson_imc","image1","basal CK tumor cell","Slug_Gd155","ct_STANCE",NA,1.10389002963478e-10,75
+"jackson_imc","image1","basal CK tumor cell","CD20_Dy164","ct_STANCE",NA,0.547245698755511,75
+"jackson_imc","image1","basal CK tumor cell","vWF_Yb172","ct_STANCE",NA,0.413809453065707,75
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Pr141","ct_STANCE",NA,0.0645541621967322,75
+"jackson_imc","image1","basal CK tumor cell","CD44_Gd160","ct_STANCE",NA,0.000285901405221549,75
+"jackson_imc","image1","basal CK tumor cell","CD45_Dy162","ct_STANCE",NA,0.0568445522317216,75
+"jackson_imc","image1","basal CK tumor cell","CD68_Nd146","ct_STANCE",NA,0.253076600028911,75
+"jackson_imc","image1","basal CK tumor cell","CD3epsi_Sm152","ct_STANCE",NA,0.100342358559718,75
+"jackson_imc","image1","basal CK tumor cell","Carboni_Er166","ct_STANCE",NA,0.976731536599505,75
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Nd144","ct_STANCE",NA,0.9063164567861,75
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Yb174","ct_STANCE",NA,1.56735514973519e-43,75
+"jackson_imc","image1","basal CK tumor cell","phospho_Histone","ct_STANCE",NA,0.830734862801578,75
+"jackson_imc","image1","basal CK tumor cell","phospho_S6","ct_STANCE",NA,4.32884159491609e-10,75
+"jackson_imc","image1","basal CK tumor cell","phospho_mTOR","ct_STANCE",NA,0.931591454967368,75
+"jackson_imc","image1","endothelial","EGFR_Tm169","ct_STANCE",NA,1.03241160709394e-07,40
+"jackson_imc","image1","endothelial","ECadhe_Er167","ct_STANCE",NA,0.0343130773929908,40
+"jackson_imc","image1","endothelial","Estroge_Gd156","ct_STANCE",NA,0.307194271918665,40
+"jackson_imc","image1","endothelial","GATA3_Dy163","ct_STANCE",NA,0.296662813044404,40
+"jackson_imc","image1","endothelial","Ki67_Er168","ct_STANCE",NA,0.975228690535204,40
+"jackson_imc","image1","endothelial","SMA_Nd148","ct_STANCE",NA,1.54808388473015e-28,40
+"jackson_imc","image1","endothelial","Vimenti_Sm149","ct_STANCE",NA,2.86727529913248e-16,40
+"jackson_imc","image1","endothelial","cleaved_Yb176","ct_STANCE",NA,0.0212417534039024,40
+"jackson_imc","image1","endothelial","cerbB_Eu151","ct_STANCE",NA,0.0185534623348193,40
+"jackson_imc","image1","endothelial","p53_Tb159","ct_STANCE",NA,1.64817635871378e-08,40
+"jackson_imc","image1","endothelial","panCyto_Lu175","ct_STANCE",NA,0.731098941561913,40
+"jackson_imc","image1","endothelial","Cytoker_Nd143","ct_STANCE",NA,0.121215021434473,40
+"jackson_imc","image1","endothelial","Twist_Nd145","ct_STANCE",NA,5.42707925717644e-08,40
+"jackson_imc","image1","endothelial","Progest_Gd158","ct_STANCE",NA,6.50443074309816e-09,40
+"jackson_imc","image1","endothelial","cMyc_Nd150","ct_STANCE",NA,0.0914126098369906,40
+"jackson_imc","image1","endothelial","Fibrone_Nd142","ct_STANCE",NA,6.31024579711657e-07,40
+"jackson_imc","image1","endothelial","Keratin_Sm147","ct_STANCE",NA,0.501261812738674,40
+"jackson_imc","image1","endothelial","Slug_Gd155","ct_STANCE",NA,0.150716492602318,40
+"jackson_imc","image1","endothelial","CD20_Dy164","ct_STANCE",NA,1.20900046293042e-12,40
+"jackson_imc","image1","endothelial","vWF_Yb172","ct_STANCE",NA,5.4029219154129e-48,40
+"jackson_imc","image1","endothelial","Cytoker_Pr141","ct_STANCE",NA,0.0107751549945465,40
+"jackson_imc","image1","endothelial","CD44_Gd160","ct_STANCE",NA,0.834271527278395,40
+"jackson_imc","image1","endothelial","CD45_Dy162","ct_STANCE",NA,0.196672110841465,40
+"jackson_imc","image1","endothelial","CD68_Nd146","ct_STANCE",NA,0.00289152030748429,40
+"jackson_imc","image1","endothelial","CD3epsi_Sm152","ct_STANCE",NA,0.105984598389642,40
+"jackson_imc","image1","endothelial","Carboni_Er166","ct_STANCE",NA,5.63179428850809e-10,40
+"jackson_imc","image1","endothelial","Cytoker_Nd144","ct_STANCE",NA,0.309095688715882,40
+"jackson_imc","image1","endothelial","Cytoker_Yb174","ct_STANCE",NA,0.763560791151274,40
+"jackson_imc","image1","endothelial","phospho_Histone","ct_STANCE",NA,0.814226540918556,40
+"jackson_imc","image1","endothelial","phospho_S6","ct_STANCE",NA,0.71670428047085,40
+"jackson_imc","image1","endothelial","phospho_mTOR","ct_STANCE",NA,2.69899806742235e-06,40
+"jackson_imc","image1","macrophages","EGFR_Tm169","ct_STANCE",NA,0.00146894971334151,45
+"jackson_imc","image1","macrophages","ECadhe_Er167","ct_STANCE",NA,0.00802347135322387,45
+"jackson_imc","image1","macrophages","Estroge_Gd156","ct_STANCE",NA,0.00188660296331815,45
+"jackson_imc","image1","macrophages","GATA3_Dy163","ct_STANCE",NA,0.023741477878592,45
+"jackson_imc","image1","macrophages","Ki67_Er168","ct_STANCE",NA,0.987883573058083,45
+"jackson_imc","image1","macrophages","SMA_Nd148","ct_STANCE",NA,0.0198445054516051,45
+"jackson_imc","image1","macrophages","Vimenti_Sm149","ct_STANCE",NA,1.61939659075805e-09,45
+"jackson_imc","image1","macrophages","cleaved_Yb176","ct_STANCE",NA,1.1221523503123e-47,45
+"jackson_imc","image1","macrophages","cerbB_Eu151","ct_STANCE",NA,0.0225826895971197,45
+"jackson_imc","image1","macrophages","p53_Tb159","ct_STANCE",NA,6.97033676256737e-07,45
+"jackson_imc","image1","macrophages","panCyto_Lu175","ct_STANCE",NA,0.380859299145088,45
+"jackson_imc","image1","macrophages","Cytoker_Nd143","ct_STANCE",NA,0.803176922042829,45
+"jackson_imc","image1","macrophages","Twist_Nd145","ct_STANCE",NA,4.32673729052001e-05,45
+"jackson_imc","image1","macrophages","Progest_Gd158","ct_STANCE",NA,8.57543503769452e-07,45
+"jackson_imc","image1","macrophages","cMyc_Nd150","ct_STANCE",NA,0.231745422004327,45
+"jackson_imc","image1","macrophages","Fibrone_Nd142","ct_STANCE",NA,6.86198236997381e-08,45
+"jackson_imc","image1","macrophages","Keratin_Sm147","ct_STANCE",NA,0.916365474435398,45
+"jackson_imc","image1","macrophages","Slug_Gd155","ct_STANCE",NA,0.724545827995205,45
+"jackson_imc","image1","macrophages","CD20_Dy164","ct_STANCE",NA,8.78748847558076e-06,45
+"jackson_imc","image1","macrophages","vWF_Yb172","ct_STANCE",NA,0.179687425752162,45
+"jackson_imc","image1","macrophages","Cytoker_Pr141","ct_STANCE",NA,0.0279846907045871,45
+"jackson_imc","image1","macrophages","CD44_Gd160","ct_STANCE",NA,1.19837322905452e-27,45
+"jackson_imc","image1","macrophages","CD45_Dy162","ct_STANCE",NA,6.89906703367608e-55,45
+"jackson_imc","image1","macrophages","CD68_Nd146","ct_STANCE",NA,1.26143860784264e-28,45
+"jackson_imc","image1","macrophages","CD3epsi_Sm152","ct_STANCE",NA,0.00153365116477954,45
+"jackson_imc","image1","macrophages","Carboni_Er166","ct_STANCE",NA,1.52636214840714e-05,45
+"jackson_imc","image1","macrophages","Cytoker_Nd144","ct_STANCE",NA,0.554038079729637,45
+"jackson_imc","image1","macrophages","Cytoker_Yb174","ct_STANCE",NA,0.101822529995701,45
+"jackson_imc","image1","macrophages","phospho_Histone","ct_STANCE",NA,0.000114838915156889,45
+"jackson_imc","image1","macrophages","phospho_S6","ct_STANCE",NA,0.646659886583414,45
+"jackson_imc","image1","macrophages","phospho_mTOR","ct_STANCE",NA,4.50093228260558e-06,45
+"jackson_imc","image1","p53+ EGFR+ tumor cell","EGFR_Tm169","ct_STANCE",NA,0.613610968003656,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","ECadhe_Er167","ct_STANCE",NA,0.167418494261647,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Estroge_Gd156","ct_STANCE",NA,0.0165900253125303,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","GATA3_Dy163","ct_STANCE",NA,0.705534112589882,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Ki67_Er168","ct_STANCE",NA,1.10185379171018e-33,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","SMA_Nd148","ct_STANCE",NA,0.871667687578087,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Vimenti_Sm149","ct_STANCE",NA,0.404100812960265,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cleaved_Yb176","ct_STANCE",NA,0.994642658445333,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cerbB_Eu151","ct_STANCE",NA,0.0507999513615012,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","p53_Tb159","ct_STANCE",NA,0.0435479131868766,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","panCyto_Lu175","ct_STANCE",NA,0.6658761700321,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Nd143","ct_STANCE",NA,0.348691099346474,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Twist_Nd145","ct_STANCE",NA,0.209080014810516,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Progest_Gd158","ct_STANCE",NA,0.0291221366171812,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cMyc_Nd150","ct_STANCE",NA,0.958230113592927,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Fibrone_Nd142","ct_STANCE",NA,0.817148764364432,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Keratin_Sm147","ct_STANCE",NA,0.0496077501646703,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Slug_Gd155","ct_STANCE",NA,0.432791773161775,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD20_Dy164","ct_STANCE",NA,0.0578609263410943,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","vWF_Yb172","ct_STANCE",NA,0.830477656097607,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Pr141","ct_STANCE",NA,0.824872629087967,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD44_Gd160","ct_STANCE",NA,0.382031646845851,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD45_Dy162","ct_STANCE",NA,0.342563725374529,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD68_Nd146","ct_STANCE",NA,0.857662096191634,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD3epsi_Sm152","ct_STANCE",NA,0.295518724878613,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Carboni_Er166","ct_STANCE",NA,0.526317077437559,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Nd144","ct_STANCE",NA,0.257600658032602,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Yb174","ct_STANCE",NA,0.873840706688745,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_Histone","ct_STANCE",NA,0.250671099459461,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_S6","ct_STANCE",NA,0.470329677289466,40
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_mTOR","ct_STANCE",NA,0.656505800681547,40
+"jackson_imc","image1","proliferative tumor cell","EGFR_Tm169","ct_STANCE",NA,9.37679276276882e-06,40
+"jackson_imc","image1","proliferative tumor cell","ECadhe_Er167","ct_STANCE",NA,0.000494607598770949,40
+"jackson_imc","image1","proliferative tumor cell","Estroge_Gd156","ct_STANCE",NA,0.485108849106347,40
+"jackson_imc","image1","proliferative tumor cell","GATA3_Dy163","ct_STANCE",NA,0.035444218365069,40
+"jackson_imc","image1","proliferative tumor cell","Ki67_Er168","ct_STANCE",NA,1.39284307047636e-37,40
+"jackson_imc","image1","proliferative tumor cell","SMA_Nd148","ct_STANCE",NA,0.538033934625365,40
+"jackson_imc","image1","proliferative tumor cell","Vimenti_Sm149","ct_STANCE",NA,0.000103622162061874,40
+"jackson_imc","image1","proliferative tumor cell","cleaved_Yb176","ct_STANCE",NA,0.106836452959019,40
+"jackson_imc","image1","proliferative tumor cell","cerbB_Eu151","ct_STANCE",NA,0.0129480961936021,40
+"jackson_imc","image1","proliferative tumor cell","p53_Tb159","ct_STANCE",NA,0.018921385737877,40
+"jackson_imc","image1","proliferative tumor cell","panCyto_Lu175","ct_STANCE",NA,0.674358541681671,40
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Nd143","ct_STANCE",NA,0.231219006955056,40
+"jackson_imc","image1","proliferative tumor cell","Twist_Nd145","ct_STANCE",NA,0.0171507940536913,40
+"jackson_imc","image1","proliferative tumor cell","Progest_Gd158","ct_STANCE",NA,0.42710689676359,40
+"jackson_imc","image1","proliferative tumor cell","cMyc_Nd150","ct_STANCE",NA,0.0151619778462642,40
+"jackson_imc","image1","proliferative tumor cell","Fibrone_Nd142","ct_STANCE",NA,0.000507156214437246,40
+"jackson_imc","image1","proliferative tumor cell","Keratin_Sm147","ct_STANCE",NA,0.857194866132686,40
+"jackson_imc","image1","proliferative tumor cell","Slug_Gd155","ct_STANCE",NA,0.463794877493383,40
+"jackson_imc","image1","proliferative tumor cell","CD20_Dy164","ct_STANCE",NA,0.623020138649553,40
+"jackson_imc","image1","proliferative tumor cell","vWF_Yb172","ct_STANCE",NA,0.222900445896932,40
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Pr141","ct_STANCE",NA,0.0774084705566987,40
+"jackson_imc","image1","proliferative tumor cell","CD44_Gd160","ct_STANCE",NA,0.564464681436842,40
+"jackson_imc","image1","proliferative tumor cell","CD45_Dy162","ct_STANCE",NA,0.266618726227336,40
+"jackson_imc","image1","proliferative tumor cell","CD68_Nd146","ct_STANCE",NA,0.0808505144903189,40
+"jackson_imc","image1","proliferative tumor cell","CD3epsi_Sm152","ct_STANCE",NA,0.0535099024748173,40
+"jackson_imc","image1","proliferative tumor cell","Carboni_Er166","ct_STANCE",NA,0.00404858534166803,40
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Nd144","ct_STANCE",NA,0.646165649280857,40
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Yb174","ct_STANCE",NA,0.690628876690254,40
+"jackson_imc","image1","proliferative tumor cell","phospho_Histone","ct_STANCE",NA,9.53202686509895e-15,40
+"jackson_imc","image1","proliferative tumor cell","phospho_S6","ct_STANCE",NA,0.128985830455605,40
+"jackson_imc","image1","proliferative tumor cell","phospho_mTOR","ct_STANCE",NA,0.000764610042416595,40
+"jackson_imc","image1","small elongated stromal cell","EGFR_Tm169","ct_STANCE",NA,3.48143972727243e-27,40
+"jackson_imc","image1","small elongated stromal cell","ECadhe_Er167","ct_STANCE",NA,0.00717255114509236,40
+"jackson_imc","image1","small elongated stromal cell","Estroge_Gd156","ct_STANCE",NA,6.50631581202649e-12,40
+"jackson_imc","image1","small elongated stromal cell","GATA3_Dy163","ct_STANCE",NA,1.59303161536252e-19,40
+"jackson_imc","image1","small elongated stromal cell","Ki67_Er168","ct_STANCE",NA,0.889226419711286,40
+"jackson_imc","image1","small elongated stromal cell","SMA_Nd148","ct_STANCE",NA,5.0833533368996e-12,40
+"jackson_imc","image1","small elongated stromal cell","Vimenti_Sm149","ct_STANCE",NA,1.98205603173093e-10,40
+"jackson_imc","image1","small elongated stromal cell","cleaved_Yb176","ct_STANCE",NA,3.01477215372324e-13,40
+"jackson_imc","image1","small elongated stromal cell","cerbB_Eu151","ct_STANCE",NA,0.00951202446135548,40
+"jackson_imc","image1","small elongated stromal cell","p53_Tb159","ct_STANCE",NA,1.50423671847822e-12,40
+"jackson_imc","image1","small elongated stromal cell","panCyto_Lu175","ct_STANCE",NA,0.69097265063463,40
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Nd143","ct_STANCE",NA,3.56993874993554e-05,40
+"jackson_imc","image1","small elongated stromal cell","Twist_Nd145","ct_STANCE",NA,4.17489540270756e-16,40
+"jackson_imc","image1","small elongated stromal cell","Progest_Gd158","ct_STANCE",NA,3.28496850207634e-15,40
+"jackson_imc","image1","small elongated stromal cell","cMyc_Nd150","ct_STANCE",NA,6.83310623497544e-11,40
+"jackson_imc","image1","small elongated stromal cell","Fibrone_Nd142","ct_STANCE",NA,2.47512790274693e-08,40
+"jackson_imc","image1","small elongated stromal cell","Keratin_Sm147","ct_STANCE",NA,0.159547337908811,40
+"jackson_imc","image1","small elongated stromal cell","Slug_Gd155","ct_STANCE",NA,0.00108566873335398,40
+"jackson_imc","image1","small elongated stromal cell","CD20_Dy164","ct_STANCE",NA,6.12143312013322e-12,40
+"jackson_imc","image1","small elongated stromal cell","vWF_Yb172","ct_STANCE",NA,1.12810884026833e-05,40
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Pr141","ct_STANCE",NA,1.96254696950202e-09,40
+"jackson_imc","image1","small elongated stromal cell","CD44_Gd160","ct_STANCE",NA,8.84779268101394e-05,40
+"jackson_imc","image1","small elongated stromal cell","CD45_Dy162","ct_STANCE",NA,0.205439877188659,40
+"jackson_imc","image1","small elongated stromal cell","CD68_Nd146","ct_STANCE",NA,0.119344364293124,40
+"jackson_imc","image1","small elongated stromal cell","CD3epsi_Sm152","ct_STANCE",NA,4.0374656920049e-08,40
+"jackson_imc","image1","small elongated stromal cell","Carboni_Er166","ct_STANCE",NA,4.2530637778876e-15,40
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Nd144","ct_STANCE",NA,0.0518205739616289,40
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Yb174","ct_STANCE",NA,0.912775390995124,40
+"jackson_imc","image1","small elongated stromal cell","phospho_Histone","ct_STANCE",NA,5.21052023112978e-09,40
+"jackson_imc","image1","small elongated stromal cell","phospho_S6","ct_STANCE",NA,0.000804910048426697,40
+"jackson_imc","image1","small elongated stromal cell","phospho_mTOR","ct_STANCE",NA,5.0911029577125e-26,40
+"jackson_imc","image1","vimentin hi stromal cell","EGFR_Tm169","ct_STANCE",NA,0.00516473401938946,40
+"jackson_imc","image1","vimentin hi stromal cell","ECadhe_Er167","ct_STANCE",NA,0.0593909758251854,40
+"jackson_imc","image1","vimentin hi stromal cell","Estroge_Gd156","ct_STANCE",NA,0.740102514658126,40
+"jackson_imc","image1","vimentin hi stromal cell","GATA3_Dy163","ct_STANCE",NA,0.14928552727616,40
+"jackson_imc","image1","vimentin hi stromal cell","Ki67_Er168","ct_STANCE",NA,0.839830749130762,40
+"jackson_imc","image1","vimentin hi stromal cell","SMA_Nd148","ct_STANCE",NA,2.08284718728823e-32,40
+"jackson_imc","image1","vimentin hi stromal cell","Vimenti_Sm149","ct_STANCE",NA,2.58556293644895e-13,40
+"jackson_imc","image1","vimentin hi stromal cell","cleaved_Yb176","ct_STANCE",NA,0.602673317895336,40
+"jackson_imc","image1","vimentin hi stromal cell","cerbB_Eu151","ct_STANCE",NA,0.0257073832502134,40
+"jackson_imc","image1","vimentin hi stromal cell","p53_Tb159","ct_STANCE",NA,1.42159408723902e-11,40
+"jackson_imc","image1","vimentin hi stromal cell","panCyto_Lu175","ct_STANCE",NA,0.722266814240958,40
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Nd143","ct_STANCE",NA,0.0717846998257975,40
+"jackson_imc","image1","vimentin hi stromal cell","Twist_Nd145","ct_STANCE",NA,0.00738119144384396,40
+"jackson_imc","image1","vimentin hi stromal cell","Progest_Gd158","ct_STANCE",NA,1.9784826930869e-06,40
+"jackson_imc","image1","vimentin hi stromal cell","cMyc_Nd150","ct_STANCE",NA,0.000352716423121872,40
+"jackson_imc","image1","vimentin hi stromal cell","Fibrone_Nd142","ct_STANCE",NA,4.53707225356538e-09,40
+"jackson_imc","image1","vimentin hi stromal cell","Keratin_Sm147","ct_STANCE",NA,0.381663204301881,40
+"jackson_imc","image1","vimentin hi stromal cell","Slug_Gd155","ct_STANCE",NA,0.776436019865489,40
+"jackson_imc","image1","vimentin hi stromal cell","CD20_Dy164","ct_STANCE",NA,5.69153063877418e-11,40
+"jackson_imc","image1","vimentin hi stromal cell","vWF_Yb172","ct_STANCE",NA,2.87624421751632e-14,40
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Pr141","ct_STANCE",NA,0.0319794346675562,40
+"jackson_imc","image1","vimentin hi stromal cell","CD44_Gd160","ct_STANCE",NA,0.82447521863424,40
+"jackson_imc","image1","vimentin hi stromal cell","CD45_Dy162","ct_STANCE",NA,0.217099530959269,40
+"jackson_imc","image1","vimentin hi stromal cell","CD68_Nd146","ct_STANCE",NA,1.14347299358528e-07,40
+"jackson_imc","image1","vimentin hi stromal cell","CD3epsi_Sm152","ct_STANCE",NA,0.0013718558843023,40
+"jackson_imc","image1","vimentin hi stromal cell","Carboni_Er166","ct_STANCE",NA,1.58522146600895e-08,40
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Nd144","ct_STANCE",NA,0.0244649616346582,40
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Yb174","ct_STANCE",NA,0.44225209426451,40
+"jackson_imc","image1","vimentin hi stromal cell","phospho_Histone","ct_STANCE",NA,0.23005532947823,40
+"jackson_imc","image1","vimentin hi stromal cell","phospho_S6","ct_STANCE",NA,0.596927957131261,40
+"jackson_imc","image1","vimentin hi stromal cell","phospho_mTOR","ct_STANCE",NA,1.93521498830337e-05,40
+"jackson_imc","image1","CK low HR low tumor cell","EGFR_Tm169","ct_CELINA",NA,0.377763338045778,48
+"jackson_imc","image1","CK low HR low tumor cell","ECadhe_Er167","ct_CELINA",NA,0.553560930598311,48
+"jackson_imc","image1","CK low HR low tumor cell","Estroge_Gd156","ct_CELINA",NA,0.70896598465774,48
+"jackson_imc","image1","CK low HR low tumor cell","GATA3_Dy163","ct_CELINA",NA,0.171189295605279,48
+"jackson_imc","image1","CK low HR low tumor cell","Ki67_Er168","ct_CELINA",NA,0.509907387996937,48
+"jackson_imc","image1","CK low HR low tumor cell","SMA_Nd148","ct_CELINA",NA,0.568610840641528,48
+"jackson_imc","image1","CK low HR low tumor cell","Vimenti_Sm149","ct_CELINA",NA,0.461003996315252,48
+"jackson_imc","image1","CK low HR low tumor cell","cleaved_Yb176","ct_CELINA",NA,0.98127600184931,48
+"jackson_imc","image1","CK low HR low tumor cell","cerbB_Eu151","ct_CELINA",NA,0.670994169741534,48
+"jackson_imc","image1","CK low HR low tumor cell","p53_Tb159","ct_CELINA",NA,0.659874783231104,48
+"jackson_imc","image1","CK low HR low tumor cell","panCyto_Lu175","ct_CELINA",NA,0.834708422937259,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Nd143","ct_CELINA",NA,0.710422738303748,48
+"jackson_imc","image1","CK low HR low tumor cell","Twist_Nd145","ct_CELINA",NA,0.755389187689711,48
+"jackson_imc","image1","CK low HR low tumor cell","Progest_Gd158","ct_CELINA",NA,0.903545044535322,48
+"jackson_imc","image1","CK low HR low tumor cell","cMyc_Nd150","ct_CELINA",NA,0.359409050705265,48
+"jackson_imc","image1","CK low HR low tumor cell","Fibrone_Nd142","ct_CELINA",NA,0.289324017752973,48
+"jackson_imc","image1","CK low HR low tumor cell","Keratin_Sm147","ct_CELINA",NA,0.997600376492197,48
+"jackson_imc","image1","CK low HR low tumor cell","Slug_Gd155","ct_CELINA",NA,0.328495031318562,48
+"jackson_imc","image1","CK low HR low tumor cell","CD20_Dy164","ct_CELINA",NA,0.499990984405931,48
+"jackson_imc","image1","CK low HR low tumor cell","vWF_Yb172","ct_CELINA",NA,0.0346667042387639,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Pr141","ct_CELINA",NA,0.615512151014188,48
+"jackson_imc","image1","CK low HR low tumor cell","CD44_Gd160","ct_CELINA",NA,0.90968030724257,48
+"jackson_imc","image1","CK low HR low tumor cell","CD45_Dy162","ct_CELINA",NA,0.78150848390208,48
+"jackson_imc","image1","CK low HR low tumor cell","CD68_Nd146","ct_CELINA",NA,0.925236833354725,48
+"jackson_imc","image1","CK low HR low tumor cell","CD3epsi_Sm152","ct_CELINA",NA,0.318343601533508,48
+"jackson_imc","image1","CK low HR low tumor cell","Carboni_Er166","ct_CELINA",NA,0.303789274214447,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Nd144","ct_CELINA",NA,0.603605639866092,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Yb174","ct_CELINA",NA,0.638476614289586,48
+"jackson_imc","image1","CK low HR low tumor cell","phospho_Histone","ct_CELINA",NA,0.804752571077907,48
+"jackson_imc","image1","CK low HR low tumor cell","phospho_S6","ct_CELINA",NA,0.670794335838699,48
+"jackson_imc","image1","CK low HR low tumor cell","phospho_mTOR","ct_CELINA",NA,0.305208524156203,48
+"jackson_imc","image1","CK+ HR+ tumor cell","EGFR_Tm169","ct_CELINA",NA,0.0178654216391307,69
+"jackson_imc","image1","CK+ HR+ tumor cell","ECadhe_Er167","ct_CELINA",NA,0.0224397190130281,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Estroge_Gd156","ct_CELINA",NA,0.307390629057544,69
+"jackson_imc","image1","CK+ HR+ tumor cell","GATA3_Dy163","ct_CELINA",NA,0.0527582175836158,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Ki67_Er168","ct_CELINA",NA,0.606588961051202,69
+"jackson_imc","image1","CK+ HR+ tumor cell","SMA_Nd148","ct_CELINA",NA,0.252672628939556,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Vimenti_Sm149","ct_CELINA",NA,0.278167395746043,69
+"jackson_imc","image1","CK+ HR+ tumor cell","cleaved_Yb176","ct_CELINA",NA,0.261820656451862,69
+"jackson_imc","image1","CK+ HR+ tumor cell","cerbB_Eu151","ct_CELINA",NA,0.300569553982895,69
+"jackson_imc","image1","CK+ HR+ tumor cell","p53_Tb159","ct_CELINA",NA,0.0152703597240631,69
+"jackson_imc","image1","CK+ HR+ tumor cell","panCyto_Lu175","ct_CELINA",NA,0.415809084282375,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Nd143","ct_CELINA",NA,0.410632836999756,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Twist_Nd145","ct_CELINA",NA,0.0385010206185693,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Progest_Gd158","ct_CELINA",NA,0.0495001975040924,69
+"jackson_imc","image1","CK+ HR+ tumor cell","cMyc_Nd150","ct_CELINA",NA,0.015487507505955,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Fibrone_Nd142","ct_CELINA",NA,0.363117006473714,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Keratin_Sm147","ct_CELINA",NA,0.99546682034024,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Slug_Gd155","ct_CELINA",NA,0.999499542251091,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD20_Dy164","ct_CELINA",NA,0.459913076121508,69
+"jackson_imc","image1","CK+ HR+ tumor cell","vWF_Yb172","ct_CELINA",NA,0.679426234574634,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Pr141","ct_CELINA",NA,0.293810800355557,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD44_Gd160","ct_CELINA",NA,0.624054103828566,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD45_Dy162","ct_CELINA",NA,0.0286331301322315,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD68_Nd146","ct_CELINA",NA,0.846901754139219,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD3epsi_Sm152","ct_CELINA",NA,0.0498005146439571,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Carboni_Er166","ct_CELINA",NA,0.0453787585960513,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Nd144","ct_CELINA",NA,0.0334437473407558,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Yb174","ct_CELINA",NA,0.782024473908719,69
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_Histone","ct_CELINA",NA,0.430360783284456,69
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_S6","ct_CELINA",NA,0.787920157446231,69
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_mTOR","ct_CELINA",NA,0.00355067866209713,69
+"jackson_imc","image1","T cells","EGFR_Tm169","ct_CELINA",NA,0.635303907952176,290
+"jackson_imc","image1","T cells","ECadhe_Er167","ct_CELINA",NA,0.825005193684007,290
+"jackson_imc","image1","T cells","Estroge_Gd156","ct_CELINA",NA,0.824677536429568,290
+"jackson_imc","image1","T cells","GATA3_Dy163","ct_CELINA",NA,0.941748010989366,290
+"jackson_imc","image1","T cells","Ki67_Er168","ct_CELINA",NA,0.999868682759667,290
+"jackson_imc","image1","T cells","SMA_Nd148","ct_CELINA",NA,0.36939279320421,290
+"jackson_imc","image1","T cells","Vimenti_Sm149","ct_CELINA",NA,0.813828417579353,290
+"jackson_imc","image1","T cells","cleaved_Yb176","ct_CELINA",NA,0.259903405936293,290
+"jackson_imc","image1","T cells","cerbB_Eu151","ct_CELINA",NA,0.828484861410029,290
+"jackson_imc","image1","T cells","p53_Tb159","ct_CELINA",NA,0.810362188078735,290
+"jackson_imc","image1","T cells","panCyto_Lu175","ct_CELINA",NA,0.999999572603572,290
+"jackson_imc","image1","T cells","Cytoker_Nd143","ct_CELINA",NA,0.383912113583934,290
+"jackson_imc","image1","T cells","Twist_Nd145","ct_CELINA",NA,0.753726481301337,290
+"jackson_imc","image1","T cells","Progest_Gd158","ct_CELINA",NA,0.883513170634665,290
+"jackson_imc","image1","T cells","cMyc_Nd150","ct_CELINA",NA,0.458442140515068,290
+"jackson_imc","image1","T cells","Fibrone_Nd142","ct_CELINA",NA,0.466614337236367,290
+"jackson_imc","image1","T cells","Keratin_Sm147","ct_CELINA",NA,0.99998125536654,290
+"jackson_imc","image1","T cells","Slug_Gd155","ct_CELINA",NA,0.836623224027379,290
+"jackson_imc","image1","T cells","CD20_Dy164","ct_CELINA",NA,0.981772747378697,290
+"jackson_imc","image1","T cells","vWF_Yb172","ct_CELINA",NA,0.0497025811817305,290
+"jackson_imc","image1","T cells","Cytoker_Pr141","ct_CELINA",NA,0.485733106532579,290
+"jackson_imc","image1","T cells","CD44_Gd160","ct_CELINA",NA,0.785882519654055,290
+"jackson_imc","image1","T cells","CD45_Dy162","ct_CELINA",NA,0.843344497216487,290
+"jackson_imc","image1","T cells","CD68_Nd146","ct_CELINA",NA,0.232951428714429,290
+"jackson_imc","image1","T cells","CD3epsi_Sm152","ct_CELINA",NA,0.865359230366256,290
+"jackson_imc","image1","T cells","Carboni_Er166","ct_CELINA",NA,0.766211791646827,290
+"jackson_imc","image1","T cells","Cytoker_Nd144","ct_CELINA",NA,0.572981485965395,290
+"jackson_imc","image1","T cells","Cytoker_Yb174","ct_CELINA",NA,0.999890228473479,290
+"jackson_imc","image1","T cells","phospho_Histone","ct_CELINA",NA,0.205132988712921,290
+"jackson_imc","image1","T cells","phospho_S6","ct_CELINA",NA,0.505689057365951,290
+"jackson_imc","image1","T cells","phospho_mTOR","ct_CELINA",NA,0.591990629509009,290
+"jackson_imc","image1","apoptotic tumor cell","EGFR_Tm169","ct_CELINA",NA,0.607676995337498,1500
+"jackson_imc","image1","apoptotic tumor cell","ECadhe_Er167","ct_CELINA",NA,0.680782948955097,1500
+"jackson_imc","image1","apoptotic tumor cell","Estroge_Gd156","ct_CELINA",NA,0.925394078446472,1500
+"jackson_imc","image1","apoptotic tumor cell","GATA3_Dy163","ct_CELINA",NA,0.973128208685181,1500
+"jackson_imc","image1","apoptotic tumor cell","Ki67_Er168","ct_CELINA",NA,0.999979062636115,1500
+"jackson_imc","image1","apoptotic tumor cell","SMA_Nd148","ct_CELINA",NA,0.868549831842174,1500
+"jackson_imc","image1","apoptotic tumor cell","Vimenti_Sm149","ct_CELINA",NA,0.993872506556828,1500
+"jackson_imc","image1","apoptotic tumor cell","cleaved_Yb176","ct_CELINA",NA,0.999285949026025,1500
+"jackson_imc","image1","apoptotic tumor cell","cerbB_Eu151","ct_CELINA",NA,0.77722283566025,1500
+"jackson_imc","image1","apoptotic tumor cell","p53_Tb159","ct_CELINA",NA,0.233630423647407,1500
+"jackson_imc","image1","apoptotic tumor cell","panCyto_Lu175","ct_CELINA",NA,0.646519376559266,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Nd143","ct_CELINA",NA,0.43048647183317,1500
+"jackson_imc","image1","apoptotic tumor cell","Twist_Nd145","ct_CELINA",NA,0.997131861526163,1500
+"jackson_imc","image1","apoptotic tumor cell","Progest_Gd158","ct_CELINA",NA,0.708469423457754,1500
+"jackson_imc","image1","apoptotic tumor cell","cMyc_Nd150","ct_CELINA",NA,0.429571195920215,1500
+"jackson_imc","image1","apoptotic tumor cell","Fibrone_Nd142","ct_CELINA",NA,0.976241688932759,1500
+"jackson_imc","image1","apoptotic tumor cell","Keratin_Sm147","ct_CELINA",NA,0.974064291283129,1500
+"jackson_imc","image1","apoptotic tumor cell","Slug_Gd155","ct_CELINA",NA,0.943054291723483,1500
+"jackson_imc","image1","apoptotic tumor cell","CD20_Dy164","ct_CELINA",NA,0.207012426841398,1500
+"jackson_imc","image1","apoptotic tumor cell","vWF_Yb172","ct_CELINA",NA,0.938505758914636,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Pr141","ct_CELINA",NA,0.854876407316101,1500
+"jackson_imc","image1","apoptotic tumor cell","CD44_Gd160","ct_CELINA",NA,0.794479298368205,1500
+"jackson_imc","image1","apoptotic tumor cell","CD45_Dy162","ct_CELINA",NA,0.889393768744871,1500
+"jackson_imc","image1","apoptotic tumor cell","CD68_Nd146","ct_CELINA",NA,0.999904544323385,1500
+"jackson_imc","image1","apoptotic tumor cell","CD3epsi_Sm152","ct_CELINA",NA,0.268291671216012,1500
+"jackson_imc","image1","apoptotic tumor cell","Carboni_Er166","ct_CELINA",NA,0.86599498593827,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Nd144","ct_CELINA",NA,0.815660039295333,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Yb174","ct_CELINA",NA,0.815251456768113,1500
+"jackson_imc","image1","apoptotic tumor cell","phospho_Histone","ct_CELINA",NA,0.747635443873498,1500
+"jackson_imc","image1","apoptotic tumor cell","phospho_S6","ct_CELINA",NA,0.760517126427233,1500
+"jackson_imc","image1","apoptotic tumor cell","phospho_mTOR","ct_CELINA",NA,0.699525328697452,1500
+"jackson_imc","image1","basal CK tumor cell","EGFR_Tm169","ct_CELINA",NA,0.917326616205331,378
+"jackson_imc","image1","basal CK tumor cell","ECadhe_Er167","ct_CELINA",NA,0.890016429299052,378
+"jackson_imc","image1","basal CK tumor cell","Estroge_Gd156","ct_CELINA",NA,0.270260525071793,378
+"jackson_imc","image1","basal CK tumor cell","GATA3_Dy163","ct_CELINA",NA,0.911365572390236,378
+"jackson_imc","image1","basal CK tumor cell","Ki67_Er168","ct_CELINA",NA,0.395195716662555,378
+"jackson_imc","image1","basal CK tumor cell","SMA_Nd148","ct_CELINA",NA,0.436295512816073,378
+"jackson_imc","image1","basal CK tumor cell","Vimenti_Sm149","ct_CELINA",NA,0.940318493961496,378
+"jackson_imc","image1","basal CK tumor cell","cleaved_Yb176","ct_CELINA",NA,0.954440080520717,378
+"jackson_imc","image1","basal CK tumor cell","cerbB_Eu151","ct_CELINA",NA,0.639397367372934,378
+"jackson_imc","image1","basal CK tumor cell","p53_Tb159","ct_CELINA",NA,0.442532180841749,378
+"jackson_imc","image1","basal CK tumor cell","panCyto_Lu175","ct_CELINA",NA,0.552708283494392,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Nd143","ct_CELINA",NA,0.682654592810069,378
+"jackson_imc","image1","basal CK tumor cell","Twist_Nd145","ct_CELINA",NA,0.139342485366542,378
+"jackson_imc","image1","basal CK tumor cell","Progest_Gd158","ct_CELINA",NA,0.45095350803823,378
+"jackson_imc","image1","basal CK tumor cell","cMyc_Nd150","ct_CELINA",NA,0.701067594777117,378
+"jackson_imc","image1","basal CK tumor cell","Fibrone_Nd142","ct_CELINA",NA,0.19270328158459,378
+"jackson_imc","image1","basal CK tumor cell","Keratin_Sm147","ct_CELINA",NA,0.35710610138486,378
+"jackson_imc","image1","basal CK tumor cell","Slug_Gd155","ct_CELINA",NA,0.16147745270076,378
+"jackson_imc","image1","basal CK tumor cell","CD20_Dy164","ct_CELINA",NA,0.414712758519759,378
+"jackson_imc","image1","basal CK tumor cell","vWF_Yb172","ct_CELINA",NA,0.418207698050217,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Pr141","ct_CELINA",NA,0.942319254518187,378
+"jackson_imc","image1","basal CK tumor cell","CD44_Gd160","ct_CELINA",NA,0.601765896099978,378
+"jackson_imc","image1","basal CK tumor cell","CD45_Dy162","ct_CELINA",NA,0.96018466135238,378
+"jackson_imc","image1","basal CK tumor cell","CD68_Nd146","ct_CELINA",NA,0.988134254909789,378
+"jackson_imc","image1","basal CK tumor cell","CD3epsi_Sm152","ct_CELINA",NA,0.951258518495805,378
+"jackson_imc","image1","basal CK tumor cell","Carboni_Er166","ct_CELINA",NA,0.494780608634395,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Nd144","ct_CELINA",NA,0.689704588898526,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Yb174","ct_CELINA",NA,0.456224329424837,378
+"jackson_imc","image1","basal CK tumor cell","phospho_Histone","ct_CELINA",NA,0.834691105404612,378
+"jackson_imc","image1","basal CK tumor cell","phospho_S6","ct_CELINA",NA,0.250373913168476,378
+"jackson_imc","image1","basal CK tumor cell","phospho_mTOR","ct_CELINA",NA,0.797523466391078,378
+"jackson_imc","image1","endothelial","EGFR_Tm169","ct_CELINA",NA,0.727406317046178,83
+"jackson_imc","image1","endothelial","ECadhe_Er167","ct_CELINA",NA,0.994602591614311,83
+"jackson_imc","image1","endothelial","Estroge_Gd156","ct_CELINA",NA,0.339914381490134,83
+"jackson_imc","image1","endothelial","GATA3_Dy163","ct_CELINA",NA,0.465514823747335,83
+"jackson_imc","image1","endothelial","Ki67_Er168","ct_CELINA",NA,0.999999814908567,83
+"jackson_imc","image1","endothelial","SMA_Nd148","ct_CELINA",NA,0.273382307768503,83
+"jackson_imc","image1","endothelial","Vimenti_Sm149","ct_CELINA",NA,0.658358514345751,83
+"jackson_imc","image1","endothelial","cleaved_Yb176","ct_CELINA",NA,0.97514484463629,83
+"jackson_imc","image1","endothelial","cerbB_Eu151","ct_CELINA",NA,0.96386762774707,83
+"jackson_imc","image1","endothelial","p53_Tb159","ct_CELINA",NA,0.745116058036306,83
+"jackson_imc","image1","endothelial","panCyto_Lu175","ct_CELINA",NA,0.99,83
+"jackson_imc","image1","endothelial","Cytoker_Nd143","ct_CELINA",NA,0.211376418264285,83
+"jackson_imc","image1","endothelial","Twist_Nd145","ct_CELINA",NA,0.54590440440597,83
+"jackson_imc","image1","endothelial","Progest_Gd158","ct_CELINA",NA,0.31224953572997,83
+"jackson_imc","image1","endothelial","cMyc_Nd150","ct_CELINA",NA,0.959265300785313,83
+"jackson_imc","image1","endothelial","Fibrone_Nd142","ct_CELINA",NA,0.518183515454658,83
+"jackson_imc","image1","endothelial","Keratin_Sm147","ct_CELINA",NA,0.999760901065885,83
+"jackson_imc","image1","endothelial","Slug_Gd155","ct_CELINA",NA,0.783620327128851,83
+"jackson_imc","image1","endothelial","CD20_Dy164","ct_CELINA",NA,0.272850018968101,83
+"jackson_imc","image1","endothelial","vWF_Yb172","ct_CELINA",NA,0.533822393031287,83
+"jackson_imc","image1","endothelial","Cytoker_Pr141","ct_CELINA",NA,0.82303824294054,83
+"jackson_imc","image1","endothelial","CD44_Gd160","ct_CELINA",NA,0.974872014919357,83
+"jackson_imc","image1","endothelial","CD45_Dy162","ct_CELINA",NA,0.762796750324428,83
+"jackson_imc","image1","endothelial","CD68_Nd146","ct_CELINA",NA,0.810200128856856,83
+"jackson_imc","image1","endothelial","CD3epsi_Sm152","ct_CELINA",NA,0.537465592734809,83
+"jackson_imc","image1","endothelial","Carboni_Er166","ct_CELINA",NA,0.764974004058745,83
+"jackson_imc","image1","endothelial","Cytoker_Nd144","ct_CELINA",NA,0.00513941328878342,83
+"jackson_imc","image1","endothelial","Cytoker_Yb174","ct_CELINA",NA,0.999999430803708,83
+"jackson_imc","image1","endothelial","phospho_Histone","ct_CELINA",NA,0.933587773585826,83
+"jackson_imc","image1","endothelial","phospho_S6","ct_CELINA",NA,0.769994218459537,83
+"jackson_imc","image1","endothelial","phospho_mTOR","ct_CELINA",NA,0.222303065481047,83
+"jackson_imc","image1","macrophages","EGFR_Tm169","ct_CELINA",NA,0.828117235264851,227
+"jackson_imc","image1","macrophages","ECadhe_Er167","ct_CELINA",NA,0.22086013400157,227
+"jackson_imc","image1","macrophages","Estroge_Gd156","ct_CELINA",NA,0.984204440729818,227
+"jackson_imc","image1","macrophages","GATA3_Dy163","ct_CELINA",NA,0.461969190083804,227
+"jackson_imc","image1","macrophages","Ki67_Er168","ct_CELINA",NA,0.999999927170856,227
+"jackson_imc","image1","macrophages","SMA_Nd148","ct_CELINA",NA,0.990161845595534,227
+"jackson_imc","image1","macrophages","Vimenti_Sm149","ct_CELINA",NA,0.158558495431031,227
+"jackson_imc","image1","macrophages","cleaved_Yb176","ct_CELINA",NA,0.324706825333977,227
+"jackson_imc","image1","macrophages","cerbB_Eu151","ct_CELINA",NA,0.39377945573479,227
+"jackson_imc","image1","macrophages","p53_Tb159","ct_CELINA",NA,0.811661424452045,227
+"jackson_imc","image1","macrophages","panCyto_Lu175","ct_CELINA",NA,0.980284492185831,227
+"jackson_imc","image1","macrophages","Cytoker_Nd143","ct_CELINA",NA,0.621653191673117,227
+"jackson_imc","image1","macrophages","Twist_Nd145","ct_CELINA",NA,0.839294121279406,227
+"jackson_imc","image1","macrophages","Progest_Gd158","ct_CELINA",NA,0.656093559485699,227
+"jackson_imc","image1","macrophages","cMyc_Nd150","ct_CELINA",NA,0.709633105987313,227
+"jackson_imc","image1","macrophages","Fibrone_Nd142","ct_CELINA",NA,0.488866310220658,227
+"jackson_imc","image1","macrophages","Keratin_Sm147","ct_CELINA",NA,0.999821927452626,227
+"jackson_imc","image1","macrophages","Slug_Gd155","ct_CELINA",NA,0.874805926261858,227
+"jackson_imc","image1","macrophages","CD20_Dy164","ct_CELINA",NA,0.516347974756887,227
+"jackson_imc","image1","macrophages","vWF_Yb172","ct_CELINA",NA,0.647673270574275,227
+"jackson_imc","image1","macrophages","Cytoker_Pr141","ct_CELINA",NA,0.64093156512561,227
+"jackson_imc","image1","macrophages","CD44_Gd160","ct_CELINA",NA,0.60279059741983,227
+"jackson_imc","image1","macrophages","CD45_Dy162","ct_CELINA",NA,0.598207493775245,227
+"jackson_imc","image1","macrophages","CD68_Nd146","ct_CELINA",NA,0.655244392030874,227
+"jackson_imc","image1","macrophages","CD3epsi_Sm152","ct_CELINA",NA,0.0582223426949087,227
+"jackson_imc","image1","macrophages","Carboni_Er166","ct_CELINA",NA,0.885972676290088,227
+"jackson_imc","image1","macrophages","Cytoker_Nd144","ct_CELINA",NA,0.90255482665583,227
+"jackson_imc","image1","macrophages","Cytoker_Yb174","ct_CELINA",NA,0.771121053330133,227
+"jackson_imc","image1","macrophages","phospho_Histone","ct_CELINA",NA,0.857416864684602,227
+"jackson_imc","image1","macrophages","phospho_S6","ct_CELINA",NA,0.849289064035652,227
+"jackson_imc","image1","macrophages","phospho_mTOR","ct_CELINA",NA,0.603710872930863,227
+"jackson_imc","image1","p53+ EGFR+ tumor cell","EGFR_Tm169","ct_CELINA",NA,0.782963379938621,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","ECadhe_Er167","ct_CELINA",NA,0.852933552134608,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Estroge_Gd156","ct_CELINA",NA,0.484320019375975,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","GATA3_Dy163","ct_CELINA",NA,0.374954135561137,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Ki67_Er168","ct_CELINA",NA,0.958144127552822,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","SMA_Nd148","ct_CELINA",NA,0.983665325156442,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Vimenti_Sm149","ct_CELINA",NA,0.946028579865443,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cleaved_Yb176","ct_CELINA",NA,0.998396991504165,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cerbB_Eu151","ct_CELINA",NA,0.516882169433921,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","p53_Tb159","ct_CELINA",NA,0.460669905875133,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","panCyto_Lu175","ct_CELINA",NA,0.942487057766632,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Nd143","ct_CELINA",NA,0.83722321060379,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Twist_Nd145","ct_CELINA",NA,0.455426862763581,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Progest_Gd158","ct_CELINA",NA,0.881589557029813,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cMyc_Nd150","ct_CELINA",NA,0.71574314544941,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Fibrone_Nd142","ct_CELINA",NA,0.295820725761716,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Keratin_Sm147","ct_CELINA",NA,0.99940451635488,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Slug_Gd155","ct_CELINA",NA,0.788541710827681,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD20_Dy164","ct_CELINA",NA,0.0220062508519474,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","vWF_Yb172","ct_CELINA",NA,0.716365614112812,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Pr141","ct_CELINA",NA,0.937271185784782,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD44_Gd160","ct_CELINA",NA,0.141161411777344,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD45_Dy162","ct_CELINA",NA,0.816671059922798,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD68_Nd146","ct_CELINA",NA,0.960042425603074,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD3epsi_Sm152","ct_CELINA",NA,0.733059102520682,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Carboni_Er166","ct_CELINA",NA,0.831558537183168,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Nd144","ct_CELINA",NA,0.254677677276445,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Yb174","ct_CELINA",NA,0.971193557730444,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_Histone","ct_CELINA",NA,0.902206559040841,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_S6","ct_CELINA",NA,0.200326163721994,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_mTOR","ct_CELINA",NA,0.867778915832947,158
+"jackson_imc","image1","proliferative tumor cell","EGFR_Tm169","ct_CELINA",NA,0.528378832760028,110
+"jackson_imc","image1","proliferative tumor cell","ECadhe_Er167","ct_CELINA",NA,0.917588813138894,110
+"jackson_imc","image1","proliferative tumor cell","Estroge_Gd156","ct_CELINA",NA,0.79948488741666,110
+"jackson_imc","image1","proliferative tumor cell","GATA3_Dy163","ct_CELINA",NA,0.504048904229716,110
+"jackson_imc","image1","proliferative tumor cell","Ki67_Er168","ct_CELINA",NA,0.0846474537090159,110
+"jackson_imc","image1","proliferative tumor cell","SMA_Nd148","ct_CELINA",NA,0.341827600243513,110
+"jackson_imc","image1","proliferative tumor cell","Vimenti_Sm149","ct_CELINA",NA,0.485827686845967,110
+"jackson_imc","image1","proliferative tumor cell","cleaved_Yb176","ct_CELINA",NA,0.923354967901487,110
+"jackson_imc","image1","proliferative tumor cell","cerbB_Eu151","ct_CELINA",NA,0.957299708516999,110
+"jackson_imc","image1","proliferative tumor cell","p53_Tb159","ct_CELINA",NA,0.262150116928591,110
+"jackson_imc","image1","proliferative tumor cell","panCyto_Lu175","ct_CELINA",NA,0.946357826195935,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Nd143","ct_CELINA",NA,0.21870699354321,110
+"jackson_imc","image1","proliferative tumor cell","Twist_Nd145","ct_CELINA",NA,0.0977171843067903,110
+"jackson_imc","image1","proliferative tumor cell","Progest_Gd158","ct_CELINA",NA,0.44520215458111,110
+"jackson_imc","image1","proliferative tumor cell","cMyc_Nd150","ct_CELINA",NA,0.7371602634315,110
+"jackson_imc","image1","proliferative tumor cell","Fibrone_Nd142","ct_CELINA",NA,0.517173904344859,110
+"jackson_imc","image1","proliferative tumor cell","Keratin_Sm147","ct_CELINA",NA,0.961944425821338,110
+"jackson_imc","image1","proliferative tumor cell","Slug_Gd155","ct_CELINA",NA,0.836636132815443,110
+"jackson_imc","image1","proliferative tumor cell","CD20_Dy164","ct_CELINA",NA,0.773436595631021,110
+"jackson_imc","image1","proliferative tumor cell","vWF_Yb172","ct_CELINA",NA,0.156299556730188,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Pr141","ct_CELINA",NA,0.674208599144112,110
+"jackson_imc","image1","proliferative tumor cell","CD44_Gd160","ct_CELINA",NA,0.723233050001535,110
+"jackson_imc","image1","proliferative tumor cell","CD45_Dy162","ct_CELINA",NA,0.537132989285369,110
+"jackson_imc","image1","proliferative tumor cell","CD68_Nd146","ct_CELINA",NA,0.658900000197374,110
+"jackson_imc","image1","proliferative tumor cell","CD3epsi_Sm152","ct_CELINA",NA,0.553902526450893,110
+"jackson_imc","image1","proliferative tumor cell","Carboni_Er166","ct_CELINA",NA,0.493180540033103,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Nd144","ct_CELINA",NA,0.34978225005367,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Yb174","ct_CELINA",NA,0.935086179702567,110
+"jackson_imc","image1","proliferative tumor cell","phospho_Histone","ct_CELINA",NA,0.287109253590187,110
+"jackson_imc","image1","proliferative tumor cell","phospho_S6","ct_CELINA",NA,0.868909107280087,110
+"jackson_imc","image1","proliferative tumor cell","phospho_mTOR","ct_CELINA",NA,0.581142886026672,110
+"jackson_imc","image1","small elongated stromal cell","EGFR_Tm169","ct_CELINA",NA,0.229932287589181,83
+"jackson_imc","image1","small elongated stromal cell","ECadhe_Er167","ct_CELINA",NA,0.30278878265567,83
+"jackson_imc","image1","small elongated stromal cell","Estroge_Gd156","ct_CELINA",NA,0.504435681235871,83
+"jackson_imc","image1","small elongated stromal cell","GATA3_Dy163","ct_CELINA",NA,0.368195719887049,83
+"jackson_imc","image1","small elongated stromal cell","Ki67_Er168","ct_CELINA",NA,0.999994927737084,83
+"jackson_imc","image1","small elongated stromal cell","SMA_Nd148","ct_CELINA",NA,0.832978795639311,83
+"jackson_imc","image1","small elongated stromal cell","Vimenti_Sm149","ct_CELINA",NA,0.881495334928597,83
+"jackson_imc","image1","small elongated stromal cell","cleaved_Yb176","ct_CELINA",NA,0.99117322574424,83
+"jackson_imc","image1","small elongated stromal cell","cerbB_Eu151","ct_CELINA",NA,0.428196264885125,83
+"jackson_imc","image1","small elongated stromal cell","p53_Tb159","ct_CELINA",NA,0.579295721768572,83
+"jackson_imc","image1","small elongated stromal cell","panCyto_Lu175","ct_CELINA",NA,0.973893636103098,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Nd143","ct_CELINA",NA,0.834556116169654,83
+"jackson_imc","image1","small elongated stromal cell","Twist_Nd145","ct_CELINA",NA,0.588449658840222,83
+"jackson_imc","image1","small elongated stromal cell","Progest_Gd158","ct_CELINA",NA,0.641581592097269,83
+"jackson_imc","image1","small elongated stromal cell","cMyc_Nd150","ct_CELINA",NA,0.610805947548088,83
+"jackson_imc","image1","small elongated stromal cell","Fibrone_Nd142","ct_CELINA",NA,0.373262312374495,83
+"jackson_imc","image1","small elongated stromal cell","Keratin_Sm147","ct_CELINA",NA,0.999998132406089,83
+"jackson_imc","image1","small elongated stromal cell","Slug_Gd155","ct_CELINA",NA,0.998503152615162,83
+"jackson_imc","image1","small elongated stromal cell","CD20_Dy164","ct_CELINA",NA,0.798598185290133,83
+"jackson_imc","image1","small elongated stromal cell","vWF_Yb172","ct_CELINA",NA,0.280091862377113,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Pr141","ct_CELINA",NA,0.530247682083504,83
+"jackson_imc","image1","small elongated stromal cell","CD44_Gd160","ct_CELINA",NA,0.964743786618756,83
+"jackson_imc","image1","small elongated stromal cell","CD45_Dy162","ct_CELINA",NA,0.964539142360007,83
+"jackson_imc","image1","small elongated stromal cell","CD68_Nd146","ct_CELINA",NA,0.87366919604832,83
+"jackson_imc","image1","small elongated stromal cell","CD3epsi_Sm152","ct_CELINA",NA,0.702726182619863,83
+"jackson_imc","image1","small elongated stromal cell","Carboni_Er166","ct_CELINA",NA,0.681169171361487,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Nd144","ct_CELINA",NA,0.674084603353356,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Yb174","ct_CELINA",NA,0.87592225347205,83
+"jackson_imc","image1","small elongated stromal cell","phospho_Histone","ct_CELINA",NA,0.459469300147215,83
+"jackson_imc","image1","small elongated stromal cell","phospho_S6","ct_CELINA",NA,0.977325111480868,83
+"jackson_imc","image1","small elongated stromal cell","phospho_mTOR","ct_CELINA",NA,0.405692656156289,83
+"jackson_imc","image1","vimentin hi stromal cell","EGFR_Tm169","ct_CELINA",NA,0.940835585506335,76
+"jackson_imc","image1","vimentin hi stromal cell","ECadhe_Er167","ct_CELINA",NA,0.61145448485084,76
+"jackson_imc","image1","vimentin hi stromal cell","Estroge_Gd156","ct_CELINA",NA,0.833270219785394,76
+"jackson_imc","image1","vimentin hi stromal cell","GATA3_Dy163","ct_CELINA",NA,0.394413222180582,76
+"jackson_imc","image1","vimentin hi stromal cell","Ki67_Er168","ct_CELINA",NA,0.998812324437044,76
+"jackson_imc","image1","vimentin hi stromal cell","SMA_Nd148","ct_CELINA",NA,0.400658284635954,76
+"jackson_imc","image1","vimentin hi stromal cell","Vimenti_Sm149","ct_CELINA",NA,0.293144104789476,76
+"jackson_imc","image1","vimentin hi stromal cell","cleaved_Yb176","ct_CELINA",NA,0.770138603457373,76
+"jackson_imc","image1","vimentin hi stromal cell","cerbB_Eu151","ct_CELINA",NA,0.75755723268362,76
+"jackson_imc","image1","vimentin hi stromal cell","p53_Tb159","ct_CELINA",NA,0.14189798580351,76
+"jackson_imc","image1","vimentin hi stromal cell","panCyto_Lu175","ct_CELINA",NA,0.999999999999305,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Nd143","ct_CELINA",NA,0.775376681558042,76
+"jackson_imc","image1","vimentin hi stromal cell","Twist_Nd145","ct_CELINA",NA,0.36823767881161,76
+"jackson_imc","image1","vimentin hi stromal cell","Progest_Gd158","ct_CELINA",NA,0.827345464764704,76
+"jackson_imc","image1","vimentin hi stromal cell","cMyc_Nd150","ct_CELINA",NA,0.17264399218602,76
+"jackson_imc","image1","vimentin hi stromal cell","Fibrone_Nd142","ct_CELINA",NA,0.20053879060038,76
+"jackson_imc","image1","vimentin hi stromal cell","Keratin_Sm147","ct_CELINA",NA,0.999977736379435,76
+"jackson_imc","image1","vimentin hi stromal cell","Slug_Gd155","ct_CELINA",NA,0.985931027406406,76
+"jackson_imc","image1","vimentin hi stromal cell","CD20_Dy164","ct_CELINA",NA,0.813746952020335,76
+"jackson_imc","image1","vimentin hi stromal cell","vWF_Yb172","ct_CELINA",NA,0.614664758867373,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Pr141","ct_CELINA",NA,0.0947400611934939,76
+"jackson_imc","image1","vimentin hi stromal cell","CD44_Gd160","ct_CELINA",NA,0.958934018432602,76
+"jackson_imc","image1","vimentin hi stromal cell","CD45_Dy162","ct_CELINA",NA,0.386976035098606,76
+"jackson_imc","image1","vimentin hi stromal cell","CD68_Nd146","ct_CELINA",NA,0.811459756683246,76
+"jackson_imc","image1","vimentin hi stromal cell","CD3epsi_Sm152","ct_CELINA",NA,0.436136567445267,76
+"jackson_imc","image1","vimentin hi stromal cell","Carboni_Er166","ct_CELINA",NA,0.436198230633975,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Nd144","ct_CELINA",NA,0.642642681176204,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Yb174","ct_CELINA",NA,0.999976775656017,76
+"jackson_imc","image1","vimentin hi stromal cell","phospho_Histone","ct_CELINA",NA,0.450138705131902,76
+"jackson_imc","image1","vimentin hi stromal cell","phospho_S6","ct_CELINA",NA,0.0930871635108453,76
+"jackson_imc","image1","vimentin hi stromal cell","phospho_mTOR","ct_CELINA",NA,0.946115590231624,76
+"jackson_imc","image1","CK low HR low tumor cell","EGFR_Tm169","ct_sparkx_R",NA,0.261961315778924,48
+"jackson_imc","image1","CK low HR low tumor cell","ECadhe_Er167","ct_sparkx_R",NA,0.0809250521592453,48
+"jackson_imc","image1","CK low HR low tumor cell","Estroge_Gd156","ct_sparkx_R",NA,0.816787667075787,48
+"jackson_imc","image1","CK low HR low tumor cell","GATA3_Dy163","ct_sparkx_R",NA,0.0589983901993596,48
+"jackson_imc","image1","CK low HR low tumor cell","Ki67_Er168","ct_sparkx_R",NA,0.487368927564729,48
+"jackson_imc","image1","CK low HR low tumor cell","SMA_Nd148","ct_sparkx_R",NA,0.23270273624403,48
+"jackson_imc","image1","CK low HR low tumor cell","Vimenti_Sm149","ct_sparkx_R",NA,0.761654533868903,48
+"jackson_imc","image1","CK low HR low tumor cell","cleaved_Yb176","ct_sparkx_R",NA,0.55413887321036,48
+"jackson_imc","image1","CK low HR low tumor cell","cerbB_Eu151","ct_sparkx_R",NA,0.540024288888531,48
+"jackson_imc","image1","CK low HR low tumor cell","p53_Tb159","ct_sparkx_R",NA,0.77175663147036,48
+"jackson_imc","image1","CK low HR low tumor cell","panCyto_Lu175","ct_sparkx_R",NA,0.333512214353108,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Nd143","ct_sparkx_R",NA,0.952220443363883,48
+"jackson_imc","image1","CK low HR low tumor cell","Twist_Nd145","ct_sparkx_R",NA,0.770284749723372,48
+"jackson_imc","image1","CK low HR low tumor cell","Progest_Gd158","ct_sparkx_R",NA,0.5426881996997,48
+"jackson_imc","image1","CK low HR low tumor cell","cMyc_Nd150","ct_sparkx_R",NA,0.91328571084558,48
+"jackson_imc","image1","CK low HR low tumor cell","Fibrone_Nd142","ct_sparkx_R",NA,0.435517364074658,48
+"jackson_imc","image1","CK low HR low tumor cell","Keratin_Sm147","ct_sparkx_R",NA,0.795256551752819,48
+"jackson_imc","image1","CK low HR low tumor cell","Slug_Gd155","ct_sparkx_R",NA,0.19340737476584,48
+"jackson_imc","image1","CK low HR low tumor cell","CD20_Dy164","ct_sparkx_R",NA,0.0377521993548338,48
+"jackson_imc","image1","CK low HR low tumor cell","vWF_Yb172","ct_sparkx_R",NA,0.0119074395077197,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Pr141","ct_sparkx_R",NA,0.587016575196407,48
+"jackson_imc","image1","CK low HR low tumor cell","CD44_Gd160","ct_sparkx_R",NA,0.637489797609865,48
+"jackson_imc","image1","CK low HR low tumor cell","CD45_Dy162","ct_sparkx_R",NA,0.777214545393316,48
+"jackson_imc","image1","CK low HR low tumor cell","CD68_Nd146","ct_sparkx_R",NA,0.610372761379959,48
+"jackson_imc","image1","CK low HR low tumor cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.785524359930244,48
+"jackson_imc","image1","CK low HR low tumor cell","Carboni_Er166","ct_sparkx_R",NA,0.808588389551441,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Nd144","ct_sparkx_R",NA,0.176444321541696,48
+"jackson_imc","image1","CK low HR low tumor cell","Cytoker_Yb174","ct_sparkx_R",NA,0.181952667535555,48
+"jackson_imc","image1","CK low HR low tumor cell","phospho_Histone","ct_sparkx_R",NA,0.971589326258182,48
+"jackson_imc","image1","CK low HR low tumor cell","phospho_S6","ct_sparkx_R",NA,0.764307586150251,48
+"jackson_imc","image1","CK low HR low tumor cell","phospho_mTOR","ct_sparkx_R",NA,0.492089588745768,48
+"jackson_imc","image1","CK+ HR+ tumor cell","EGFR_Tm169","ct_sparkx_R",NA,0.075253923695838,69
+"jackson_imc","image1","CK+ HR+ tumor cell","ECadhe_Er167","ct_sparkx_R",NA,0.02829139704918,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Estroge_Gd156","ct_sparkx_R",NA,0.149587242446218,69
+"jackson_imc","image1","CK+ HR+ tumor cell","GATA3_Dy163","ct_sparkx_R",NA,0.0888128109340574,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Ki67_Er168","ct_sparkx_R",NA,0.430870145055346,69
+"jackson_imc","image1","CK+ HR+ tumor cell","SMA_Nd148","ct_sparkx_R",NA,0.498537853315878,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Vimenti_Sm149","ct_sparkx_R",NA,0.521968127818381,69
+"jackson_imc","image1","CK+ HR+ tumor cell","cleaved_Yb176","ct_sparkx_R",NA,0.0854433966869982,69
+"jackson_imc","image1","CK+ HR+ tumor cell","cerbB_Eu151","ct_sparkx_R",NA,0.286636551344252,69
+"jackson_imc","image1","CK+ HR+ tumor cell","p53_Tb159","ct_sparkx_R",NA,0.10257851247504,69
+"jackson_imc","image1","CK+ HR+ tumor cell","panCyto_Lu175","ct_sparkx_R",NA,0.165321175500733,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Nd143","ct_sparkx_R",NA,0.346924226439287,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Twist_Nd145","ct_sparkx_R",NA,0.170316905486936,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Progest_Gd158","ct_sparkx_R",NA,0.209854247349447,69
+"jackson_imc","image1","CK+ HR+ tumor cell","cMyc_Nd150","ct_sparkx_R",NA,0.127899796976249,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Fibrone_Nd142","ct_sparkx_R",NA,0.135296895617341,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Keratin_Sm147","ct_sparkx_R",NA,0.431938554583901,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Slug_Gd155","ct_sparkx_R",NA,0.829555295512451,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD20_Dy164","ct_sparkx_R",NA,0.7828502118519,69
+"jackson_imc","image1","CK+ HR+ tumor cell","vWF_Yb172","ct_sparkx_R",NA,0.233552905132812,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Pr141","ct_sparkx_R",NA,0.513872777285436,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD44_Gd160","ct_sparkx_R",NA,0.137087934197684,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD45_Dy162","ct_sparkx_R",NA,0.159877857244386,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD68_Nd146","ct_sparkx_R",NA,0.769363671840676,69
+"jackson_imc","image1","CK+ HR+ tumor cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.186671365370008,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Carboni_Er166","ct_sparkx_R",NA,0.143206053215995,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Nd144","ct_sparkx_R",NA,0.12974156753309,69
+"jackson_imc","image1","CK+ HR+ tumor cell","Cytoker_Yb174","ct_sparkx_R",NA,0.412404013832646,69
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_Histone","ct_sparkx_R",NA,0.265281825060275,69
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_S6","ct_sparkx_R",NA,0.868625235006017,69
+"jackson_imc","image1","CK+ HR+ tumor cell","phospho_mTOR","ct_sparkx_R",NA,0.101647209363409,69
+"jackson_imc","image1","T cells","EGFR_Tm169","ct_sparkx_R",NA,0.979621870147763,290
+"jackson_imc","image1","T cells","ECadhe_Er167","ct_sparkx_R",NA,0.632561570960616,290
+"jackson_imc","image1","T cells","Estroge_Gd156","ct_sparkx_R",NA,0.814619361394356,290
+"jackson_imc","image1","T cells","GATA3_Dy163","ct_sparkx_R",NA,0.358035934495843,290
+"jackson_imc","image1","T cells","Ki67_Er168","ct_sparkx_R",NA,0.972715129116026,290
+"jackson_imc","image1","T cells","SMA_Nd148","ct_sparkx_R",NA,0.902332740739362,290
+"jackson_imc","image1","T cells","Vimenti_Sm149","ct_sparkx_R",NA,0.812375453642112,290
+"jackson_imc","image1","T cells","cleaved_Yb176","ct_sparkx_R",NA,0.6229110885126,290
+"jackson_imc","image1","T cells","cerbB_Eu151","ct_sparkx_R",NA,0.354577662017683,290
+"jackson_imc","image1","T cells","p53_Tb159","ct_sparkx_R",NA,0.308260528217412,290
+"jackson_imc","image1","T cells","panCyto_Lu175","ct_sparkx_R",NA,0.245414016815296,290
+"jackson_imc","image1","T cells","Cytoker_Nd143","ct_sparkx_R",NA,0.922789503726553,290
+"jackson_imc","image1","T cells","Twist_Nd145","ct_sparkx_R",NA,0.638138667888895,290
+"jackson_imc","image1","T cells","Progest_Gd158","ct_sparkx_R",NA,0.863785789181154,290
+"jackson_imc","image1","T cells","cMyc_Nd150","ct_sparkx_R",NA,0.140961312151601,290
+"jackson_imc","image1","T cells","Fibrone_Nd142","ct_sparkx_R",NA,0.568661360259393,290
+"jackson_imc","image1","T cells","Keratin_Sm147","ct_sparkx_R",NA,0.864136279763885,290
+"jackson_imc","image1","T cells","Slug_Gd155","ct_sparkx_R",NA,0.0657929012906389,290
+"jackson_imc","image1","T cells","CD20_Dy164","ct_sparkx_R",NA,0.979699030734413,290
+"jackson_imc","image1","T cells","vWF_Yb172","ct_sparkx_R",NA,0.0940911669492308,290
+"jackson_imc","image1","T cells","Cytoker_Pr141","ct_sparkx_R",NA,0.769287826305401,290
+"jackson_imc","image1","T cells","CD44_Gd160","ct_sparkx_R",NA,0.101508329881967,290
+"jackson_imc","image1","T cells","CD45_Dy162","ct_sparkx_R",NA,0.998771525135682,290
+"jackson_imc","image1","T cells","CD68_Nd146","ct_sparkx_R",NA,0.234341675656475,290
+"jackson_imc","image1","T cells","CD3epsi_Sm152","ct_sparkx_R",NA,0.0651037481522669,290
+"jackson_imc","image1","T cells","Carboni_Er166","ct_sparkx_R",NA,0.290245301520306,290
+"jackson_imc","image1","T cells","Cytoker_Nd144","ct_sparkx_R",NA,0.438014130599877,290
+"jackson_imc","image1","T cells","Cytoker_Yb174","ct_sparkx_R",NA,0.69323406427442,290
+"jackson_imc","image1","T cells","phospho_Histone","ct_sparkx_R",NA,0.0298003030354179,290
+"jackson_imc","image1","T cells","phospho_S6","ct_sparkx_R",NA,0.112126278502098,290
+"jackson_imc","image1","T cells","phospho_mTOR","ct_sparkx_R",NA,0.0650520311381816,290
+"jackson_imc","image1","apoptotic tumor cell","EGFR_Tm169","ct_sparkx_R",NA,0.498009336998622,1500
+"jackson_imc","image1","apoptotic tumor cell","ECadhe_Er167","ct_sparkx_R",NA,0.189789248630592,1500
+"jackson_imc","image1","apoptotic tumor cell","Estroge_Gd156","ct_sparkx_R",NA,0.992627145719521,1500
+"jackson_imc","image1","apoptotic tumor cell","GATA3_Dy163","ct_sparkx_R",NA,0.92075787934596,1500
+"jackson_imc","image1","apoptotic tumor cell","Ki67_Er168","ct_sparkx_R",NA,0.0320845697392058,1500
+"jackson_imc","image1","apoptotic tumor cell","SMA_Nd148","ct_sparkx_R",NA,0.539510535990678,1500
+"jackson_imc","image1","apoptotic tumor cell","Vimenti_Sm149","ct_sparkx_R",NA,0.238396778774644,1500
+"jackson_imc","image1","apoptotic tumor cell","cleaved_Yb176","ct_sparkx_R",NA,0.493355496706637,1500
+"jackson_imc","image1","apoptotic tumor cell","cerbB_Eu151","ct_sparkx_R",NA,0.839184395456291,1500
+"jackson_imc","image1","apoptotic tumor cell","p53_Tb159","ct_sparkx_R",NA,0.0287089834663066,1500
+"jackson_imc","image1","apoptotic tumor cell","panCyto_Lu175","ct_sparkx_R",NA,0.31527079435893,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Nd143","ct_sparkx_R",NA,0.147530156814462,1500
+"jackson_imc","image1","apoptotic tumor cell","Twist_Nd145","ct_sparkx_R",NA,0.666733594925578,1500
+"jackson_imc","image1","apoptotic tumor cell","Progest_Gd158","ct_sparkx_R",NA,0.65098290389495,1500
+"jackson_imc","image1","apoptotic tumor cell","cMyc_Nd150","ct_sparkx_R",NA,0.60592875101047,1500
+"jackson_imc","image1","apoptotic tumor cell","Fibrone_Nd142","ct_sparkx_R",NA,0.598402267483676,1500
+"jackson_imc","image1","apoptotic tumor cell","Keratin_Sm147","ct_sparkx_R",NA,0.272304831447319,1500
+"jackson_imc","image1","apoptotic tumor cell","Slug_Gd155","ct_sparkx_R",NA,0.967218589054248,1500
+"jackson_imc","image1","apoptotic tumor cell","CD20_Dy164","ct_sparkx_R",NA,0.847249031858771,1500
+"jackson_imc","image1","apoptotic tumor cell","vWF_Yb172","ct_sparkx_R",NA,0.802639096367021,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Pr141","ct_sparkx_R",NA,0.463572673343527,1500
+"jackson_imc","image1","apoptotic tumor cell","CD44_Gd160","ct_sparkx_R",NA,0.692605995349944,1500
+"jackson_imc","image1","apoptotic tumor cell","CD45_Dy162","ct_sparkx_R",NA,0.683137484390142,1500
+"jackson_imc","image1","apoptotic tumor cell","CD68_Nd146","ct_sparkx_R",NA,0.755829626826521,1500
+"jackson_imc","image1","apoptotic tumor cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.160267390339027,1500
+"jackson_imc","image1","apoptotic tumor cell","Carboni_Er166","ct_sparkx_R",NA,0.710988082565288,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Nd144","ct_sparkx_R",NA,0.839822070040528,1500
+"jackson_imc","image1","apoptotic tumor cell","Cytoker_Yb174","ct_sparkx_R",NA,0.73827749862799,1500
+"jackson_imc","image1","apoptotic tumor cell","phospho_Histone","ct_sparkx_R",NA,0.870590342943052,1500
+"jackson_imc","image1","apoptotic tumor cell","phospho_S6","ct_sparkx_R",NA,0.526897112751488,1500
+"jackson_imc","image1","apoptotic tumor cell","phospho_mTOR","ct_sparkx_R",NA,0.349660143302757,1500
+"jackson_imc","image1","basal CK tumor cell","EGFR_Tm169","ct_sparkx_R",NA,0.386870540097663,378
+"jackson_imc","image1","basal CK tumor cell","ECadhe_Er167","ct_sparkx_R",NA,0.729238049938993,378
+"jackson_imc","image1","basal CK tumor cell","Estroge_Gd156","ct_sparkx_R",NA,0.0876072127581449,378
+"jackson_imc","image1","basal CK tumor cell","GATA3_Dy163","ct_sparkx_R",NA,0.672203517688423,378
+"jackson_imc","image1","basal CK tumor cell","Ki67_Er168","ct_sparkx_R",NA,0.260276152710562,378
+"jackson_imc","image1","basal CK tumor cell","SMA_Nd148","ct_sparkx_R",NA,0.793546006445224,378
+"jackson_imc","image1","basal CK tumor cell","Vimenti_Sm149","ct_sparkx_R",NA,0.661970746497862,378
+"jackson_imc","image1","basal CK tumor cell","cleaved_Yb176","ct_sparkx_R",NA,0.118632607153233,378
+"jackson_imc","image1","basal CK tumor cell","cerbB_Eu151","ct_sparkx_R",NA,0.400528700843527,378
+"jackson_imc","image1","basal CK tumor cell","p53_Tb159","ct_sparkx_R",NA,0.932819492859091,378
+"jackson_imc","image1","basal CK tumor cell","panCyto_Lu175","ct_sparkx_R",NA,0.281056259321243,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Nd143","ct_sparkx_R",NA,0.488811787150713,378
+"jackson_imc","image1","basal CK tumor cell","Twist_Nd145","ct_sparkx_R",NA,0.010180835609487,378
+"jackson_imc","image1","basal CK tumor cell","Progest_Gd158","ct_sparkx_R",NA,0.129573400237325,378
+"jackson_imc","image1","basal CK tumor cell","cMyc_Nd150","ct_sparkx_R",NA,0.405101856475168,378
+"jackson_imc","image1","basal CK tumor cell","Fibrone_Nd142","ct_sparkx_R",NA,0.0198113196677014,378
+"jackson_imc","image1","basal CK tumor cell","Keratin_Sm147","ct_sparkx_R",NA,0.488379338319592,378
+"jackson_imc","image1","basal CK tumor cell","Slug_Gd155","ct_sparkx_R",NA,0.73963919119753,378
+"jackson_imc","image1","basal CK tumor cell","CD20_Dy164","ct_sparkx_R",NA,0.954640021272015,378
+"jackson_imc","image1","basal CK tumor cell","vWF_Yb172","ct_sparkx_R",NA,0.717015973165902,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Pr141","ct_sparkx_R",NA,0.818916688822544,378
+"jackson_imc","image1","basal CK tumor cell","CD44_Gd160","ct_sparkx_R",NA,0.331100323174587,378
+"jackson_imc","image1","basal CK tumor cell","CD45_Dy162","ct_sparkx_R",NA,0.949254223178999,378
+"jackson_imc","image1","basal CK tumor cell","CD68_Nd146","ct_sparkx_R",NA,0.293539210994535,378
+"jackson_imc","image1","basal CK tumor cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.749735349929493,378
+"jackson_imc","image1","basal CK tumor cell","Carboni_Er166","ct_sparkx_R",NA,0.177063824064708,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Nd144","ct_sparkx_R",NA,0.110321962115492,378
+"jackson_imc","image1","basal CK tumor cell","Cytoker_Yb174","ct_sparkx_R",NA,0.558932524881376,378
+"jackson_imc","image1","basal CK tumor cell","phospho_Histone","ct_sparkx_R",NA,0.527567558601982,378
+"jackson_imc","image1","basal CK tumor cell","phospho_S6","ct_sparkx_R",NA,0.216274460652639,378
+"jackson_imc","image1","basal CK tumor cell","phospho_mTOR","ct_sparkx_R",NA,0.104064793885001,378
+"jackson_imc","image1","endothelial","EGFR_Tm169","ct_sparkx_R",NA,0.89835306265835,83
+"jackson_imc","image1","endothelial","ECadhe_Er167","ct_sparkx_R",NA,0.166314489013255,83
+"jackson_imc","image1","endothelial","Estroge_Gd156","ct_sparkx_R",NA,0.830437570420655,83
+"jackson_imc","image1","endothelial","GATA3_Dy163","ct_sparkx_R",NA,0.589075320071764,83
+"jackson_imc","image1","endothelial","Ki67_Er168","ct_sparkx_R",NA,0.991024937201015,83
+"jackson_imc","image1","endothelial","SMA_Nd148","ct_sparkx_R",NA,0.331619953869129,83
+"jackson_imc","image1","endothelial","Vimenti_Sm149","ct_sparkx_R",NA,0.129516266829826,83
+"jackson_imc","image1","endothelial","cleaved_Yb176","ct_sparkx_R",NA,0.779146593616792,83
+"jackson_imc","image1","endothelial","cerbB_Eu151","ct_sparkx_R",NA,0.293641383986075,83
+"jackson_imc","image1","endothelial","p53_Tb159","ct_sparkx_R",NA,0.990139433203662,83
+"jackson_imc","image1","endothelial","panCyto_Lu175","ct_sparkx_R",NA,0.506095954066311,83
+"jackson_imc","image1","endothelial","Cytoker_Nd143","ct_sparkx_R",NA,0.335393485582593,83
+"jackson_imc","image1","endothelial","Twist_Nd145","ct_sparkx_R",NA,0.543899703850736,83
+"jackson_imc","image1","endothelial","Progest_Gd158","ct_sparkx_R",NA,0.342275786580578,83
+"jackson_imc","image1","endothelial","cMyc_Nd150","ct_sparkx_R",NA,0.898217928769853,83
+"jackson_imc","image1","endothelial","Fibrone_Nd142","ct_sparkx_R",NA,0.459179466732416,83
+"jackson_imc","image1","endothelial","Keratin_Sm147","ct_sparkx_R",NA,0.712183311813328,83
+"jackson_imc","image1","endothelial","Slug_Gd155","ct_sparkx_R",NA,0.10016839222595,83
+"jackson_imc","image1","endothelial","CD20_Dy164","ct_sparkx_R",NA,0.00434751447669224,83
+"jackson_imc","image1","endothelial","vWF_Yb172","ct_sparkx_R",NA,0.537527852914221,83
+"jackson_imc","image1","endothelial","Cytoker_Pr141","ct_sparkx_R",NA,0.387548755809983,83
+"jackson_imc","image1","endothelial","CD44_Gd160","ct_sparkx_R",NA,0.838937480505377,83
+"jackson_imc","image1","endothelial","CD45_Dy162","ct_sparkx_R",NA,0.718921251626328,83
+"jackson_imc","image1","endothelial","CD68_Nd146","ct_sparkx_R",NA,0.961279250302463,83
+"jackson_imc","image1","endothelial","CD3epsi_Sm152","ct_sparkx_R",NA,0.78582455372438,83
+"jackson_imc","image1","endothelial","Carboni_Er166","ct_sparkx_R",NA,0.67816405344727,83
+"jackson_imc","image1","endothelial","Cytoker_Nd144","ct_sparkx_R",NA,0.144704432922671,83
+"jackson_imc","image1","endothelial","Cytoker_Yb174","ct_sparkx_R",NA,0.819913348228785,83
+"jackson_imc","image1","endothelial","phospho_Histone","ct_sparkx_R",NA,0.894515212965597,83
+"jackson_imc","image1","endothelial","phospho_S6","ct_sparkx_R",NA,0.829628782553917,83
+"jackson_imc","image1","endothelial","phospho_mTOR","ct_sparkx_R",NA,0.504498641303546,83
+"jackson_imc","image1","macrophages","EGFR_Tm169","ct_sparkx_R",NA,0.577421344674431,227
+"jackson_imc","image1","macrophages","ECadhe_Er167","ct_sparkx_R",NA,0.578008435216879,227
+"jackson_imc","image1","macrophages","Estroge_Gd156","ct_sparkx_R",NA,0.975255819238699,227
+"jackson_imc","image1","macrophages","GATA3_Dy163","ct_sparkx_R",NA,0.801041300748679,227
+"jackson_imc","image1","macrophages","Ki67_Er168","ct_sparkx_R",NA,0.474398278422974,227
+"jackson_imc","image1","macrophages","SMA_Nd148","ct_sparkx_R",NA,0.965435326466529,227
+"jackson_imc","image1","macrophages","Vimenti_Sm149","ct_sparkx_R",NA,0.184904875656129,227
+"jackson_imc","image1","macrophages","cleaved_Yb176","ct_sparkx_R",NA,0.783571787492779,227
+"jackson_imc","image1","macrophages","cerbB_Eu151","ct_sparkx_R",NA,0.100253543778828,227
+"jackson_imc","image1","macrophages","p53_Tb159","ct_sparkx_R",NA,0.828530469737693,227
+"jackson_imc","image1","macrophages","panCyto_Lu175","ct_sparkx_R",NA,0.69406210945449,227
+"jackson_imc","image1","macrophages","Cytoker_Nd143","ct_sparkx_R",NA,0.814092866608172,227
+"jackson_imc","image1","macrophages","Twist_Nd145","ct_sparkx_R",NA,0.847255986366342,227
+"jackson_imc","image1","macrophages","Progest_Gd158","ct_sparkx_R",NA,0.526747510008718,227
+"jackson_imc","image1","macrophages","cMyc_Nd150","ct_sparkx_R",NA,0.978980630094294,227
+"jackson_imc","image1","macrophages","Fibrone_Nd142","ct_sparkx_R",NA,0.457811421610887,227
+"jackson_imc","image1","macrophages","Keratin_Sm147","ct_sparkx_R",NA,0.168903780198245,227
+"jackson_imc","image1","macrophages","Slug_Gd155","ct_sparkx_R",NA,0.120514932903462,227
+"jackson_imc","image1","macrophages","CD20_Dy164","ct_sparkx_R",NA,0.796186462508499,227
+"jackson_imc","image1","macrophages","vWF_Yb172","ct_sparkx_R",NA,0.982499250358694,227
+"jackson_imc","image1","macrophages","Cytoker_Pr141","ct_sparkx_R",NA,0.627463544678465,227
+"jackson_imc","image1","macrophages","CD44_Gd160","ct_sparkx_R",NA,0.484327926373684,227
+"jackson_imc","image1","macrophages","CD45_Dy162","ct_sparkx_R",NA,0.957544761078445,227
+"jackson_imc","image1","macrophages","CD68_Nd146","ct_sparkx_R",NA,0.60545841533208,227
+"jackson_imc","image1","macrophages","CD3epsi_Sm152","ct_sparkx_R",NA,0.25690652441929,227
+"jackson_imc","image1","macrophages","Carboni_Er166","ct_sparkx_R",NA,0.942257219216986,227
+"jackson_imc","image1","macrophages","Cytoker_Nd144","ct_sparkx_R",NA,0.5616595322554,227
+"jackson_imc","image1","macrophages","Cytoker_Yb174","ct_sparkx_R",NA,0.980346166084562,227
+"jackson_imc","image1","macrophages","phospho_Histone","ct_sparkx_R",NA,0.93293419039067,227
+"jackson_imc","image1","macrophages","phospho_S6","ct_sparkx_R",NA,0.711483125230515,227
+"jackson_imc","image1","macrophages","phospho_mTOR","ct_sparkx_R",NA,0.483913741688063,227
+"jackson_imc","image1","p53+ EGFR+ tumor cell","EGFR_Tm169","ct_sparkx_R",NA,0.436401978245749,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","ECadhe_Er167","ct_sparkx_R",NA,0.146690448054444,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Estroge_Gd156","ct_sparkx_R",NA,0.0723342964201223,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","GATA3_Dy163","ct_sparkx_R",NA,0.372245280486186,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Ki67_Er168","ct_sparkx_R",NA,0.554770347963652,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","SMA_Nd148","ct_sparkx_R",NA,0.181222969008311,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Vimenti_Sm149","ct_sparkx_R",NA,0.157531259620713,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cleaved_Yb176","ct_sparkx_R",NA,0.49264521353878,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cerbB_Eu151","ct_sparkx_R",NA,0.399014318472934,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","p53_Tb159","ct_sparkx_R",NA,0.208011719664534,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","panCyto_Lu175","ct_sparkx_R",NA,0.817162883998203,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Nd143","ct_sparkx_R",NA,0.98446684525038,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Twist_Nd145","ct_sparkx_R",NA,0.786126858919841,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Progest_Gd158","ct_sparkx_R",NA,0.533413575417578,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","cMyc_Nd150","ct_sparkx_R",NA,0.808987956697178,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Fibrone_Nd142","ct_sparkx_R",NA,0.00155225923288516,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Keratin_Sm147","ct_sparkx_R",NA,0.91464016061284,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Slug_Gd155","ct_sparkx_R",NA,0.805729790036568,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD20_Dy164","ct_sparkx_R",NA,0.441867456267874,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","vWF_Yb172","ct_sparkx_R",NA,0.585879162844399,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Pr141","ct_sparkx_R",NA,0.648023073537466,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD44_Gd160","ct_sparkx_R",NA,0.197739485396149,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD45_Dy162","ct_sparkx_R",NA,0.0370879809189664,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD68_Nd146","ct_sparkx_R",NA,0.853655188238118,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.503900547862542,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Carboni_Er166","ct_sparkx_R",NA,0.266846765230263,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Nd144","ct_sparkx_R",NA,0.664279224746201,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","Cytoker_Yb174","ct_sparkx_R",NA,0.813081651060227,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_Histone","ct_sparkx_R",NA,0.593991836427316,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_S6","ct_sparkx_R",NA,0.17165886897098,158
+"jackson_imc","image1","p53+ EGFR+ tumor cell","phospho_mTOR","ct_sparkx_R",NA,0.302080526227643,158
+"jackson_imc","image1","proliferative tumor cell","EGFR_Tm169","ct_sparkx_R",NA,0.187799014237057,110
+"jackson_imc","image1","proliferative tumor cell","ECadhe_Er167","ct_sparkx_R",NA,0.430365370626663,110
+"jackson_imc","image1","proliferative tumor cell","Estroge_Gd156","ct_sparkx_R",NA,0.969627960123916,110
+"jackson_imc","image1","proliferative tumor cell","GATA3_Dy163","ct_sparkx_R",NA,0.698367713902861,110
+"jackson_imc","image1","proliferative tumor cell","Ki67_Er168","ct_sparkx_R",NA,0.395293313291384,110
+"jackson_imc","image1","proliferative tumor cell","SMA_Nd148","ct_sparkx_R",NA,0.633604811853897,110
+"jackson_imc","image1","proliferative tumor cell","Vimenti_Sm149","ct_sparkx_R",NA,0.976114856025985,110
+"jackson_imc","image1","proliferative tumor cell","cleaved_Yb176","ct_sparkx_R",NA,0.585358349221154,110
+"jackson_imc","image1","proliferative tumor cell","cerbB_Eu151","ct_sparkx_R",NA,0.505947477801983,110
+"jackson_imc","image1","proliferative tumor cell","p53_Tb159","ct_sparkx_R",NA,0.0562036241024204,110
+"jackson_imc","image1","proliferative tumor cell","panCyto_Lu175","ct_sparkx_R",NA,0.337800056504138,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Nd143","ct_sparkx_R",NA,0.107529319556818,110
+"jackson_imc","image1","proliferative tumor cell","Twist_Nd145","ct_sparkx_R",NA,0.161252645939702,110
+"jackson_imc","image1","proliferative tumor cell","Progest_Gd158","ct_sparkx_R",NA,0.685782528020878,110
+"jackson_imc","image1","proliferative tumor cell","cMyc_Nd150","ct_sparkx_R",NA,0.817521102222527,110
+"jackson_imc","image1","proliferative tumor cell","Fibrone_Nd142","ct_sparkx_R",NA,0.648221927671869,110
+"jackson_imc","image1","proliferative tumor cell","Keratin_Sm147","ct_sparkx_R",NA,0.376378359128058,110
+"jackson_imc","image1","proliferative tumor cell","Slug_Gd155","ct_sparkx_R",NA,0.700983318107547,110
+"jackson_imc","image1","proliferative tumor cell","CD20_Dy164","ct_sparkx_R",NA,0.775995144379748,110
+"jackson_imc","image1","proliferative tumor cell","vWF_Yb172","ct_sparkx_R",NA,0.63916570226302,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Pr141","ct_sparkx_R",NA,0.72082145589486,110
+"jackson_imc","image1","proliferative tumor cell","CD44_Gd160","ct_sparkx_R",NA,0.968247788566982,110
+"jackson_imc","image1","proliferative tumor cell","CD45_Dy162","ct_sparkx_R",NA,0.766230751456225,110
+"jackson_imc","image1","proliferative tumor cell","CD68_Nd146","ct_sparkx_R",NA,0.694342539271123,110
+"jackson_imc","image1","proliferative tumor cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.734985868706781,110
+"jackson_imc","image1","proliferative tumor cell","Carboni_Er166","ct_sparkx_R",NA,0.439416439810246,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Nd144","ct_sparkx_R",NA,0.399541626922868,110
+"jackson_imc","image1","proliferative tumor cell","Cytoker_Yb174","ct_sparkx_R",NA,0.30180831313954,110
+"jackson_imc","image1","proliferative tumor cell","phospho_Histone","ct_sparkx_R",NA,0.845242928435135,110
+"jackson_imc","image1","proliferative tumor cell","phospho_S6","ct_sparkx_R",NA,0.574486904920108,110
+"jackson_imc","image1","proliferative tumor cell","phospho_mTOR","ct_sparkx_R",NA,0.338067001561797,110
+"jackson_imc","image1","small elongated stromal cell","EGFR_Tm169","ct_sparkx_R",NA,0.397311711736111,83
+"jackson_imc","image1","small elongated stromal cell","ECadhe_Er167","ct_sparkx_R",NA,0.299010360334997,83
+"jackson_imc","image1","small elongated stromal cell","Estroge_Gd156","ct_sparkx_R",NA,0.750212334952271,83
+"jackson_imc","image1","small elongated stromal cell","GATA3_Dy163","ct_sparkx_R",NA,0.715542034954565,83
+"jackson_imc","image1","small elongated stromal cell","Ki67_Er168","ct_sparkx_R",NA,0.418373308117046,83
+"jackson_imc","image1","small elongated stromal cell","SMA_Nd148","ct_sparkx_R",NA,0.91997479730007,83
+"jackson_imc","image1","small elongated stromal cell","Vimenti_Sm149","ct_sparkx_R",NA,0.95410956689568,83
+"jackson_imc","image1","small elongated stromal cell","cleaved_Yb176","ct_sparkx_R",NA,0.603052657044738,83
+"jackson_imc","image1","small elongated stromal cell","cerbB_Eu151","ct_sparkx_R",NA,0.650251506607799,83
+"jackson_imc","image1","small elongated stromal cell","p53_Tb159","ct_sparkx_R",NA,0.468190965949097,83
+"jackson_imc","image1","small elongated stromal cell","panCyto_Lu175","ct_sparkx_R",NA,0.976800519487713,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Nd143","ct_sparkx_R",NA,0.13785627329424,83
+"jackson_imc","image1","small elongated stromal cell","Twist_Nd145","ct_sparkx_R",NA,0.434205531997778,83
+"jackson_imc","image1","small elongated stromal cell","Progest_Gd158","ct_sparkx_R",NA,0.991640773597415,83
+"jackson_imc","image1","small elongated stromal cell","cMyc_Nd150","ct_sparkx_R",NA,0.370323779440337,83
+"jackson_imc","image1","small elongated stromal cell","Fibrone_Nd142","ct_sparkx_R",NA,0.308881454162563,83
+"jackson_imc","image1","small elongated stromal cell","Keratin_Sm147","ct_sparkx_R",NA,0.707371197610026,83
+"jackson_imc","image1","small elongated stromal cell","Slug_Gd155","ct_sparkx_R",NA,0.98408642451663,83
+"jackson_imc","image1","small elongated stromal cell","CD20_Dy164","ct_sparkx_R",NA,0.792949834704439,83
+"jackson_imc","image1","small elongated stromal cell","vWF_Yb172","ct_sparkx_R",NA,0.65489161390373,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Pr141","ct_sparkx_R",NA,0.354502525145854,83
+"jackson_imc","image1","small elongated stromal cell","CD44_Gd160","ct_sparkx_R",NA,0.203433767907407,83
+"jackson_imc","image1","small elongated stromal cell","CD45_Dy162","ct_sparkx_R",NA,0.667315223605425,83
+"jackson_imc","image1","small elongated stromal cell","CD68_Nd146","ct_sparkx_R",NA,0.789143036386656,83
+"jackson_imc","image1","small elongated stromal cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.751963577782664,83
+"jackson_imc","image1","small elongated stromal cell","Carboni_Er166","ct_sparkx_R",NA,0.348299052591123,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Nd144","ct_sparkx_R",NA,0.403369567565904,83
+"jackson_imc","image1","small elongated stromal cell","Cytoker_Yb174","ct_sparkx_R",NA,0.10279327934749,83
+"jackson_imc","image1","small elongated stromal cell","phospho_Histone","ct_sparkx_R",NA,0.659154829481316,83
+"jackson_imc","image1","small elongated stromal cell","phospho_S6","ct_sparkx_R",NA,0.967475088320875,83
+"jackson_imc","image1","small elongated stromal cell","phospho_mTOR","ct_sparkx_R",NA,0.808590470190129,83
+"jackson_imc","image1","vimentin hi stromal cell","EGFR_Tm169","ct_sparkx_R",NA,0.77037358349541,76
+"jackson_imc","image1","vimentin hi stromal cell","ECadhe_Er167","ct_sparkx_R",NA,0.106188277544654,76
+"jackson_imc","image1","vimentin hi stromal cell","Estroge_Gd156","ct_sparkx_R",NA,0.51440544971256,76
+"jackson_imc","image1","vimentin hi stromal cell","GATA3_Dy163","ct_sparkx_R",NA,0.0886279110719743,76
+"jackson_imc","image1","vimentin hi stromal cell","Ki67_Er168","ct_sparkx_R",NA,0.535970751202509,76
+"jackson_imc","image1","vimentin hi stromal cell","SMA_Nd148","ct_sparkx_R",NA,0.852856602850901,76
+"jackson_imc","image1","vimentin hi stromal cell","Vimenti_Sm149","ct_sparkx_R",NA,0.422884103315234,76
+"jackson_imc","image1","vimentin hi stromal cell","cleaved_Yb176","ct_sparkx_R",NA,0.217227459346226,76
+"jackson_imc","image1","vimentin hi stromal cell","cerbB_Eu151","ct_sparkx_R",NA,0.685043710250651,76
+"jackson_imc","image1","vimentin hi stromal cell","p53_Tb159","ct_sparkx_R",NA,0.460720390757764,76
+"jackson_imc","image1","vimentin hi stromal cell","panCyto_Lu175","ct_sparkx_R",NA,0.170492512879036,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Nd143","ct_sparkx_R",NA,0.59955867246524,76
+"jackson_imc","image1","vimentin hi stromal cell","Twist_Nd145","ct_sparkx_R",NA,0.989722543977018,76
+"jackson_imc","image1","vimentin hi stromal cell","Progest_Gd158","ct_sparkx_R",NA,0.805267985838711,76
+"jackson_imc","image1","vimentin hi stromal cell","cMyc_Nd150","ct_sparkx_R",NA,0.178498519492942,76
+"jackson_imc","image1","vimentin hi stromal cell","Fibrone_Nd142","ct_sparkx_R",NA,0.798347419949536,76
+"jackson_imc","image1","vimentin hi stromal cell","Keratin_Sm147","ct_sparkx_R",NA,0.491662395866049,76
+"jackson_imc","image1","vimentin hi stromal cell","Slug_Gd155","ct_sparkx_R",NA,0.79200975059557,76
+"jackson_imc","image1","vimentin hi stromal cell","CD20_Dy164","ct_sparkx_R",NA,0.773942518005133,76
+"jackson_imc","image1","vimentin hi stromal cell","vWF_Yb172","ct_sparkx_R",NA,0.690286078321626,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Pr141","ct_sparkx_R",NA,0.639000626241344,76
+"jackson_imc","image1","vimentin hi stromal cell","CD44_Gd160","ct_sparkx_R",NA,0.405318539198339,76
+"jackson_imc","image1","vimentin hi stromal cell","CD45_Dy162","ct_sparkx_R",NA,0.0373940024806185,76
+"jackson_imc","image1","vimentin hi stromal cell","CD68_Nd146","ct_sparkx_R",NA,0.306229787505543,76
+"jackson_imc","image1","vimentin hi stromal cell","CD3epsi_Sm152","ct_sparkx_R",NA,0.800750586332738,76
+"jackson_imc","image1","vimentin hi stromal cell","Carboni_Er166","ct_sparkx_R",NA,0.632571551489227,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Nd144","ct_sparkx_R",NA,0.139121830175687,76
+"jackson_imc","image1","vimentin hi stromal cell","Cytoker_Yb174","ct_sparkx_R",NA,0.934354301846318,76
+"jackson_imc","image1","vimentin hi stromal cell","phospho_Histone","ct_sparkx_R",NA,0.193007142659895,76
+"jackson_imc","image1","vimentin hi stromal cell","phospho_S6","ct_sparkx_R",NA,0.440199732218724,76
+"jackson_imc","image1","vimentin hi stromal cell","phospho_mTOR","ct_sparkx_R",NA,0.99492785251044,76

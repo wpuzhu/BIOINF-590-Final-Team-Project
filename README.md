@@ -23,6 +23,7 @@ The conceptual anchor is the benchmark paper
 ```
 BIOINF-590-Final-Team-Project/
 ├── README.md                     ← you are here (brief intro to all datasets and algorithms)
+├── simple_pipeline/              ← RUNNABLE small-batch zero-shot ctSVP pipeline + results (start here)
 ├── docs/
 │   ├── literature_review.md      ← full review: ctSVG benchmark ideas, transfer to proteomics
 │   └── project_plan.md           ← proposed validation design and team task split
@@ -39,6 +40,8 @@ BIOINF-590-Final-Team-Project/
     ├── 04_pretrained_foundation_models/         ← KRONOS, VirTues, Mesmer, Cellpose
     └── 05_evaluation_framework/  ← metrics from the benchmark (EP, AUPRC, FDP, type I error, KS)
 ```
+
+> **New: [`simple_pipeline/`](simple_pipeline/)** runs 6 ctSVG/ctSVP methods (including the benchmark's own STANCE, CELINA and SPARK-X) zero-shot on 10 images from 3 public protein-imaging datasets. It aggregates their calls and validates them against the original annotations. Results: [`simple_pipeline/results/SUMMARY.md`](simple_pipeline/results/SUMMARY.md).
 
 ---
 

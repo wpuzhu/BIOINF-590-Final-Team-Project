@@ -1,0 +1,841 @@
+"dataset","image","cell_type","feature","method","stat","p_value","n_cells"
+"schurch_codex","spot19_A","B cells","CD44","ct_STANCE",NA,0.781916024682949,63
+"schurch_codex","spot19_A","B cells","FOXP3","ct_STANCE",NA,0.858232666005917,63
+"schurch_codex","spot19_A","B cells","CD8","ct_STANCE",NA,0.375861406543117,63
+"schurch_codex","spot19_A","B cells","p53","ct_STANCE",NA,0.381208397406302,63
+"schurch_codex","spot19_A","B cells","GATA3","ct_STANCE",NA,0.00018924133062958,63
+"schurch_codex","spot19_A","B cells","CD45","ct_STANCE",NA,2.65807307429735e-07,63
+"schurch_codex","spot19_A","B cells","T-bet","ct_STANCE",NA,0.992805074386572,63
+"schurch_codex","spot19_A","B cells","beta-catenin","ct_STANCE",NA,0.0078483831872138,63
+"schurch_codex","spot19_A","B cells","HLA-DR","ct_STANCE",NA,0.139121019765226,63
+"schurch_codex","spot19_A","B cells","PD-L1","ct_STANCE",NA,0.699808235289171,63
+"schurch_codex","spot19_A","B cells","Ki67","ct_STANCE",NA,0.999981576152519,63
+"schurch_codex","spot19_A","B cells","CD45RA","ct_STANCE",NA,5.2528416658279e-18,63
+"schurch_codex","spot19_A","B cells","CD4","ct_STANCE",NA,0.801599280414553,63
+"schurch_codex","spot19_A","B cells","CD21","ct_STANCE",NA,0.215044749108831,63
+"schurch_codex","spot19_A","B cells","MUC-1","ct_STANCE",NA,0.552220291094886,63
+"schurch_codex","spot19_A","B cells","CD30","ct_STANCE",NA,0.243240857899947,63
+"schurch_codex","spot19_A","B cells","CD2","ct_STANCE",NA,0.108846613446176,63
+"schurch_codex","spot19_A","B cells","Vimentin","ct_STANCE",NA,0.0414976516896821,63
+"schurch_codex","spot19_A","B cells","CD20","ct_STANCE",NA,2.02516578298588e-05,63
+"schurch_codex","spot19_A","B cells","LAG-3","ct_STANCE",NA,0.153012260024146,63
+"schurch_codex","spot19_A","B cells","Na-K-ATPase","ct_STANCE",NA,0.489358340780457,63
+"schurch_codex","spot19_A","B cells","CD5","ct_STANCE",NA,0.00244361442607398,63
+"schurch_codex","spot19_A","B cells","IDO-1","ct_STANCE",NA,0.0296738151170489,63
+"schurch_codex","spot19_A","B cells","Cytokeratin","ct_STANCE",NA,0.658499142123229,63
+"schurch_codex","spot19_A","B cells","CD11b","ct_STANCE",NA,0.737581441214302,63
+"schurch_codex","spot19_A","B cells","CD56","ct_STANCE",NA,0.0470609508431234,63
+"schurch_codex","spot19_A","B cells","aSMA","ct_STANCE",NA,0.964239532059696,63
+"schurch_codex","spot19_A","B cells","BCL-2","ct_STANCE",NA,3.75431294834638e-12,63
+"schurch_codex","spot19_A","B cells","CD25","ct_STANCE",NA,0.413930163881454,63
+"schurch_codex","spot19_A","B cells","CD11c","ct_STANCE",NA,0.916988383156175,63
+"schurch_codex","spot19_A","B cells","PD-1","ct_STANCE",NA,0.0109626268157249,63
+"schurch_codex","spot19_A","B cells","Granzyme B","ct_STANCE",NA,0.544583104166965,63
+"schurch_codex","spot19_A","B cells","EGFR","ct_STANCE",NA,0.129784120406952,63
+"schurch_codex","spot19_A","B cells","VISTA","ct_STANCE",NA,0.0767813405779435,63
+"schurch_codex","spot19_A","B cells","CD15","ct_STANCE",NA,0.68414840822527,63
+"schurch_codex","spot19_A","B cells","ICOS","ct_STANCE",NA,0.84850411611601,63
+"schurch_codex","spot19_A","B cells","Synaptophysin","ct_STANCE",NA,0.98555561080589,63
+"schurch_codex","spot19_A","B cells","GFAP","ct_STANCE",NA,0.373251126303593,63
+"schurch_codex","spot19_A","B cells","CD7","ct_STANCE",NA,0.0504852893545946,63
+"schurch_codex","spot19_A","B cells","CD3","ct_STANCE",NA,0.000227642250409848,63
+"schurch_codex","spot19_A","B cells","Chromogranin A","ct_STANCE",NA,0.405199628090784,63
+"schurch_codex","spot19_A","B cells","CD163","ct_STANCE",NA,0.608981343189625,63
+"schurch_codex","spot19_A","B cells","CD45RO","ct_STANCE",NA,1.1684575493567e-05,63
+"schurch_codex","spot19_A","B cells","CD68","ct_STANCE",NA,0.132897515551368,63
+"schurch_codex","spot19_A","B cells","CD31","ct_STANCE",NA,0.960221852479594,63
+"schurch_codex","spot19_A","B cells","Podoplanin","ct_STANCE",NA,0.012111416806597,63
+"schurch_codex","spot19_A","B cells","CD34","ct_STANCE",NA,0.491158561036299,63
+"schurch_codex","spot19_A","B cells","CD38","ct_STANCE",NA,0.736743315371712,63
+"schurch_codex","spot19_A","B cells","CD138","ct_STANCE",NA,0.5611916006357,63
+"schurch_codex","spot19_A","B cells","CDX2","ct_STANCE",NA,2.42586991667521e-05,63
+"schurch_codex","spot19_A","B cells","Collagen IV","ct_STANCE",NA,0.576897792802245,63
+"schurch_codex","spot19_A","B cells","CD194","ct_STANCE",NA,0.95923223626561,63
+"schurch_codex","spot19_A","B cells","MMP9","ct_STANCE",NA,0.425414148991525,63
+"schurch_codex","spot19_A","B cells","CD71","ct_STANCE",NA,2.55101916878373e-10,63
+"schurch_codex","spot19_A","B cells","CD57","ct_STANCE",NA,0.689619854433345,63
+"schurch_codex","spot19_A","B cells","MMP12","ct_STANCE",NA,0.372102109672896,63
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD44","ct_STANCE",NA,0.361034627665734,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","FOXP3","ct_STANCE",NA,0.41613219352194,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD8","ct_STANCE",NA,0.458584227615146,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","p53","ct_STANCE",NA,0.46370070090046,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","GATA3","ct_STANCE",NA,0.330593468601402,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45","ct_STANCE",NA,0.820536480934783,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","T-bet","ct_STANCE",NA,0.0722162972767246,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","beta-catenin","ct_STANCE",NA,0.600822769526307,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","HLA-DR","ct_STANCE",NA,0.192224548386395,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","PD-L1","ct_STANCE",NA,0.572456578766202,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Ki67","ct_STANCE",NA,0.0299178603484245,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45RA","ct_STANCE",NA,0.173697549652017,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD4","ct_STANCE",NA,0.122243728525082,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD21","ct_STANCE",NA,0.289023972572106,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MUC-1","ct_STANCE",NA,0.101411573830284,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD30","ct_STANCE",NA,0.505982102950835,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD2","ct_STANCE",NA,0.5368504012562,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Vimentin","ct_STANCE",NA,0.86876218848418,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD20","ct_STANCE",NA,0.0490449671425723,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","LAG-3","ct_STANCE",NA,0.351506564696042,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Na-K-ATPase","ct_STANCE",NA,0.137941442306312,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD5","ct_STANCE",NA,0.433611807648965,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","IDO-1","ct_STANCE",NA,0.00943953596634594,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Cytokeratin","ct_STANCE",NA,0.0892051518927687,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD11b","ct_STANCE",NA,0.277153688857437,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD56","ct_STANCE",NA,0.185806274924804,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","aSMA","ct_STANCE",NA,0.0267611611449687,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","BCL-2","ct_STANCE",NA,0.331005101332404,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD25","ct_STANCE",NA,0.0728399675044295,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD11c","ct_STANCE",NA,0.668595874778249,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","PD-1","ct_STANCE",NA,0.640883605963376,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Granzyme B","ct_STANCE",NA,0.322002618397966,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","EGFR","ct_STANCE",NA,0.196119946688924,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","VISTA","ct_STANCE",NA,0.312159811375025,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD15","ct_STANCE",NA,0.15192878592801,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","ICOS","ct_STANCE",NA,0.52668455882382,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Synaptophysin","ct_STANCE",NA,0.136192938136341,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","GFAP","ct_STANCE",NA,0.357512362753744,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD7","ct_STANCE",NA,0.0686602316041732,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD3","ct_STANCE",NA,0.87043840599589,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Chromogranin A","ct_STANCE",NA,0.238683755441792,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD163","ct_STANCE",NA,0.309432156721999,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45RO","ct_STANCE",NA,0.463565200798791,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD68","ct_STANCE",NA,0.184373315693391,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD31","ct_STANCE",NA,0.87773689558219,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Podoplanin","ct_STANCE",NA,0.0813140729143452,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD34","ct_STANCE",NA,0.0920478014174626,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD38","ct_STANCE",NA,0.480935557397212,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD138","ct_STANCE",NA,0.214134383730566,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CDX2","ct_STANCE",NA,0.250243942227565,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Collagen IV","ct_STANCE",NA,0.135288990943276,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD194","ct_STANCE",NA,0.686552323867199,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MMP9","ct_STANCE",NA,0.212541234276749,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD71","ct_STANCE",NA,0.750588878644254,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD57","ct_STANCE",NA,0.435361172846092,372
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MMP12","ct_STANCE",NA,0.24303233309429,372
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD44","ct_STANCE",NA,0.744490715197378,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","FOXP3","ct_STANCE",NA,0.439683537124324,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD8","ct_STANCE",NA,0.0322309708381459,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","p53","ct_STANCE",NA,0.243668535678917,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","GATA3","ct_STANCE",NA,0.0458988553435149,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45","ct_STANCE",NA,0.0805286140687721,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","T-bet","ct_STANCE",NA,0.816028144761994,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","beta-catenin","ct_STANCE",NA,7.1548159851691e-06,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","HLA-DR","ct_STANCE",NA,0.216098633232264,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","PD-L1","ct_STANCE",NA,0.000106001381599677,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Ki67","ct_STANCE",NA,0.978881558306734,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45RA","ct_STANCE",NA,0.031665753602677,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD4","ct_STANCE",NA,0.0211254842388964,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD21","ct_STANCE",NA,0.529494408254451,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MUC-1","ct_STANCE",NA,0.392055207698462,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD30","ct_STANCE",NA,0.539092285240723,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD2","ct_STANCE",NA,0.0167433601754344,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Vimentin","ct_STANCE",NA,0.0245398956068953,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD20","ct_STANCE",NA,0.527457780784955,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","LAG-3","ct_STANCE",NA,0.0306303203922639,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Na-K-ATPase","ct_STANCE",NA,0.373094086779129,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD5","ct_STANCE",NA,0.765490866479641,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","IDO-1","ct_STANCE",NA,0.485792752941406,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Cytokeratin","ct_STANCE",NA,0.54235630105467,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD11b","ct_STANCE",NA,0.00166545197561865,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD56","ct_STANCE",NA,0.0581487101652323,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","aSMA","ct_STANCE",NA,0.992531429352293,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","BCL-2","ct_STANCE",NA,0.00417156229885334,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD25","ct_STANCE",NA,0.225278319661095,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD11c","ct_STANCE",NA,0.717108089709152,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","PD-1","ct_STANCE",NA,0.621088426424259,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Granzyme B","ct_STANCE",NA,0.0115990214157924,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","EGFR","ct_STANCE",NA,0.559695247844647,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","VISTA","ct_STANCE",NA,5.45453311114647e-13,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD15","ct_STANCE",NA,0.658426836565999,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","ICOS","ct_STANCE",NA,0.0136395499103185,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Synaptophysin","ct_STANCE",NA,0.664066455703606,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","GFAP","ct_STANCE",NA,0.0554192317143032,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD7","ct_STANCE",NA,0.48654602717859,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD3","ct_STANCE",NA,0.083911112809719,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Chromogranin A","ct_STANCE",NA,0.330245431120508,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD163","ct_STANCE",NA,4.36972995357803e-12,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45RO","ct_STANCE",NA,0.010990691310047,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD68","ct_STANCE",NA,7.80398990849688e-56,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD31","ct_STANCE",NA,0.912395159481038,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Podoplanin","ct_STANCE",NA,0.82458368795152,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD34","ct_STANCE",NA,0.40793213997685,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD38","ct_STANCE",NA,0.0243445482819195,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD138","ct_STANCE",NA,0.36752773292222,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CDX2","ct_STANCE",NA,0.050902110549558,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Collagen IV","ct_STANCE",NA,0.443904413628315,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD194","ct_STANCE",NA,0.909289602461729,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MMP9","ct_STANCE",NA,0.361664913283962,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD71","ct_STANCE",NA,0.044073271753611,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD57","ct_STANCE",NA,3.16780283797291e-26,40
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MMP12","ct_STANCE",NA,0.00191488721141247,40
+"schurch_codex","spot19_A","CD8+ T cells","CD44","ct_STANCE",NA,0.597965519824993,93
+"schurch_codex","spot19_A","CD8+ T cells","FOXP3","ct_STANCE",NA,0.599627300939856,93
+"schurch_codex","spot19_A","CD8+ T cells","CD8","ct_STANCE",NA,0.000752807229201164,93
+"schurch_codex","spot19_A","CD8+ T cells","p53","ct_STANCE",NA,0.389019877131155,93
+"schurch_codex","spot19_A","CD8+ T cells","GATA3","ct_STANCE",NA,0.304845852500867,93
+"schurch_codex","spot19_A","CD8+ T cells","CD45","ct_STANCE",NA,0.291234735152917,93
+"schurch_codex","spot19_A","CD8+ T cells","T-bet","ct_STANCE",NA,0.154216446021996,93
+"schurch_codex","spot19_A","CD8+ T cells","beta-catenin","ct_STANCE",NA,0.0262056174009892,93
+"schurch_codex","spot19_A","CD8+ T cells","HLA-DR","ct_STANCE",NA,0.749278518655142,93
+"schurch_codex","spot19_A","CD8+ T cells","PD-L1","ct_STANCE",NA,0.757379803945841,93
+"schurch_codex","spot19_A","CD8+ T cells","Ki67","ct_STANCE",NA,0.999990498908476,93
+"schurch_codex","spot19_A","CD8+ T cells","CD45RA","ct_STANCE",NA,0.639104879616298,93
+"schurch_codex","spot19_A","CD8+ T cells","CD4","ct_STANCE",NA,0.015394771888484,93
+"schurch_codex","spot19_A","CD8+ T cells","CD21","ct_STANCE",NA,0.702656375167299,93
+"schurch_codex","spot19_A","CD8+ T cells","MUC-1","ct_STANCE",NA,0.860575859176636,93
+"schurch_codex","spot19_A","CD8+ T cells","CD30","ct_STANCE",NA,0.493144111965964,93
+"schurch_codex","spot19_A","CD8+ T cells","CD2","ct_STANCE",NA,0.00732505743197347,93
+"schurch_codex","spot19_A","CD8+ T cells","Vimentin","ct_STANCE",NA,0.856343547852761,93
+"schurch_codex","spot19_A","CD8+ T cells","CD20","ct_STANCE",NA,0.967239681996043,93
+"schurch_codex","spot19_A","CD8+ T cells","LAG-3","ct_STANCE",NA,0.220716766297883,93
+"schurch_codex","spot19_A","CD8+ T cells","Na-K-ATPase","ct_STANCE",NA,0.846683214721326,93
+"schurch_codex","spot19_A","CD8+ T cells","CD5","ct_STANCE",NA,0.612745873922933,93
+"schurch_codex","spot19_A","CD8+ T cells","IDO-1","ct_STANCE",NA,0.0243180491814252,93
+"schurch_codex","spot19_A","CD8+ T cells","Cytokeratin","ct_STANCE",NA,0.862674979898566,93
+"schurch_codex","spot19_A","CD8+ T cells","CD11b","ct_STANCE",NA,0.834281921526094,93
+"schurch_codex","spot19_A","CD8+ T cells","CD56","ct_STANCE",NA,0.10550358702318,93
+"schurch_codex","spot19_A","CD8+ T cells","aSMA","ct_STANCE",NA,0.991927629906038,93
+"schurch_codex","spot19_A","CD8+ T cells","BCL-2","ct_STANCE",NA,0.0185669380007726,93
+"schurch_codex","spot19_A","CD8+ T cells","CD25","ct_STANCE",NA,0.327656395864307,93
+"schurch_codex","spot19_A","CD8+ T cells","CD11c","ct_STANCE",NA,0.168613289836708,93
+"schurch_codex","spot19_A","CD8+ T cells","PD-1","ct_STANCE",NA,0.0969636314237162,93
+"schurch_codex","spot19_A","CD8+ T cells","Granzyme B","ct_STANCE",NA,0.688619806114191,93
+"schurch_codex","spot19_A","CD8+ T cells","EGFR","ct_STANCE",NA,0.860196974513981,93
+"schurch_codex","spot19_A","CD8+ T cells","VISTA","ct_STANCE",NA,0.132185911818251,93
+"schurch_codex","spot19_A","CD8+ T cells","CD15","ct_STANCE",NA,0.747292227429528,93
+"schurch_codex","spot19_A","CD8+ T cells","ICOS","ct_STANCE",NA,0.294537541671089,93
+"schurch_codex","spot19_A","CD8+ T cells","Synaptophysin","ct_STANCE",NA,0.980301665823521,93
+"schurch_codex","spot19_A","CD8+ T cells","GFAP","ct_STANCE",NA,0.827263634287604,93
+"schurch_codex","spot19_A","CD8+ T cells","CD7","ct_STANCE",NA,0.717108656261384,93
+"schurch_codex","spot19_A","CD8+ T cells","CD3","ct_STANCE",NA,0.000207628005448235,93
+"schurch_codex","spot19_A","CD8+ T cells","Chromogranin A","ct_STANCE",NA,0.709797108769398,93
+"schurch_codex","spot19_A","CD8+ T cells","CD163","ct_STANCE",NA,0.674648575757262,93
+"schurch_codex","spot19_A","CD8+ T cells","CD45RO","ct_STANCE",NA,0.00273783446172242,93
+"schurch_codex","spot19_A","CD8+ T cells","CD68","ct_STANCE",NA,0.5959371789705,93
+"schurch_codex","spot19_A","CD8+ T cells","CD31","ct_STANCE",NA,0.579170542876588,93
+"schurch_codex","spot19_A","CD8+ T cells","Podoplanin","ct_STANCE",NA,0.994228558036257,93
+"schurch_codex","spot19_A","CD8+ T cells","CD34","ct_STANCE",NA,0.537459898065901,93
+"schurch_codex","spot19_A","CD8+ T cells","CD38","ct_STANCE",NA,0.716983487700773,93
+"schurch_codex","spot19_A","CD8+ T cells","CD138","ct_STANCE",NA,0.753341640712116,93
+"schurch_codex","spot19_A","CD8+ T cells","CDX2","ct_STANCE",NA,0.0838739727520323,93
+"schurch_codex","spot19_A","CD8+ T cells","Collagen IV","ct_STANCE",NA,0.820438005378577,93
+"schurch_codex","spot19_A","CD8+ T cells","CD194","ct_STANCE",NA,0.409163510636627,93
+"schurch_codex","spot19_A","CD8+ T cells","MMP9","ct_STANCE",NA,0.70921567495624,93
+"schurch_codex","spot19_A","CD8+ T cells","CD71","ct_STANCE",NA,0.00570926065175183,93
+"schurch_codex","spot19_A","CD8+ T cells","CD57","ct_STANCE",NA,0.302992532972405,93
+"schurch_codex","spot19_A","CD8+ T cells","MMP12","ct_STANCE",NA,0.246218549442659,93
+"schurch_codex","spot19_A","vasculature","CD44","ct_STANCE",NA,0.033120055508985,40
+"schurch_codex","spot19_A","vasculature","FOXP3","ct_STANCE",NA,0.574748880027571,40
+"schurch_codex","spot19_A","vasculature","CD8","ct_STANCE",NA,0.921498070015064,40
+"schurch_codex","spot19_A","vasculature","p53","ct_STANCE",NA,0.301402256165644,40
+"schurch_codex","spot19_A","vasculature","GATA3","ct_STANCE",NA,0.178521500494145,40
+"schurch_codex","spot19_A","vasculature","CD45","ct_STANCE",NA,9.37474852329822e-05,40
+"schurch_codex","spot19_A","vasculature","T-bet","ct_STANCE",NA,0.00193190560949146,40
+"schurch_codex","spot19_A","vasculature","beta-catenin","ct_STANCE",NA,6.4061498338627e-06,40
+"schurch_codex","spot19_A","vasculature","HLA-DR","ct_STANCE",NA,0.795912716525155,40
+"schurch_codex","spot19_A","vasculature","PD-L1","ct_STANCE",NA,0.0268696545661619,40
+"schurch_codex","spot19_A","vasculature","Ki67","ct_STANCE",NA,0.999826698545,40
+"schurch_codex","spot19_A","vasculature","CD45RA","ct_STANCE",NA,0.585764618451805,40
+"schurch_codex","spot19_A","vasculature","CD4","ct_STANCE",NA,0.314093849828968,40
+"schurch_codex","spot19_A","vasculature","CD21","ct_STANCE",NA,0.984431453297758,40
+"schurch_codex","spot19_A","vasculature","MUC-1","ct_STANCE",NA,0.917582339450104,40
+"schurch_codex","spot19_A","vasculature","CD30","ct_STANCE",NA,0.104507166954364,40
+"schurch_codex","spot19_A","vasculature","CD2","ct_STANCE",NA,0.562133038512439,40
+"schurch_codex","spot19_A","vasculature","Vimentin","ct_STANCE",NA,7.74243126501536e-26,40
+"schurch_codex","spot19_A","vasculature","CD20","ct_STANCE",NA,0.718940307562406,40
+"schurch_codex","spot19_A","vasculature","LAG-3","ct_STANCE",NA,0.587851493657534,40
+"schurch_codex","spot19_A","vasculature","Na-K-ATPase","ct_STANCE",NA,0.951207041712033,40
+"schurch_codex","spot19_A","vasculature","CD5","ct_STANCE",NA,0.00600388918829399,40
+"schurch_codex","spot19_A","vasculature","IDO-1","ct_STANCE",NA,0.00413178778992687,40
+"schurch_codex","spot19_A","vasculature","Cytokeratin","ct_STANCE",NA,0.962095681749789,40
+"schurch_codex","spot19_A","vasculature","CD11b","ct_STANCE",NA,2.36014372889745e-11,40
+"schurch_codex","spot19_A","vasculature","CD56","ct_STANCE",NA,1.435210873038e-07,40
+"schurch_codex","spot19_A","vasculature","aSMA","ct_STANCE",NA,0.963362859829158,40
+"schurch_codex","spot19_A","vasculature","BCL-2","ct_STANCE",NA,0.0370665321834594,40
+"schurch_codex","spot19_A","vasculature","CD25","ct_STANCE",NA,0.647785483854752,40
+"schurch_codex","spot19_A","vasculature","CD11c","ct_STANCE",NA,0.82800957117978,40
+"schurch_codex","spot19_A","vasculature","PD-1","ct_STANCE",NA,0.56041280811114,40
+"schurch_codex","spot19_A","vasculature","Granzyme B","ct_STANCE",NA,0.945382974150746,40
+"schurch_codex","spot19_A","vasculature","EGFR","ct_STANCE",NA,4.4182331677291e-09,40
+"schurch_codex","spot19_A","vasculature","VISTA","ct_STANCE",NA,0.00914574774779517,40
+"schurch_codex","spot19_A","vasculature","CD15","ct_STANCE",NA,0.971015056094454,40
+"schurch_codex","spot19_A","vasculature","ICOS","ct_STANCE",NA,0.586094910580069,40
+"schurch_codex","spot19_A","vasculature","Synaptophysin","ct_STANCE",NA,0.332648239236709,40
+"schurch_codex","spot19_A","vasculature","GFAP","ct_STANCE",NA,0.832725886437281,40
+"schurch_codex","spot19_A","vasculature","CD7","ct_STANCE",NA,0.177052878977296,40
+"schurch_codex","spot19_A","vasculature","CD3","ct_STANCE",NA,1.16732616707972e-05,40
+"schurch_codex","spot19_A","vasculature","Chromogranin A","ct_STANCE",NA,0.948424665981012,40
+"schurch_codex","spot19_A","vasculature","CD163","ct_STANCE",NA,0.967475287247366,40
+"schurch_codex","spot19_A","vasculature","CD45RO","ct_STANCE",NA,4.9377759383252e-06,40
+"schurch_codex","spot19_A","vasculature","CD68","ct_STANCE",NA,0.377080444987643,40
+"schurch_codex","spot19_A","vasculature","CD31","ct_STANCE",NA,4.53620895391318e-36,40
+"schurch_codex","spot19_A","vasculature","Podoplanin","ct_STANCE",NA,0.957746010449955,40
+"schurch_codex","spot19_A","vasculature","CD34","ct_STANCE",NA,2.54829879939224e-09,40
+"schurch_codex","spot19_A","vasculature","CD38","ct_STANCE",NA,8.46760728763807e-05,40
+"schurch_codex","spot19_A","vasculature","CD138","ct_STANCE",NA,0.866013636001206,40
+"schurch_codex","spot19_A","vasculature","CDX2","ct_STANCE",NA,0.960442700217383,40
+"schurch_codex","spot19_A","vasculature","Collagen IV","ct_STANCE",NA,0.961225888200405,40
+"schurch_codex","spot19_A","vasculature","CD194","ct_STANCE",NA,0.0330411033522309,40
+"schurch_codex","spot19_A","vasculature","MMP9","ct_STANCE",NA,0.959706742433601,40
+"schurch_codex","spot19_A","vasculature","CD71","ct_STANCE",NA,0.940764921726094,40
+"schurch_codex","spot19_A","vasculature","CD57","ct_STANCE",NA,0.00130326441163911,40
+"schurch_codex","spot19_A","vasculature","MMP12","ct_STANCE",NA,0.0958871177601172,40
+"schurch_codex","spot19_A","B cells","CD44","ct_CELINA",NA,0.789048623235127,144
+"schurch_codex","spot19_A","B cells","FOXP3","ct_CELINA",NA,0.711695672908161,144
+"schurch_codex","spot19_A","B cells","CD8","ct_CELINA",NA,0.99383237043589,144
+"schurch_codex","spot19_A","B cells","p53","ct_CELINA",NA,0.248938437637518,144
+"schurch_codex","spot19_A","B cells","GATA3","ct_CELINA",NA,0.425440209021848,144
+"schurch_codex","spot19_A","B cells","CD45","ct_CELINA",NA,0.704231974582304,144
+"schurch_codex","spot19_A","B cells","T-bet","ct_CELINA",NA,0.499998814673997,144
+"schurch_codex","spot19_A","B cells","beta-catenin","ct_CELINA",NA,0.831133634345155,144
+"schurch_codex","spot19_A","B cells","HLA-DR","ct_CELINA",NA,0.801694369085956,144
+"schurch_codex","spot19_A","B cells","PD-L1","ct_CELINA",NA,0.861465132750173,144
+"schurch_codex","spot19_A","B cells","Ki67","ct_CELINA",NA,0.535299781428087,144
+"schurch_codex","spot19_A","B cells","CD45RA","ct_CELINA",NA,0.68904762285768,144
+"schurch_codex","spot19_A","B cells","CD4","ct_CELINA",NA,0.684524997233587,144
+"schurch_codex","spot19_A","B cells","CD21","ct_CELINA",NA,0.21202137126627,144
+"schurch_codex","spot19_A","B cells","MUC-1","ct_CELINA",NA,0.88633472119947,144
+"schurch_codex","spot19_A","B cells","CD30","ct_CELINA",NA,0.695689161596769,144
+"schurch_codex","spot19_A","B cells","CD2","ct_CELINA",NA,0.75927971552886,144
+"schurch_codex","spot19_A","B cells","Vimentin","ct_CELINA",NA,0.97868909132566,144
+"schurch_codex","spot19_A","B cells","CD20","ct_CELINA",NA,0.563644964701996,144
+"schurch_codex","spot19_A","B cells","LAG-3","ct_CELINA",NA,0.782963219104683,144
+"schurch_codex","spot19_A","B cells","Na-K-ATPase","ct_CELINA",NA,0.885174240931502,144
+"schurch_codex","spot19_A","B cells","CD5","ct_CELINA",NA,0.396076927573001,144
+"schurch_codex","spot19_A","B cells","IDO-1","ct_CELINA",NA,0.803946633896569,144
+"schurch_codex","spot19_A","B cells","Cytokeratin","ct_CELINA",NA,0.873373201934422,144
+"schurch_codex","spot19_A","B cells","CD11b","ct_CELINA",NA,0.88128401698898,144
+"schurch_codex","spot19_A","B cells","CD56","ct_CELINA",NA,0.98787478392901,144
+"schurch_codex","spot19_A","B cells","aSMA","ct_CELINA",NA,0.999860533599883,144
+"schurch_codex","spot19_A","B cells","BCL-2","ct_CELINA",NA,0.895672185984034,144
+"schurch_codex","spot19_A","B cells","CD25","ct_CELINA",NA,0.594346382035299,144
+"schurch_codex","spot19_A","B cells","CD11c","ct_CELINA",NA,0.824294540098781,144
+"schurch_codex","spot19_A","B cells","PD-1","ct_CELINA",NA,0.989007771632656,144
+"schurch_codex","spot19_A","B cells","Granzyme B","ct_CELINA",NA,0.797881858021704,144
+"schurch_codex","spot19_A","B cells","EGFR","ct_CELINA",NA,0.77304304376582,144
+"schurch_codex","spot19_A","B cells","VISTA","ct_CELINA",NA,0.958016753859825,144
+"schurch_codex","spot19_A","B cells","CD15","ct_CELINA",NA,0.921656674408078,144
+"schurch_codex","spot19_A","B cells","ICOS","ct_CELINA",NA,0.852719790769619,144
+"schurch_codex","spot19_A","B cells","Synaptophysin","ct_CELINA",NA,0.99457325802915,144
+"schurch_codex","spot19_A","B cells","GFAP","ct_CELINA",NA,0.849281431676383,144
+"schurch_codex","spot19_A","B cells","CD7","ct_CELINA",NA,0.933689783239512,144
+"schurch_codex","spot19_A","B cells","CD3","ct_CELINA",NA,0.765746946691447,144
+"schurch_codex","spot19_A","B cells","Chromogranin A","ct_CELINA",NA,0.767681841607697,144
+"schurch_codex","spot19_A","B cells","CD163","ct_CELINA",NA,0.999997547978737,144
+"schurch_codex","spot19_A","B cells","CD45RO","ct_CELINA",NA,0.545123371096495,144
+"schurch_codex","spot19_A","B cells","CD68","ct_CELINA",NA,0.99944981926597,144
+"schurch_codex","spot19_A","B cells","CD31","ct_CELINA",NA,0.999999999048211,144
+"schurch_codex","spot19_A","B cells","Podoplanin","ct_CELINA",NA,0.764767222724837,144
+"schurch_codex","spot19_A","B cells","CD34","ct_CELINA",NA,0.968479690915672,144
+"schurch_codex","spot19_A","B cells","CD38","ct_CELINA",NA,0.976930624200413,144
+"schurch_codex","spot19_A","B cells","CD138","ct_CELINA",NA,0.818238219749937,144
+"schurch_codex","spot19_A","B cells","CDX2","ct_CELINA",NA,0.670957649890863,144
+"schurch_codex","spot19_A","B cells","Collagen IV","ct_CELINA",NA,0.873917905856115,144
+"schurch_codex","spot19_A","B cells","CD194","ct_CELINA",NA,0.566037527158607,144
+"schurch_codex","spot19_A","B cells","MMP9","ct_CELINA",NA,0.862086105085008,144
+"schurch_codex","spot19_A","B cells","CD71","ct_CELINA",NA,0.298450177219757,144
+"schurch_codex","spot19_A","B cells","CD57","ct_CELINA",NA,0.743489182262716,144
+"schurch_codex","spot19_A","B cells","MMP12","ct_CELINA",NA,0.765362459625327,144
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD44","ct_CELINA",NA,0.519347770387178,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","FOXP3","ct_CELINA",NA,0.482314786910373,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD8","ct_CELINA",NA,0.839794362832761,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","p53","ct_CELINA",NA,0.367442002887539,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","GATA3","ct_CELINA",NA,0.23283290337334,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45","ct_CELINA",NA,0.624144114684497,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","T-bet","ct_CELINA",NA,0.500360695612007,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","beta-catenin","ct_CELINA",NA,0.596640202107081,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","HLA-DR","ct_CELINA",NA,0.564754496891835,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","PD-L1","ct_CELINA",NA,0.358694986210795,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Ki67","ct_CELINA",NA,0.204378338911422,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45RA","ct_CELINA",NA,0.903057241705343,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD4","ct_CELINA",NA,0.222624374624398,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD21","ct_CELINA",NA,0.952791598106832,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MUC-1","ct_CELINA",NA,0.317236803604625,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD30","ct_CELINA",NA,0.192186322432335,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD2","ct_CELINA",NA,0.644184678943037,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Vimentin","ct_CELINA",NA,0.125665943016349,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD20","ct_CELINA",NA,0.595164613427767,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","LAG-3","ct_CELINA",NA,0.576499876307518,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Na-K-ATPase","ct_CELINA",NA,0.420226271568193,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD5","ct_CELINA",NA,0.69405882081607,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","IDO-1","ct_CELINA",NA,0.768853658157652,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Cytokeratin","ct_CELINA",NA,0.383528677230326,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD11b","ct_CELINA",NA,0.838676172287677,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD56","ct_CELINA",NA,0.766738138936517,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","aSMA","ct_CELINA",NA,0.681320729018003,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","BCL-2","ct_CELINA",NA,0.838072262498702,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD25","ct_CELINA",NA,0.642295160875906,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD11c","ct_CELINA",NA,0.952016180420139,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","PD-1","ct_CELINA",NA,0.910612822011651,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Granzyme B","ct_CELINA",NA,0.513778015588885,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","EGFR","ct_CELINA",NA,0.893042998693202,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","VISTA","ct_CELINA",NA,0.745242548352941,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD15","ct_CELINA",NA,0.359603658515863,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","ICOS","ct_CELINA",NA,0.837724401070608,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Synaptophysin","ct_CELINA",NA,0.657186742861494,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","GFAP","ct_CELINA",NA,0.454374578637067,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD7","ct_CELINA",NA,0.677301327467749,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD3","ct_CELINA",NA,0.654315214921507,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Chromogranin A","ct_CELINA",NA,0.537624018933418,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD163","ct_CELINA",NA,0.576379358485985,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45RO","ct_CELINA",NA,0.0846791425285398,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD68","ct_CELINA",NA,0.913759930668612,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD31","ct_CELINA",NA,0.921323730209594,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Podoplanin","ct_CELINA",NA,0.384761881648422,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD34","ct_CELINA",NA,0.93586487709638,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD38","ct_CELINA",NA,0.6740147415115,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD138","ct_CELINA",NA,0.476615868498493,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CDX2","ct_CELINA",NA,0.201052795726418,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Collagen IV","ct_CELINA",NA,0.473392151556697,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD194","ct_CELINA",NA,0.727704442917342,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MMP9","ct_CELINA",NA,0.50433455109755,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD71","ct_CELINA",NA,0.769425702254088,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD57","ct_CELINA",NA,0.593564018384901,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MMP12","ct_CELINA",NA,0.694799319918392,856
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD44","ct_CELINA",NA,0.439101962040882,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","FOXP3","ct_CELINA",NA,0.839489146820623,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD8","ct_CELINA",NA,0.693830749093172,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","p53","ct_CELINA",NA,0.588578194508678,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","GATA3","ct_CELINA",NA,0.26166672420712,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45","ct_CELINA",NA,0.60142321977938,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","T-bet","ct_CELINA",NA,0.810080140690356,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","beta-catenin","ct_CELINA",NA,0.64767469931203,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","HLA-DR","ct_CELINA",NA,0.0778844313103109,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","PD-L1","ct_CELINA",NA,0.785498176619658,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Ki67","ct_CELINA",NA,0.169833367865202,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45RA","ct_CELINA",NA,0.0431573760650202,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD4","ct_CELINA",NA,0.896823979477398,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD21","ct_CELINA",NA,0.999786992338244,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MUC-1","ct_CELINA",NA,0.139578433471835,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD30","ct_CELINA",NA,0.78657631109409,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD2","ct_CELINA",NA,0.0671231754909365,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Vimentin","ct_CELINA",NA,0.205378630645089,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD20","ct_CELINA",NA,0.936099665349536,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","LAG-3","ct_CELINA",NA,0.393860262789083,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Na-K-ATPase","ct_CELINA",NA,0.0938420691244273,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD5","ct_CELINA",NA,0.273913354767462,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","IDO-1","ct_CELINA",NA,0.472055803675774,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Cytokeratin","ct_CELINA",NA,0.22956257511577,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD11b","ct_CELINA",NA,0.799329141618003,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD56","ct_CELINA",NA,0.957255567277547,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","aSMA","ct_CELINA",NA,0.905801907171794,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","BCL-2","ct_CELINA",NA,0.162014866458125,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD25","ct_CELINA",NA,0.446294403187047,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD11c","ct_CELINA",NA,0.791194124779983,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","PD-1","ct_CELINA",NA,0.780499921469621,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Granzyme B","ct_CELINA",NA,0.143998042631467,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","EGFR","ct_CELINA",NA,0.289948946638104,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","VISTA","ct_CELINA",NA,0.74670666095703,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD15","ct_CELINA",NA,0.80069160133241,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","ICOS","ct_CELINA",NA,0.381084188291946,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Synaptophysin","ct_CELINA",NA,0.487049116914609,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","GFAP","ct_CELINA",NA,0.0226013938383445,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD7","ct_CELINA",NA,0.903244924957763,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD3","ct_CELINA",NA,0.181689579144154,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Chromogranin A","ct_CELINA",NA,0.0721243381310307,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD163","ct_CELINA",NA,0.685504041896471,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45RO","ct_CELINA",NA,0.466999327420638,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD68","ct_CELINA",NA,0.104591232031684,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD31","ct_CELINA",NA,0.999999977244953,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Podoplanin","ct_CELINA",NA,0.99999651353218,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD34","ct_CELINA",NA,0.913109265194763,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD38","ct_CELINA",NA,0.213921208964912,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD138","ct_CELINA",NA,0.153448900265631,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CDX2","ct_CELINA",NA,0.489039471323474,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Collagen IV","ct_CELINA",NA,0.0801427778022943,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD194","ct_CELINA",NA,0.246833503849767,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MMP9","ct_CELINA",NA,0.0812250747214809,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD71","ct_CELINA",NA,0.158215841443026,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD57","ct_CELINA",NA,0.0147626550999428,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MMP12","ct_CELINA",NA,0.0930236756482893,81
+"schurch_codex","spot19_A","CD8+ T cells","CD44","ct_CELINA",NA,0.411416806649421,213
+"schurch_codex","spot19_A","CD8+ T cells","FOXP3","ct_CELINA",NA,0.946176602834413,213
+"schurch_codex","spot19_A","CD8+ T cells","CD8","ct_CELINA",NA,0.267707016629986,213
+"schurch_codex","spot19_A","CD8+ T cells","p53","ct_CELINA",NA,0.43962031996366,213
+"schurch_codex","spot19_A","CD8+ T cells","GATA3","ct_CELINA",NA,0.89785965920284,213
+"schurch_codex","spot19_A","CD8+ T cells","CD45","ct_CELINA",NA,0.665091959027787,213
+"schurch_codex","spot19_A","CD8+ T cells","T-bet","ct_CELINA",NA,0.295134216011981,213
+"schurch_codex","spot19_A","CD8+ T cells","beta-catenin","ct_CELINA",NA,0.48048631308803,213
+"schurch_codex","spot19_A","CD8+ T cells","HLA-DR","ct_CELINA",NA,0.767594073615897,213
+"schurch_codex","spot19_A","CD8+ T cells","PD-L1","ct_CELINA",NA,0.479975153562997,213
+"schurch_codex","spot19_A","CD8+ T cells","Ki67","ct_CELINA",NA,0.9999998710635,213
+"schurch_codex","spot19_A","CD8+ T cells","CD45RA","ct_CELINA",NA,0.173452456879465,213
+"schurch_codex","spot19_A","CD8+ T cells","CD4","ct_CELINA",NA,0.571533051584609,213
+"schurch_codex","spot19_A","CD8+ T cells","CD21","ct_CELINA",NA,0.999474461638186,213
+"schurch_codex","spot19_A","CD8+ T cells","MUC-1","ct_CELINA",NA,0.811802901825942,213
+"schurch_codex","spot19_A","CD8+ T cells","CD30","ct_CELINA",NA,0.688045105937543,213
+"schurch_codex","spot19_A","CD8+ T cells","CD2","ct_CELINA",NA,0.430632743561552,213
+"schurch_codex","spot19_A","CD8+ T cells","Vimentin","ct_CELINA",NA,0.584709584665597,213
+"schurch_codex","spot19_A","CD8+ T cells","CD20","ct_CELINA",NA,0.566444483557507,213
+"schurch_codex","spot19_A","CD8+ T cells","LAG-3","ct_CELINA",NA,0.788642283752953,213
+"schurch_codex","spot19_A","CD8+ T cells","Na-K-ATPase","ct_CELINA",NA,0.64472510877919,213
+"schurch_codex","spot19_A","CD8+ T cells","CD5","ct_CELINA",NA,0.501847348290968,213
+"schurch_codex","spot19_A","CD8+ T cells","IDO-1","ct_CELINA",NA,0.666951277563508,213
+"schurch_codex","spot19_A","CD8+ T cells","Cytokeratin","ct_CELINA",NA,0.685735760318436,213
+"schurch_codex","spot19_A","CD8+ T cells","CD11b","ct_CELINA",NA,0.378594624226623,213
+"schurch_codex","spot19_A","CD8+ T cells","CD56","ct_CELINA",NA,0.382819706876747,213
+"schurch_codex","spot19_A","CD8+ T cells","aSMA","ct_CELINA",NA,0.999834421071453,213
+"schurch_codex","spot19_A","CD8+ T cells","BCL-2","ct_CELINA",NA,0.520794166382088,213
+"schurch_codex","spot19_A","CD8+ T cells","CD25","ct_CELINA",NA,0.611903416373082,213
+"schurch_codex","spot19_A","CD8+ T cells","CD11c","ct_CELINA",NA,0.612961401565438,213
+"schurch_codex","spot19_A","CD8+ T cells","PD-1","ct_CELINA",NA,0.600764541340352,213
+"schurch_codex","spot19_A","CD8+ T cells","Granzyme B","ct_CELINA",NA,0.515433246131756,213
+"schurch_codex","spot19_A","CD8+ T cells","EGFR","ct_CELINA",NA,0.523411900783961,213
+"schurch_codex","spot19_A","CD8+ T cells","VISTA","ct_CELINA",NA,0.565855396531304,213
+"schurch_codex","spot19_A","CD8+ T cells","CD15","ct_CELINA",NA,0.581174400833641,213
+"schurch_codex","spot19_A","CD8+ T cells","ICOS","ct_CELINA",NA,0.624735821696687,213
+"schurch_codex","spot19_A","CD8+ T cells","Synaptophysin","ct_CELINA",NA,0.836571052093735,213
+"schurch_codex","spot19_A","CD8+ T cells","GFAP","ct_CELINA",NA,0.727482478057162,213
+"schurch_codex","spot19_A","CD8+ T cells","CD7","ct_CELINA",NA,0.827477099587643,213
+"schurch_codex","spot19_A","CD8+ T cells","CD3","ct_CELINA",NA,0.837798446496122,213
+"schurch_codex","spot19_A","CD8+ T cells","Chromogranin A","ct_CELINA",NA,0.524797529705165,213
+"schurch_codex","spot19_A","CD8+ T cells","CD163","ct_CELINA",NA,0.111958246282913,213
+"schurch_codex","spot19_A","CD8+ T cells","CD45RO","ct_CELINA",NA,0.143095442727957,213
+"schurch_codex","spot19_A","CD8+ T cells","CD68","ct_CELINA",NA,0.946828640879073,213
+"schurch_codex","spot19_A","CD8+ T cells","CD31","ct_CELINA",NA,0.945898485609427,213
+"schurch_codex","spot19_A","CD8+ T cells","Podoplanin","ct_CELINA",NA,0.999918511231174,213
+"schurch_codex","spot19_A","CD8+ T cells","CD34","ct_CELINA",NA,0.0996110839887995,213
+"schurch_codex","spot19_A","CD8+ T cells","CD38","ct_CELINA",NA,0.504526099606672,213
+"schurch_codex","spot19_A","CD8+ T cells","CD138","ct_CELINA",NA,0.56456810097559,213
+"schurch_codex","spot19_A","CD8+ T cells","CDX2","ct_CELINA",NA,0.64241983021252,213
+"schurch_codex","spot19_A","CD8+ T cells","Collagen IV","ct_CELINA",NA,0.704144565705713,213
+"schurch_codex","spot19_A","CD8+ T cells","CD194","ct_CELINA",NA,0.104391814772438,213
+"schurch_codex","spot19_A","CD8+ T cells","MMP9","ct_CELINA",NA,0.507991440228007,213
+"schurch_codex","spot19_A","CD8+ T cells","CD71","ct_CELINA",NA,0.553013582351657,213
+"schurch_codex","spot19_A","CD8+ T cells","CD57","ct_CELINA",NA,0.133549097501213,213
+"schurch_codex","spot19_A","CD8+ T cells","MMP12","ct_CELINA",NA,0.141410841793076,213
+"schurch_codex","spot19_A","vasculature","CD44","ct_CELINA",NA,0.622408399582616,87
+"schurch_codex","spot19_A","vasculature","FOXP3","ct_CELINA",NA,0.751477529054286,87
+"schurch_codex","spot19_A","vasculature","CD8","ct_CELINA",NA,0.994224883304585,87
+"schurch_codex","spot19_A","vasculature","p53","ct_CELINA",NA,0.944517826984706,87
+"schurch_codex","spot19_A","vasculature","GATA3","ct_CELINA",NA,0.7826250797454,87
+"schurch_codex","spot19_A","vasculature","CD45","ct_CELINA",NA,0.648513858089346,87
+"schurch_codex","spot19_A","vasculature","T-bet","ct_CELINA",NA,0.547925219697879,87
+"schurch_codex","spot19_A","vasculature","beta-catenin","ct_CELINA",NA,0.538960627485946,87
+"schurch_codex","spot19_A","vasculature","HLA-DR","ct_CELINA",NA,0.897591594826619,87
+"schurch_codex","spot19_A","vasculature","PD-L1","ct_CELINA",NA,0.779437100439888,87
+"schurch_codex","spot19_A","vasculature","Ki67","ct_CELINA",NA,0.999983635593903,87
+"schurch_codex","spot19_A","vasculature","CD45RA","ct_CELINA",NA,0.968597104249943,87
+"schurch_codex","spot19_A","vasculature","CD4","ct_CELINA",NA,0.953831607974975,87
+"schurch_codex","spot19_A","vasculature","CD21","ct_CELINA",NA,0.999987574014315,87
+"schurch_codex","spot19_A","vasculature","MUC-1","ct_CELINA",NA,0.837661920016768,87
+"schurch_codex","spot19_A","vasculature","CD30","ct_CELINA",NA,0.624604167456353,87
+"schurch_codex","spot19_A","vasculature","CD2","ct_CELINA",NA,0.763252624766301,87
+"schurch_codex","spot19_A","vasculature","Vimentin","ct_CELINA",NA,0.128451521894355,87
+"schurch_codex","spot19_A","vasculature","CD20","ct_CELINA",NA,0.999770474479768,87
+"schurch_codex","spot19_A","vasculature","LAG-3","ct_CELINA",NA,0.657427921195455,87
+"schurch_codex","spot19_A","vasculature","Na-K-ATPase","ct_CELINA",NA,0.844930172329313,87
+"schurch_codex","spot19_A","vasculature","CD5","ct_CELINA",NA,0.664288200207497,87
+"schurch_codex","spot19_A","vasculature","IDO-1","ct_CELINA",NA,0.908060352155192,87
+"schurch_codex","spot19_A","vasculature","Cytokeratin","ct_CELINA",NA,0.823813054977308,87
+"schurch_codex","spot19_A","vasculature","CD11b","ct_CELINA",NA,0.734801463765735,87
+"schurch_codex","spot19_A","vasculature","CD56","ct_CELINA",NA,0.488494214787551,87
+"schurch_codex","spot19_A","vasculature","aSMA","ct_CELINA",NA,0.776091209136783,87
+"schurch_codex","spot19_A","vasculature","BCL-2","ct_CELINA",NA,0.869936206200735,87
+"schurch_codex","spot19_A","vasculature","CD25","ct_CELINA",NA,0.858815675071662,87
+"schurch_codex","spot19_A","vasculature","CD11c","ct_CELINA",NA,0.95971896316825,87
+"schurch_codex","spot19_A","vasculature","PD-1","ct_CELINA",NA,0.645791486328036,87
+"schurch_codex","spot19_A","vasculature","Granzyme B","ct_CELINA",NA,0.794948074281493,87
+"schurch_codex","spot19_A","vasculature","EGFR","ct_CELINA",NA,0.163481937097286,87
+"schurch_codex","spot19_A","vasculature","VISTA","ct_CELINA",NA,0.386732856669707,87
+"schurch_codex","spot19_A","vasculature","CD15","ct_CELINA",NA,0.799341023105119,87
+"schurch_codex","spot19_A","vasculature","ICOS","ct_CELINA",NA,0.817957796834588,87
+"schurch_codex","spot19_A","vasculature","Synaptophysin","ct_CELINA",NA,0.727685890347716,87
+"schurch_codex","spot19_A","vasculature","GFAP","ct_CELINA",NA,0.855886119014122,87
+"schurch_codex","spot19_A","vasculature","CD7","ct_CELINA",NA,0.934508060387765,87
+"schurch_codex","spot19_A","vasculature","CD3","ct_CELINA",NA,0.835849946261461,87
+"schurch_codex","spot19_A","vasculature","Chromogranin A","ct_CELINA",NA,0.755921986217088,87
+"schurch_codex","spot19_A","vasculature","CD163","ct_CELINA",NA,0.99951122904019,87
+"schurch_codex","spot19_A","vasculature","CD45RO","ct_CELINA",NA,0.335756767203781,87
+"schurch_codex","spot19_A","vasculature","CD68","ct_CELINA",NA,0.996371894196398,87
+"schurch_codex","spot19_A","vasculature","CD31","ct_CELINA",NA,0.569496069050111,87
+"schurch_codex","spot19_A","vasculature","Podoplanin","ct_CELINA",NA,0.999233210906328,87
+"schurch_codex","spot19_A","vasculature","CD34","ct_CELINA",NA,0.183492605458713,87
+"schurch_codex","spot19_A","vasculature","CD38","ct_CELINA",NA,0.965275588535962,87
+"schurch_codex","spot19_A","vasculature","CD138","ct_CELINA",NA,0.632221928469739,87
+"schurch_codex","spot19_A","vasculature","CDX2","ct_CELINA",NA,0.921324648842856,87
+"schurch_codex","spot19_A","vasculature","Collagen IV","ct_CELINA",NA,0.756833084530387,87
+"schurch_codex","spot19_A","vasculature","CD194","ct_CELINA",NA,0.936616352941047,87
+"schurch_codex","spot19_A","vasculature","MMP9","ct_CELINA",NA,0.815277169333082,87
+"schurch_codex","spot19_A","vasculature","CD71","ct_CELINA",NA,0.950942223513774,87
+"schurch_codex","spot19_A","vasculature","CD57","ct_CELINA",NA,0.217645400843078,87
+"schurch_codex","spot19_A","vasculature","MMP12","ct_CELINA",NA,0.615035642921796,87
+"schurch_codex","spot19_A","B cells","CD44","ct_sparkx_R",NA,0.596848764766059,144
+"schurch_codex","spot19_A","B cells","FOXP3","ct_sparkx_R",NA,0.605514588528716,144
+"schurch_codex","spot19_A","B cells","CD8","ct_sparkx_R",NA,0.786039442590957,144
+"schurch_codex","spot19_A","B cells","p53","ct_sparkx_R",NA,0.758258560017791,144
+"schurch_codex","spot19_A","B cells","GATA3","ct_sparkx_R",NA,0.20630171255174,144
+"schurch_codex","spot19_A","B cells","CD45","ct_sparkx_R",NA,0.778523670731658,144
+"schurch_codex","spot19_A","B cells","T-bet","ct_sparkx_R",NA,0.851093494187719,144
+"schurch_codex","spot19_A","B cells","beta-catenin","ct_sparkx_R",NA,0.97955266958457,144
+"schurch_codex","spot19_A","B cells","HLA-DR","ct_sparkx_R",NA,0.191539827128033,144
+"schurch_codex","spot19_A","B cells","PD-L1","ct_sparkx_R",NA,0.66259366854261,144
+"schurch_codex","spot19_A","B cells","Ki67","ct_sparkx_R",NA,0.737211964863917,144
+"schurch_codex","spot19_A","B cells","CD45RA","ct_sparkx_R",NA,0.57194810750283,144
+"schurch_codex","spot19_A","B cells","CD4","ct_sparkx_R",NA,0.945222881823104,144
+"schurch_codex","spot19_A","B cells","CD21","ct_sparkx_R",NA,0.0140159769439252,144
+"schurch_codex","spot19_A","B cells","MUC-1","ct_sparkx_R",NA,0.152074256468584,144
+"schurch_codex","spot19_A","B cells","CD30","ct_sparkx_R",NA,0.78783144143535,144
+"schurch_codex","spot19_A","B cells","CD2","ct_sparkx_R",NA,0.0543201656808585,144
+"schurch_codex","spot19_A","B cells","Vimentin","ct_sparkx_R",NA,0.711844702594963,144
+"schurch_codex","spot19_A","B cells","CD20","ct_sparkx_R",NA,0.64984197801523,144
+"schurch_codex","spot19_A","B cells","LAG-3","ct_sparkx_R",NA,0.51154937705479,144
+"schurch_codex","spot19_A","B cells","Na-K-ATPase","ct_sparkx_R",NA,0.13237727720377,144
+"schurch_codex","spot19_A","B cells","CD5","ct_sparkx_R",NA,0.428778144358599,144
+"schurch_codex","spot19_A","B cells","IDO-1","ct_sparkx_R",NA,0.688807830814625,144
+"schurch_codex","spot19_A","B cells","Cytokeratin","ct_sparkx_R",NA,0.373911307466672,144
+"schurch_codex","spot19_A","B cells","CD11b","ct_sparkx_R",NA,0.588197751516331,144
+"schurch_codex","spot19_A","B cells","CD56","ct_sparkx_R",NA,0.869198816213228,144
+"schurch_codex","spot19_A","B cells","aSMA","ct_sparkx_R",NA,0.726161812228547,144
+"schurch_codex","spot19_A","B cells","BCL-2","ct_sparkx_R",NA,0.962181827437106,144
+"schurch_codex","spot19_A","B cells","CD25","ct_sparkx_R",NA,0.331508928722944,144
+"schurch_codex","spot19_A","B cells","CD11c","ct_sparkx_R",NA,0.600754615803023,144
+"schurch_codex","spot19_A","B cells","PD-1","ct_sparkx_R",NA,0.970595894137015,144
+"schurch_codex","spot19_A","B cells","Granzyme B","ct_sparkx_R",NA,0.297712043489529,144
+"schurch_codex","spot19_A","B cells","EGFR","ct_sparkx_R",NA,0.666903697397219,144
+"schurch_codex","spot19_A","B cells","VISTA","ct_sparkx_R",NA,0.711948251856101,144
+"schurch_codex","spot19_A","B cells","CD15","ct_sparkx_R",NA,0.483061425235272,144
+"schurch_codex","spot19_A","B cells","ICOS","ct_sparkx_R",NA,0.228818426115324,144
+"schurch_codex","spot19_A","B cells","Synaptophysin","ct_sparkx_R",NA,0.498335945908802,144
+"schurch_codex","spot19_A","B cells","GFAP","ct_sparkx_R",NA,0.0644671234645111,144
+"schurch_codex","spot19_A","B cells","CD7","ct_sparkx_R",NA,0.856189038782828,144
+"schurch_codex","spot19_A","B cells","CD3","ct_sparkx_R",NA,0.428097980936652,144
+"schurch_codex","spot19_A","B cells","Chromogranin A","ct_sparkx_R",NA,0.187256824257625,144
+"schurch_codex","spot19_A","B cells","CD163","ct_sparkx_R",NA,0.917851366375645,144
+"schurch_codex","spot19_A","B cells","CD45RO","ct_sparkx_R",NA,0.945369922372908,144
+"schurch_codex","spot19_A","B cells","CD68","ct_sparkx_R",NA,0.222876847473571,144
+"schurch_codex","spot19_A","B cells","CD31","ct_sparkx_R",NA,0.804691513273027,144
+"schurch_codex","spot19_A","B cells","Podoplanin","ct_sparkx_R",NA,0.226054647009983,144
+"schurch_codex","spot19_A","B cells","CD34","ct_sparkx_R",NA,0.362367817854705,144
+"schurch_codex","spot19_A","B cells","CD38","ct_sparkx_R",NA,0.384887297758437,144
+"schurch_codex","spot19_A","B cells","CD138","ct_sparkx_R",NA,0.297569878530513,144
+"schurch_codex","spot19_A","B cells","CDX2","ct_sparkx_R",NA,0.221390203661813,144
+"schurch_codex","spot19_A","B cells","Collagen IV","ct_sparkx_R",NA,0.163979913131601,144
+"schurch_codex","spot19_A","B cells","CD194","ct_sparkx_R",NA,0.416891980851706,144
+"schurch_codex","spot19_A","B cells","MMP9","ct_sparkx_R",NA,0.120706297849076,144
+"schurch_codex","spot19_A","B cells","CD71","ct_sparkx_R",NA,0.984071525121807,144
+"schurch_codex","spot19_A","B cells","CD57","ct_sparkx_R",NA,0.353537232963865,144
+"schurch_codex","spot19_A","B cells","MMP12","ct_sparkx_R",NA,0.120615566576283,144
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD44","ct_sparkx_R",NA,0.554748977366252,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","FOXP3","ct_sparkx_R",NA,0.117693320361861,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD8","ct_sparkx_R",NA,0.114970279174371,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","p53","ct_sparkx_R",NA,0.169233238601864,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","GATA3","ct_sparkx_R",NA,0.645755613671731,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45","ct_sparkx_R",NA,0.370367146487701,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","T-bet","ct_sparkx_R",NA,0.810553446436001,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","beta-catenin","ct_sparkx_R",NA,0.567917654864158,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","HLA-DR","ct_sparkx_R",NA,0.217019200220729,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","PD-L1","ct_sparkx_R",NA,0.187758433144503,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Ki67","ct_sparkx_R",NA,0.243447297962744,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45RA","ct_sparkx_R",NA,0.879254505237019,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD4","ct_sparkx_R",NA,0.834762561710551,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD21","ct_sparkx_R",NA,0.799928142990024,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MUC-1","ct_sparkx_R",NA,0.03989942479011,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD30","ct_sparkx_R",NA,0.0252878729038377,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD2","ct_sparkx_R",NA,0.598386989922413,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Vimentin","ct_sparkx_R",NA,0.10923076944744,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD20","ct_sparkx_R",NA,0.995654690271744,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","LAG-3","ct_sparkx_R",NA,0.530840947783886,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Na-K-ATPase","ct_sparkx_R",NA,0.0592302536103949,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD5","ct_sparkx_R",NA,0.95369645957819,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","IDO-1","ct_sparkx_R",NA,0.0382395611238751,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Cytokeratin","ct_sparkx_R",NA,0.0531774418962172,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD11b","ct_sparkx_R",NA,0.67665043370595,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD56","ct_sparkx_R",NA,0.719086943772797,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","aSMA","ct_sparkx_R",NA,0.812223356102327,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","BCL-2","ct_sparkx_R",NA,0.864640403284121,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD25","ct_sparkx_R",NA,0.751514337438993,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD11c","ct_sparkx_R",NA,0.453691948946389,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","PD-1","ct_sparkx_R",NA,0.759730012955573,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Granzyme B","ct_sparkx_R",NA,0.0983154409704643,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","EGFR","ct_sparkx_R",NA,0.818360377375986,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","VISTA","ct_sparkx_R",NA,0.419200215902698,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD15","ct_sparkx_R",NA,0.026606546204145,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","ICOS","ct_sparkx_R",NA,0.699080887103105,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Synaptophysin","ct_sparkx_R",NA,0.623992525581065,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","GFAP","ct_sparkx_R",NA,0.196383086112626,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD7","ct_sparkx_R",NA,0.354864345371988,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD3","ct_sparkx_R",NA,0.946971643773078,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Chromogranin A","ct_sparkx_R",NA,0.100159937300408,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD163","ct_sparkx_R",NA,0.159942775941565,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD45RO","ct_sparkx_R",NA,0.334259281307762,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD68","ct_sparkx_R",NA,0.356909571360701,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD31","ct_sparkx_R",NA,0.852291839127728,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Podoplanin","ct_sparkx_R",NA,0.618957107900112,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD34","ct_sparkx_R",NA,0.580899440170775,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD38","ct_sparkx_R",NA,0.0112128780521528,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD138","ct_sparkx_R",NA,0.0892145887644061,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CDX2","ct_sparkx_R",NA,0.310782193152779,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","Collagen IV","ct_sparkx_R",NA,0.0382847719888859,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD194","ct_sparkx_R",NA,0.680131774228867,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MMP9","ct_sparkx_R",NA,0.0986533830621635,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD71","ct_sparkx_R",NA,0.741882939135198,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","CD57","ct_sparkx_R",NA,0.37040604134403,856
+"schurch_codex","spot19_A","CD4+ T cells CD45RO+","MMP12","ct_sparkx_R",NA,0.476247531321805,856
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD44","ct_sparkx_R",NA,0.24450712591107,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","FOXP3","ct_sparkx_R",NA,0.481815423898068,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD8","ct_sparkx_R",NA,0.379303309741367,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","p53","ct_sparkx_R",NA,0.682746008414957,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","GATA3","ct_sparkx_R",NA,0.290006613852446,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45","ct_sparkx_R",NA,0.106261384308346,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","T-bet","ct_sparkx_R",NA,0.309706294235341,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","beta-catenin","ct_sparkx_R",NA,0.214864750126454,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","HLA-DR","ct_sparkx_R",NA,0.0292773036415825,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","PD-L1","ct_sparkx_R",NA,0.729678496872924,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Ki67","ct_sparkx_R",NA,0.190169262974386,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45RA","ct_sparkx_R",NA,0.0317637330133398,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD4","ct_sparkx_R",NA,0.676072492796984,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD21","ct_sparkx_R",NA,0.0973351176647747,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MUC-1","ct_sparkx_R",NA,0.0123041495562103,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD30","ct_sparkx_R",NA,0.332333672560127,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD2","ct_sparkx_R",NA,0.976292641091567,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Vimentin","ct_sparkx_R",NA,0.895154054635747,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD20","ct_sparkx_R",NA,0.336017885597289,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","LAG-3","ct_sparkx_R",NA,0.239665980252395,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Na-K-ATPase","ct_sparkx_R",NA,0.0145146943524475,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD5","ct_sparkx_R",NA,0.849337616412743,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","IDO-1","ct_sparkx_R",NA,0.0859416480064403,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Cytokeratin","ct_sparkx_R",NA,0.0142112703174142,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD11b","ct_sparkx_R",NA,0.159204958471494,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD56","ct_sparkx_R",NA,0.808041004195923,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","aSMA","ct_sparkx_R",NA,0.825156346752343,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","BCL-2","ct_sparkx_R",NA,0.214143309004039,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD25","ct_sparkx_R",NA,0.58711847620061,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD11c","ct_sparkx_R",NA,0.373234882874777,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","PD-1","ct_sparkx_R",NA,0.182328519745686,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Granzyme B","ct_sparkx_R",NA,0.161244266875816,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","EGFR","ct_sparkx_R",NA,0.519765671371622,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","VISTA","ct_sparkx_R",NA,0.871899260113726,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD15","ct_sparkx_R",NA,0.0592522507879656,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","ICOS","ct_sparkx_R",NA,0.858384956941397,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Synaptophysin","ct_sparkx_R",NA,0.391903991962921,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","GFAP","ct_sparkx_R",NA,0.0122656566180706,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD7","ct_sparkx_R",NA,0.671416466268439,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD3","ct_sparkx_R",NA,0.715211901334046,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Chromogranin A","ct_sparkx_R",NA,0.109197371128664,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD163","ct_sparkx_R",NA,0.516453464373556,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD45RO","ct_sparkx_R",NA,0.368961267035219,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD68","ct_sparkx_R",NA,0.80911777368553,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD31","ct_sparkx_R",NA,0.0105141972966294,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Podoplanin","ct_sparkx_R",NA,0.113893111257248,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD34","ct_sparkx_R",NA,0.843028587665392,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD38","ct_sparkx_R",NA,0.11466090816617,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD138","ct_sparkx_R",NA,0.0266128458305721,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CDX2","ct_sparkx_R",NA,0.133172998144223,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","Collagen IV","ct_sparkx_R",NA,0.0176858336795853,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD194","ct_sparkx_R",NA,0.255853180141699,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MMP9","ct_sparkx_R",NA,0.0461813588126934,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD71","ct_sparkx_R",NA,0.55488675300109,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","CD57","ct_sparkx_R",NA,0.316617523848876,81
+"schurch_codex","spot19_A","CD68+CD163+ macrophages","MMP12","ct_sparkx_R",NA,0.106596634211514,81
+"schurch_codex","spot19_A","CD8+ T cells","CD44","ct_sparkx_R",NA,0.473221398562111,213
+"schurch_codex","spot19_A","CD8+ T cells","FOXP3","ct_sparkx_R",NA,0.585335934977388,213
+"schurch_codex","spot19_A","CD8+ T cells","CD8","ct_sparkx_R",NA,0.407296393530442,213
+"schurch_codex","spot19_A","CD8+ T cells","p53","ct_sparkx_R",NA,0.825045690547904,213
+"schurch_codex","spot19_A","CD8+ T cells","GATA3","ct_sparkx_R",NA,0.928946181553878,213
+"schurch_codex","spot19_A","CD8+ T cells","CD45","ct_sparkx_R",NA,0.960602750558446,213
+"schurch_codex","spot19_A","CD8+ T cells","T-bet","ct_sparkx_R",NA,0.236962901414889,213
+"schurch_codex","spot19_A","CD8+ T cells","beta-catenin","ct_sparkx_R",NA,0.120981659337774,213
+"schurch_codex","spot19_A","CD8+ T cells","HLA-DR","ct_sparkx_R",NA,0.645536748297442,213
+"schurch_codex","spot19_A","CD8+ T cells","PD-L1","ct_sparkx_R",NA,0.779144110585091,213
+"schurch_codex","spot19_A","CD8+ T cells","Ki67","ct_sparkx_R",NA,0.966388528058321,213
+"schurch_codex","spot19_A","CD8+ T cells","CD45RA","ct_sparkx_R",NA,0.623701419650768,213
+"schurch_codex","spot19_A","CD8+ T cells","CD4","ct_sparkx_R",NA,0.99334238584885,213
+"schurch_codex","spot19_A","CD8+ T cells","CD21","ct_sparkx_R",NA,0.933368439312672,213
+"schurch_codex","spot19_A","CD8+ T cells","MUC-1","ct_sparkx_R",NA,0.756727096288858,213
+"schurch_codex","spot19_A","CD8+ T cells","CD30","ct_sparkx_R",NA,0.868462599945545,213
+"schurch_codex","spot19_A","CD8+ T cells","CD2","ct_sparkx_R",NA,0.78474994596204,213
+"schurch_codex","spot19_A","CD8+ T cells","Vimentin","ct_sparkx_R",NA,0.302001640301043,213
+"schurch_codex","spot19_A","CD8+ T cells","CD20","ct_sparkx_R",NA,0.0654447576194893,213
+"schurch_codex","spot19_A","CD8+ T cells","LAG-3","ct_sparkx_R",NA,0.868211689312107,213
+"schurch_codex","spot19_A","CD8+ T cells","Na-K-ATPase","ct_sparkx_R",NA,0.661285112032413,213
+"schurch_codex","spot19_A","CD8+ T cells","CD5","ct_sparkx_R",NA,0.507107333237795,213
+"schurch_codex","spot19_A","CD8+ T cells","IDO-1","ct_sparkx_R",NA,0.857709759648322,213
+"schurch_codex","spot19_A","CD8+ T cells","Cytokeratin","ct_sparkx_R",NA,0.660796231200468,213
+"schurch_codex","spot19_A","CD8+ T cells","CD11b","ct_sparkx_R",NA,0.126337600296881,213
+"schurch_codex","spot19_A","CD8+ T cells","CD56","ct_sparkx_R",NA,0.0876746034602957,213
+"schurch_codex","spot19_A","CD8+ T cells","aSMA","ct_sparkx_R",NA,0.215021426818153,213
+"schurch_codex","spot19_A","CD8+ T cells","BCL-2","ct_sparkx_R",NA,0.3671849940352,213
+"schurch_codex","spot19_A","CD8+ T cells","CD25","ct_sparkx_R",NA,0.818637170042496,213
+"schurch_codex","spot19_A","CD8+ T cells","CD11c","ct_sparkx_R",NA,0.802533918460377,213
+"schurch_codex","spot19_A","CD8+ T cells","PD-1","ct_sparkx_R",NA,0.582289328870497,213
+"schurch_codex","spot19_A","CD8+ T cells","Granzyme B","ct_sparkx_R",NA,0.534139101148035,213
+"schurch_codex","spot19_A","CD8+ T cells","EGFR","ct_sparkx_R",NA,0.232731941271474,213
+"schurch_codex","spot19_A","CD8+ T cells","VISTA","ct_sparkx_R",NA,0.739038953742258,213
+"schurch_codex","spot19_A","CD8+ T cells","CD15","ct_sparkx_R",NA,0.406236762300552,213
+"schurch_codex","spot19_A","CD8+ T cells","ICOS","ct_sparkx_R",NA,0.543264713682861,213
+"schurch_codex","spot19_A","CD8+ T cells","Synaptophysin","ct_sparkx_R",NA,0.942289683981178,213
+"schurch_codex","spot19_A","CD8+ T cells","GFAP","ct_sparkx_R",NA,0.71412182092379,213
+"schurch_codex","spot19_A","CD8+ T cells","CD7","ct_sparkx_R",NA,0.795541552839186,213
+"schurch_codex","spot19_A","CD8+ T cells","CD3","ct_sparkx_R",NA,0.756222679239175,213
+"schurch_codex","spot19_A","CD8+ T cells","Chromogranin A","ct_sparkx_R",NA,0.599502785103578,213
+"schurch_codex","spot19_A","CD8+ T cells","CD163","ct_sparkx_R",NA,0.0639751988444835,213
+"schurch_codex","spot19_A","CD8+ T cells","CD45RO","ct_sparkx_R",NA,0.934495460006177,213
+"schurch_codex","spot19_A","CD8+ T cells","CD68","ct_sparkx_R",NA,0.449567772268218,213
+"schurch_codex","spot19_A","CD8+ T cells","CD31","ct_sparkx_R",NA,0.157374623376134,213
+"schurch_codex","spot19_A","CD8+ T cells","Podoplanin","ct_sparkx_R",NA,0.327106883996142,213
+"schurch_codex","spot19_A","CD8+ T cells","CD34","ct_sparkx_R",NA,0.252490207282997,213
+"schurch_codex","spot19_A","CD8+ T cells","CD38","ct_sparkx_R",NA,0.614746811713084,213
+"schurch_codex","spot19_A","CD8+ T cells","CD138","ct_sparkx_R",NA,0.608810007077098,213
+"schurch_codex","spot19_A","CD8+ T cells","CDX2","ct_sparkx_R",NA,0.536679408365616,213
+"schurch_codex","spot19_A","CD8+ T cells","Collagen IV","ct_sparkx_R",NA,0.676946155408026,213
+"schurch_codex","spot19_A","CD8+ T cells","CD194","ct_sparkx_R",NA,0.66206330784088,213
+"schurch_codex","spot19_A","CD8+ T cells","MMP9","ct_sparkx_R",NA,0.695420058052763,213
+"schurch_codex","spot19_A","CD8+ T cells","CD71","ct_sparkx_R",NA,0.516480603310358,213
+"schurch_codex","spot19_A","CD8+ T cells","CD57","ct_sparkx_R",NA,0.641789335615176,213
+"schurch_codex","spot19_A","CD8+ T cells","MMP12","ct_sparkx_R",NA,0.757606861498803,213
+"schurch_codex","spot19_A","vasculature","CD44","ct_sparkx_R",NA,0.530987866520428,87
+"schurch_codex","spot19_A","vasculature","FOXP3","ct_sparkx_R",NA,0.787054942109701,87
+"schurch_codex","spot19_A","vasculature","CD8","ct_sparkx_R",NA,0.31800852584822,87
+"schurch_codex","spot19_A","vasculature","p53","ct_sparkx_R",NA,0.713828021854797,87
+"schurch_codex","spot19_A","vasculature","GATA3","ct_sparkx_R",NA,0.348520002902039,87
+"schurch_codex","spot19_A","vasculature","CD45","ct_sparkx_R",NA,0.575025353313848,87
+"schurch_codex","spot19_A","vasculature","T-bet","ct_sparkx_R",NA,0.703289592624442,87
+"schurch_codex","spot19_A","vasculature","beta-catenin","ct_sparkx_R",NA,0.440426463791765,87
+"schurch_codex","spot19_A","vasculature","HLA-DR","ct_sparkx_R",NA,0.19710039399077,87
+"schurch_codex","spot19_A","vasculature","PD-L1","ct_sparkx_R",NA,0.594831681485548,87
+"schurch_codex","spot19_A","vasculature","Ki67","ct_sparkx_R",NA,0.440067917006251,87
+"schurch_codex","spot19_A","vasculature","CD45RA","ct_sparkx_R",NA,0.831226974910234,87
+"schurch_codex","spot19_A","vasculature","CD4","ct_sparkx_R",NA,0.92767074445665,87
+"schurch_codex","spot19_A","vasculature","CD21","ct_sparkx_R",NA,0.158035134826083,87
+"schurch_codex","spot19_A","vasculature","MUC-1","ct_sparkx_R",NA,0.199202353410248,87
+"schurch_codex","spot19_A","vasculature","CD30","ct_sparkx_R",NA,0.311598880313283,87
+"schurch_codex","spot19_A","vasculature","CD2","ct_sparkx_R",NA,0.519157325273616,87
+"schurch_codex","spot19_A","vasculature","Vimentin","ct_sparkx_R",NA,0.672070254723933,87
+"schurch_codex","spot19_A","vasculature","CD20","ct_sparkx_R",NA,0.615869528280632,87
+"schurch_codex","spot19_A","vasculature","LAG-3","ct_sparkx_R",NA,0.129982750851305,87
+"schurch_codex","spot19_A","vasculature","Na-K-ATPase","ct_sparkx_R",NA,0.275171140062615,87
+"schurch_codex","spot19_A","vasculature","CD5","ct_sparkx_R",NA,0.61567566366786,87
+"schurch_codex","spot19_A","vasculature","IDO-1","ct_sparkx_R",NA,0.519098922497212,87
+"schurch_codex","spot19_A","vasculature","Cytokeratin","ct_sparkx_R",NA,0.695327914719436,87
+"schurch_codex","spot19_A","vasculature","CD11b","ct_sparkx_R",NA,0.934055024812916,87
+"schurch_codex","spot19_A","vasculature","CD56","ct_sparkx_R",NA,0.251299477990895,87
+"schurch_codex","spot19_A","vasculature","aSMA","ct_sparkx_R",NA,0.699477008587299,87
+"schurch_codex","spot19_A","vasculature","BCL-2","ct_sparkx_R",NA,0.674931302227996,87
+"schurch_codex","spot19_A","vasculature","CD25","ct_sparkx_R",NA,0.364659818792521,87
+"schurch_codex","spot19_A","vasculature","CD11c","ct_sparkx_R",NA,0.460437275265514,87
+"schurch_codex","spot19_A","vasculature","PD-1","ct_sparkx_R",NA,0.127625981880634,87
+"schurch_codex","spot19_A","vasculature","Granzyme B","ct_sparkx_R",NA,0.532435664956153,87
+"schurch_codex","spot19_A","vasculature","EGFR","ct_sparkx_R",NA,0.36483446655441,87
+"schurch_codex","spot19_A","vasculature","VISTA","ct_sparkx_R",NA,0.959684102354221,87
+"schurch_codex","spot19_A","vasculature","CD15","ct_sparkx_R",NA,0.299796481695399,87
+"schurch_codex","spot19_A","vasculature","ICOS","ct_sparkx_R",NA,0.107769792386788,87
+"schurch_codex","spot19_A","vasculature","Synaptophysin","ct_sparkx_R",NA,0.876896227703636,87
+"schurch_codex","spot19_A","vasculature","GFAP","ct_sparkx_R",NA,0.42437357327841,87
+"schurch_codex","spot19_A","vasculature","CD7","ct_sparkx_R",NA,0.968257857981944,87
+"schurch_codex","spot19_A","vasculature","CD3","ct_sparkx_R",NA,0.599383163048736,87
+"schurch_codex","spot19_A","vasculature","Chromogranin A","ct_sparkx_R",NA,0.971284112133219,87
+"schurch_codex","spot19_A","vasculature","CD163","ct_sparkx_R",NA,0.310250002810414,87
+"schurch_codex","spot19_A","vasculature","CD45RO","ct_sparkx_R",NA,0.848407763058434,87
+"schurch_codex","spot19_A","vasculature","CD68","ct_sparkx_R",NA,0.127917761470217,87
+"schurch_codex","spot19_A","vasculature","CD31","ct_sparkx_R",NA,0.359694461316422,87
+"schurch_codex","spot19_A","vasculature","Podoplanin","ct_sparkx_R",NA,0.06692002725323,87
+"schurch_codex","spot19_A","vasculature","CD34","ct_sparkx_R",NA,0.441753128587833,87
+"schurch_codex","spot19_A","vasculature","CD38","ct_sparkx_R",NA,0.948279860136654,87
+"schurch_codex","spot19_A","vasculature","CD138","ct_sparkx_R",NA,0.212147888902874,87
+"schurch_codex","spot19_A","vasculature","CDX2","ct_sparkx_R",NA,0.822585695362648,87
+"schurch_codex","spot19_A","vasculature","Collagen IV","ct_sparkx_R",NA,0.983063966324652,87
+"schurch_codex","spot19_A","vasculature","CD194","ct_sparkx_R",NA,0.780371169695274,87
+"schurch_codex","spot19_A","vasculature","MMP9","ct_sparkx_R",NA,0.214781565103529,87
+"schurch_codex","spot19_A","vasculature","CD71","ct_sparkx_R",NA,0.869873118188674,87
+"schurch_codex","spot19_A","vasculature","CD57","ct_sparkx_R",NA,0.0169405400944209,87
+"schurch_codex","spot19_A","vasculature","MMP12","ct_sparkx_R",NA,0.0957666529529771,87

@@ -1,0 +1,73 @@
+coarse_type,marker,n_datasets,datasets,n_images,cell_types
+tumor/epithelial,KI67,3,hartmann_mibi;jackson_imc;schurch_codex,8,CK low HR low tumor cell;Epithelial;proliferative tumor cell;tumor cells
+tumor/epithelial,PANCK,3,hartmann_mibi;jackson_imc;schurch_codex,8,CK low HR low tumor cell;CK+ HR+ tumor cell;Epithelial;apoptotic tumor cell;basal CK tumor cell;tumor cells
+CD4 T,CD45,3,hartmann_mibi;jackson_imc;schurch_codex,7,CD4+ T cells CD45RO+;T cells;Tcell_CD4
+CD4 T,SMA,3,hartmann_mibi;jackson_imc;schurch_codex,7,CD4+ T cells CD45RO+;T cells;Tcell_CD4
+endothelial,VIMENTIN,3,hartmann_mibi;jackson_imc;schurch_codex,7,Endothelial;endothelial;vasculature
+myeloid,CD68,3,hartmann_mibi;jackson_imc;schurch_codex,7,CD68+CD163+ macrophages;Myeloid_CD68;macrophages
+stromal,SMA,3,hartmann_mibi;jackson_imc;schurch_codex,7,Fibroblast;small elongated stromal cell;smooth muscle;stroma;vimentin hi stromal cell
+stromal,VIMENTIN,3,hartmann_mibi;jackson_imc;schurch_codex,7,Fibroblast;small elongated stromal cell;smooth muscle;stroma
+tumor/epithelial,CD45,3,hartmann_mibi;jackson_imc;schurch_codex,7,Epithelial;apoptotic tumor cell;basal CK tumor cell;proliferative tumor cell;tumor cells
+tumor/epithelial,CD68,3,hartmann_mibi;jackson_imc;schurch_codex,7,Epithelial;apoptotic tumor cell;basal CK tumor cell;proliferative tumor cell;tumor cells
+tumor/epithelial,SMA,3,hartmann_mibi;jackson_imc;schurch_codex,7,Epithelial;apoptotic tumor cell;basal CK tumor cell;p53+ EGFR+ tumor cell;tumor cells
+CD4 T,VIMENTIN,3,hartmann_mibi;jackson_imc;schurch_codex,6,CD4+ T cells CD45RO+;T cells;Tcell_CD4;Tregs
+myeloid,CD45,3,hartmann_mibi;jackson_imc;schurch_codex,6,CD68+CD163+ macrophages;Myeloid_CD11c;Myeloid_CD68;macrophages
+myeloid,VIMENTIN,3,hartmann_mibi;jackson_imc;schurch_codex,6,CD68+ macrophages;CD68+CD163+ macrophages;Myeloid_CD68;macrophages
+tumor/epithelial,VIMENTIN,3,hartmann_mibi;jackson_imc;schurch_codex,6,Epithelial;apoptotic tumor cell;basal CK tumor cell;proliferative tumor cell;tumor cells
+endothelial,SMA,3,hartmann_mibi;jackson_imc;schurch_codex,4,Endothelial;endothelial;vasculature
+myeloid,SMA,3,hartmann_mibi;jackson_imc;schurch_codex,4,CD68+CD163+ macrophages;Myeloid_CD11c;Myeloid_CD68;macrophages
+CD4 T,PD1,2,hartmann_mibi;schurch_codex,7,CD4+ T cells CD45RO+;Tcell_CD4;Tregs
+myeloid,CD11C,2,hartmann_mibi;schurch_codex,7,CD68+CD163+ macrophages;Myeloid_CD11c;Myeloid_CD68
+tumor/epithelial,CD3,2,hartmann_mibi;schurch_codex,7,Epithelial;tumor cells
+tumor/epithelial,NAKATPASE,2,hartmann_mibi;schurch_codex,7,Epithelial;tumor cells
+tumor/epithelial,PD1,2,hartmann_mibi;schurch_codex,7,Epithelial;tumor cells
+CD4 T,CD31,2,hartmann_mibi;schurch_codex,6,CD4+ T cells CD45RO+;Tcell_CD4
+CD4 T,CD4,2,hartmann_mibi;schurch_codex,6,CD4+ T cells CD45RO+;Tcell_CD4;Tregs
+myeloid,EGFR,2,jackson_imc;schurch_codex,6,CD68+ macrophages;CD68+CD163+ macrophages;macrophages
+tumor/epithelial,CD57,2,hartmann_mibi;schurch_codex,6,Epithelial;tumor cells
+tumor/epithelial,EGFR,2,jackson_imc;schurch_codex,6,apoptotic tumor cell;proliferative tumor cell;tumor cells
+CD4 T,CD3,2,hartmann_mibi;schurch_codex,5,CD4+ T cells CD45RO+;Tcell_CD4;Tregs
+CD8 T,PD1,2,hartmann_mibi;schurch_codex,5,CD8+ T cells;Tcell_CD8
+myeloid,NAKATPASE,2,hartmann_mibi;schurch_codex,5,CD68+CD163+ macrophages;Myeloid_CD11c;Myeloid_CD68
+myeloid,PD1,2,hartmann_mibi;schurch_codex,5,CD68+ macrophages;CD68+CD163+ macrophages;Myeloid_CD68
+tumor/epithelial,CD8,2,hartmann_mibi;schurch_codex,5,Epithelial;tumor cells
+tumor/epithelial,P53,2,jackson_imc;schurch_codex,5,apoptotic tumor cell;tumor cells
+CD4 T,ECAD,2,hartmann_mibi;jackson_imc,4,T cells;Tcell_CD4
+CD4 T,EGFR,2,jackson_imc;schurch_codex,4,CD4+ T cells CD45RO+;T cells;Tregs
+CD4 T,NAKATPASE,2,hartmann_mibi;schurch_codex,4,CD4+ T cells CD45RO+;Tcell_CD4
+CD4 T,PANCK,2,hartmann_mibi;schurch_codex,4,CD4+ T cells CD45RO+;Tcell_CD4
+myeloid,CD4,2,hartmann_mibi;schurch_codex,4,CD68+ macrophages;CD68+CD163+ macrophages;Myeloid_CD68
+myeloid,P53,2,jackson_imc;schurch_codex,4,CD68+ macrophages;CD68+CD163+ macrophages;macrophages
+stromal,CD11C,2,hartmann_mibi;schurch_codex,4,Fibroblast;smooth muscle;stroma
+stromal,CD45,2,hartmann_mibi;schurch_codex,4,Fibroblast;stroma
+stromal,CD68,2,jackson_imc;schurch_codex,4,small elongated stromal cell;smooth muscle;stroma;vimentin hi stromal cell
+stromal,NAKATPASE,2,hartmann_mibi;schurch_codex,4,Fibroblast;smooth muscle;stroma
+tumor/epithelial,CD31,2,hartmann_mibi;schurch_codex,4,Epithelial;tumor cells
+tumor/epithelial,CD4,2,hartmann_mibi;schurch_codex,4,Epithelial;tumor cells
+tumor/epithelial,CD44,2,jackson_imc;schurch_codex,4,CK low HR low tumor cell;apoptotic tumor cell;basal CK tumor cell;p53+ EGFR+ tumor cell;proliferative tumor cell;tumor cells
+tumor/epithelial,ECAD,2,hartmann_mibi;jackson_imc,4,CK+ HR+ tumor cell;Epithelial;apoptotic tumor cell;basal CK tumor cell;p53+ EGFR+ tumor cell;proliferative tumor cell
+tumor/epithelial,GATA3,2,jackson_imc;schurch_codex,4,apoptotic tumor cell;tumor cells
+CD4 T,CD11C,2,hartmann_mibi;schurch_codex,3,CD4+ T cells CD45RO+;Tcell_CD4
+CD4 T,CD20,2,jackson_imc;schurch_codex,3,CD4+ T cells CD45RO+;T cells
+CD4 T,CD44,2,jackson_imc;schurch_codex,3,CD4+ T cells CD45RO+;T cells
+CD4 T,GATA3,2,jackson_imc;schurch_codex,3,CD4+ T cells CD45RO+;T cells;Tregs
+CD4 T,KI67,2,hartmann_mibi;schurch_codex,3,Tcell_CD4;Tregs
+CD4 T,P53,2,jackson_imc;schurch_codex,3,T cells;Tregs
+CD8 T,CD68,2,hartmann_mibi;schurch_codex,3,CD8+ T cells;Tcell_CD8
+CD8 T,VIMENTIN,2,hartmann_mibi;schurch_codex,3,CD8+ T cells;Tcell_CD8
+myeloid,ECAD,2,hartmann_mibi;jackson_imc,3,Myeloid_CD11c;Myeloid_CD68;macrophages
+myeloid,PANCK,2,hartmann_mibi;jackson_imc,3,Myeloid_CD11c;Myeloid_CD68;macrophages
+tumor/epithelial,CD11C,2,hartmann_mibi;schurch_codex,3,Epithelial;tumor cells
+tumor/epithelial,CD20,2,jackson_imc;schurch_codex,3,apoptotic tumor cell;tumor cells
+CD4 T,CD57,2,hartmann_mibi;schurch_codex,2,CD4+ T cells CD45RO+;Tcell_CD4
+CD4 T,CD68,2,hartmann_mibi;jackson_imc,2,T cells;Tcell_CD4
+CD8 T,CD45,2,hartmann_mibi;schurch_codex,2,CD8+ T cells;Tcell_CD8
+endothelial,CD4,2,hartmann_mibi;schurch_codex,2,Endothelial;vasculature
+endothelial,CD44,2,jackson_imc;schurch_codex,2,endothelial;vasculature
+endothelial,ECAD,2,hartmann_mibi;jackson_imc,2,Endothelial;endothelial
+endothelial,NAKATPASE,2,hartmann_mibi;schurch_codex,2,Endothelial;vasculature
+myeloid,CD20,2,jackson_imc;schurch_codex,2,CD68+CD163+ macrophages;macrophages
+myeloid,CD31,2,hartmann_mibi;schurch_codex,2,CD68+CD163+ macrophages;Myeloid_CD68
+myeloid,CD44,2,jackson_imc;schurch_codex,2,CD68+ macrophages;macrophages
+myeloid,GATA3,2,jackson_imc;schurch_codex,2,CD68+CD163+ macrophages;macrophages
+stromal,PANCK,2,hartmann_mibi;schurch_codex,2,Fibroblast;smooth muscle

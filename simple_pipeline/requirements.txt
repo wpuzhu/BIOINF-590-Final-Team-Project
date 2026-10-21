@@ -1,0 +1,8 @@
+# Python 3.10+ (tested 3.13). R >= 4.4 for the benchmark methods (scripts/install_r_methods.sh).
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+matplotlib>=3.8
+anndata>=0.10
+h5py>=3.10
