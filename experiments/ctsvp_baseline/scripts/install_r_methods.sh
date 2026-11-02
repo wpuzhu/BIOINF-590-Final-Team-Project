@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install SPARK, STANCE and CELINA into a project-local library (simple_pipeline/.Rlib).
+# Install SPARK, STANCE and CELINA into a project-local library (experiments/ctsvp_baseline/.Rlib).
 # Nothing is written to your global R library.
 # Notes for macOS without the gfortran toolchain: an empty FLIBS (via .Rmakevars) lets SPARK link,
 # and gaston must be the CRAN binary (a source build fails to link RcppParallel).

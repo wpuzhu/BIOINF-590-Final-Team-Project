@@ -1,5 +1,7 @@
 # Algorithms
 
+> **v2 note.** These notebooks are from v1 (ctSVG/ctSVP biomarker detection). In v2 they still serve three roles: ctSV detectors for residual maps (E6) and RNA-vs-protein spatial-variability transfer (N1); protein-native baselines (mistyR, Statial, scimap, CytoCommunity); and protein foundation models (KRONOS, VirTues). Cross-modal RNA ↔ protein methods (SpatialGlue, MultiGATE, MaxFuse, DGAT, Nicheformer, Spatium, HEIST, ...) are listed in [`../docs/03_methods_catalog.md`](../docs/03_methods_catalog.md).
+
 Every notebook is a **template** (not executed) that shows installation, the input format, and the core calls.
 R notebooks are `.Rmd` (open in RStudio; chunks have `eval = FALSE` until you install the packages). Python notebooks are `.ipynb`.
 

@@ -1,21 +1,58 @@
 # Datasets
 
 We do **not** store raw data in git. Files are large and each has its own license. This folder holds:
-- `datasets_catalog.csv`: every dataset with its link, technology, size, and suggested role;
-- `download_scripts/`: helpers that fetch the data into `datasets/raw/` (git-ignored).
+- `datasets_catalog.csv`: every dataset with link, technology, **pairing** (same cell / same section / adjacent / single modality) and its **v2 role**;
+- `download_scripts/`: helpers that fetch data into `datasets/raw/` (git-ignored). Paired RNA + protein data: [`download_scripts/download_paired_multiomics.md`](download_scripts/download_paired_multiomics.md).
 
-| Script | What it fetches |
-|---|---|
-| `download_imc_bioconductor.R` | Jackson 2020, Damond 2019, Hoch/Schulz 2022, IMMUcan via **imcdatasets**; Keren 2018 via **Statial** (`kerenSCE`) |
-| `download_squidpy_examples.py` | Squidpy built-in IMC and MIBI-TOF AnnData objects |
-| `download_zenodo_mendeley.sh` | Zenodo/Mendeley deposits (Jackson raw, Danenberg METABRIC, STANCE data) |
-| `download_10x.md` | step-by-step for 10x Visium CytAssist protein and Xenium datasets (10x requires a browser form) |
+The v2 question needs RNA and protein from the same tissue, so datasets are ranked by **how tightly RNA and protein are paired**. Tighter pairing gives cleaner ablations; looser pairing is more realistic.
 
-> Always check the license on each landing page before redistributing. Some spora datasets and HTAN controlled-access tiers have restrictions.
+| Tier | Pairing | Datasets | Used for |
+|---|---|---|---|
+| **1a** | same cell (imaging) | **P1** Xenium Protein RCC, **P2** Xenium Protein ccRCC | main ablation dataset (E1–E6); H2 stage 1 |
+| **1b** | same section, spot/pixel RNA | **P3** DBiTplus (whole transcriptome + ~50-plex CODEX), **D17a** spatial-CITE-seq (273 ADTs), **D13** Visium CytAssist Gene + Protein, **D17b/P5** SPOTS / Stereo-CITE-seq | spot-level E1–E4; E7 cross-dataset transfer; N1 |
+| **2** | adjacent sections | **P4** SPATCH (Xenium 5K, CosMx 6K, Visium HD, Stereo-seq + 16-marker CODEX + scRNA-seq), D6 Hoch melanoma (IMC + RNAscope) | H1 main data; H2 stage 2; E8 registration error; N4 validation |
+| **3** | protein only | D1–D5, D7–D12 (IMC, MIBI, CODEX, CyCIF; e.g. **D8** Schürch CRC CODEX, 56 markers) | H1 protein targets; H2 stage 3 (does the student transfer?) |
+| **4** | RNA only | D14 Xenium, SPATCH SPT without CODEX, D15/D16 | H1 SPT side; N4 virtual protein |
+
+> Check the license on each landing page before redistributing. 10x datasets need a short download form.
 
 ---
 
-## A. Multiplexed protein imaging (primary validation data)
+## Tier 1a. Same-cell RNA + protein (imaging)
+
+### P1. 10x Xenium Protein: FFPE human renal cell carcinoma
+Xenium In Situ Gene and Protein Expression run (Xenium Onboard Analysis v4.0). RNA: Human Multi-Tissue and Cancer panel (377 genes), plus 28 added targets for genes encoding the assayed proteins and for cell typing. Protein: 27-plex Cell Typing & Functional State marker set (six subpanels, e.g. CD4/CD20/CD8A/CD3E, CD138/HLA-DR/CD11c/CD68, β-catenin/CD31/PTEN/PanCK), plus E-cadherin/Vimentin/αSMA/CD45 segmentation markers. About 465k cells.
+- https://www.10xgenomics.com/datasets/xenium-protein-ffpe-human-renal-carcinoma
+- **Use**: the cleanest test bed. RNA and protein come from the *same segmented cell*, and cognate genes were added on purpose, so E2 (cognate vs random gene ablation) is well posed.
+
+### P2. 10x Xenium Protein: FFPE human clear cell RCC
+377-gene panel + 100 custom genes (protein-coding partners, kidney cell types, RCC genes) + all six protein subpanels. 10x integrated it with WNN. CC BY 4.0.
+- https://www.10xgenomics.com/datasets/xenium-protein-ffpe-human-renal-ccrcc
+- **Use**: a second same-cell slide for replication and for slide-level hold-out (train on P1, test on P2).
+
+## Tier 1b. Same-section, spot/pixel-level RNA + protein (summary)
+
+### P3. DBiTplus (Enninful et al., *Nat Methods* 2026)
+DBiT-seq spatial whole transcriptome, then CODEX (~50 markers) and H&E on **the same section**. Human lymph node, FFPE lymphoma, mouse embryo. The authors integrate the modalities with a MaxFuse-derived method.
+- GEO GSE308167 · code/data: Zenodo 10.5281/zenodo.16827046, https://github.com/Janezjz/DBiT-plus
+- **Use**: E7 transfer target (different platform, tissue and resolution from Xenium Protein); H2 fallback.
+
+### D17a. Spatial-CITE-seq · D13 Visium CytAssist Gene + Protein · D17b SPOTS · P5 SpatialGlue collection
+Details in the sequencing-based section below. These are the standard benchmark datasets for spatial RNA + protein integration methods (SpatialGlue, MultiGATE, PRESENT).
+
+## Tier 2. Adjacent sections
+
+### P4. SPATCH (Ren et al., *Nat Commun* 2025)
+Serial sections from colon adenocarcinoma, hepatocellular carcinoma and ovarian cancer, profiled with Stereo-seq v1.3, Visium HD FFPE, CosMx 6K and Xenium 5K. **CODEX (16 proteins) on adjacent sections** and scRNA-seq from the same samples. Manual cell-type annotations and segmentations.
+- Web server (visualise / download): http://spatch.pku-genomics.org/ · raw: GSA-Human HRA011129
+- **Use**: H1's main data (same tumours in both modalities); H2 stage 2 (register Xenium 5K → CODEX); E8 registration-error sweep; N4 virtual-protein validation against real adjacent CODEX.
+
+---
+
+
+## Tier 3. Protein-only cohorts (H1 protein targets, H2 stage-3 deployment, E7 transfer targets)
+
+*Carried over from v1. IDs unchanged.*
 
 ### D1. Keren et al. 2018: TNBC, MIBI-TOF
 *Cell* 174:1373. 41 triple-negative breast cancer patients, 36 markers, cell segmentation and phenotypes, survival. The paper classifies tumours as "compartmentalised" or "mixed", a ready-made spatial phenotype.
@@ -80,7 +117,7 @@ More than 31 harmonized public datasets (IMC, MIBI, CODEX, …) in one format, w
 - `squidpy.datasets.mibitof()`: MIBI-TOF colorectal (Hartmann et al. 2021)
 - **Use**: one-line loading in Python notebooks.
 
-## B. Sequencing-based spatial protein (counts, which suits count-based ctSVG models)
+## Tier 1b. Sequencing-based spatial RNA + protein on the same section (details)
 
 ### D13. 10x Visium CytAssist Gene + Protein Expression: human tonsil (FFPE)
 Whole transcriptome plus a 35-antibody immune panel (31 markers + 4 isotype controls), measured as **antibody UMI counts per spot**. CC BY 4.0.
@@ -89,11 +126,13 @@ Whole transcriptome plus a 35-antibody immune panel (31 markers + 4 isotype cont
 - **Use**: the only dataset type where **spot-level ctSVG tools (CELINA, STANCE, C-SIDE, CTSV, spVC) run on protein as designed**. Deconvolve spots with the RNA modality (RCTD + a tonsil scRNA reference), then test the protein features.
 
 ### D17. Spatial-CITE-seq and SPOTS
-- Spatial-CITE-seq (Liu et al. 2023, *Nat Biotechnol*): ~200–300 ADTs + transcriptome, human tonsil/skin. GEO GSE213264 (verify the accession on the paper page).
-- SPOTS (Ben-Chetrit et al. 2023, *Nat Methods*): mouse spleen, breast tumour. GEO GSE198353 (verify).
+- Spatial-CITE-seq (Liu et al. 2023, *Nat Biotechnol*): 189 ADTs (mouse) / 273 ADTs (human tonsil, skin) + whole transcriptome on the same section. GEO **GSE213264**.
+- SPOTS (Ben-Chetrit et al. 2023, *Nat Biotechnol* 41:788): mouse spleen, breast tumour. GEO GSE198353 (verify).
 - **Use**: higher-plex spatial protein counts.
 
-## C. Transcriptomics reference data used by the ctSVG benchmarks (method positive controls)
+## Legacy v1. Transcriptomics reference data for the ctSVG benchmarks
+
+*Still used by `experiments/ctsvp_baseline` and for E6/N1 positive controls; not needed for H1/H2.*
 
 ### D14. 10x Xenium (source of the benchmark's realistic simulations)
 - Human breast (Janesick et al. 2023): https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast
@@ -115,10 +154,3 @@ Xenium: [human lung cancer](https://www.10xgenomics.com/datasets/preview-data-ff
 Packaged realistic simulations, preprocessed Xenium-derived inputs, and all detection results: https://zenodo.org/records/21405877. Used by `run/realistic.R` in [weiqi-grace-li/ctsvg-benchmark](https://github.com/weiqi-grace-li/ctsvg-benchmark). The repo also bundles a breast-tumour simulation and the HER2+ ST real dataset.
 
 ---
-
-## Recommended minimal set for the project
-1. **Develop** on D1 (`kerenSCE`) and D7: small, quick.
-2. **Benchmark** on D2 (two cohorts) and D8 (CODEX).
-3. **Replicate / outcome** on D3 + D4.
-4. **Cross-modality sanity check** on D13.
-5. **Method positive control** (does our pipeline reproduce the known ctSVGs?) on D15 / D14.

@@ -1,3 +1,5 @@
+> **v1 component (kept in v2).** This was the original project's main pipeline. In v2 it is reused to test whether the *residual* protein signal left after RNA prediction is still spatially variable within cell types (E6 / idea N2), and to compare RNA vs protein spatial variability (idea N1). Paths are relative, so it runs from this folder as before.
+
 # Simple pipeline: small-batch, zero-shot ctSVP detection in spatial proteomics
 
 The goal is to find **cell-type-specific spatially variable proteins (ctSVPs)** on public multiplexed-imaging data, using the methods and evaluation logic of the baseline benchmark:
