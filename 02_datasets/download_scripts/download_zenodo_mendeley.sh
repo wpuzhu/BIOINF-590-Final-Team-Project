@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Fetch file listings / archives from Zenodo deposits.
-# Usage (repo root): bash datasets/download_scripts/download_zenodo_mendeley.sh [--list-only]
+# Usage (repo root): bash 02_datasets/download_scripts/download_zenodo_mendeley.sh [--list-only]
 # Files are large (several GB). Run with --list-only first to see what each record has.
 set -euo pipefail
 OUT=02_datasets/raw/zenodo
 mkdir -p "$OUT"
 
 # name:zenodo_record  (plain list so it works with macOS bash 3.2)
-RECORDS="jackson2020_imc:3518284 danenberg2022_imc:5850952 stance_her2_st:4751624"
-#        Jackson & Fischer 2020 IMC | Danenberg 2022 METABRIC IMC | HER2+ breast ST (STANCE)
+RECORDS="jackson2020_imc:3518284 danenberg2022_imc:5850952 dbitplus:16827046"
+#        Jackson & Fischer 2020 IMC | Danenberg 2022 METABRIC IMC | DBiTplus (same-section RNA + CODEX)
 
 for entry in $RECORDS; do
   name=${entry%%:*}; rec=${entry##*:}
@@ -28,7 +28,5 @@ cat <<'MSG'
 
 Mendeley Data deposits need a browser download (click "Download All"):
   Schurch 2020 CRC CODEX : https://data.mendeley.com/datasets/mpjzbtfgfr/1
-  Damond 2019 pancreas   : https://data.mendeley.com/datasets/cydmwsfztj
-  STANCE kidney cancer   : https://data.mendeley.com/datasets/g67bkbnhhg/1
 Put the unzipped folders under 02_datasets/raw/mendeley/<name>/
 MSG

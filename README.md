@@ -21,15 +21,13 @@ All with **uncertainty quantification** at the right unit (patients/blocks): clu
 00_START_HERE/              concept, roadmap, 4-week plan, glossary
 01_literature_review/       algorithms by family, each with INPUT FORMAT, output, role, pitfalls
 │  ├── algorithms/          A joint embedding · B RNA→protein prediction · C matching/registration ·
-│  │                        D foundation models · E neighbourhood/counterfactual · F attribution · G spatial variability
-│  ├── notebooks_v1/        v1 template notebooks (ctSVG, protein-native methods, KRONOS/VirTues)
-│  └── archive_v1/          v1 literature review + plan
+│  │                        D foundation models · E neighbourhood/counterfactual · F attribution
 02_datasets/                datasets by RNA–protein pairing tier + dataset_playbook.md + catalog + download scripts
 03_assumptions/             A1–A8, one file each + why_information_does_not_transfer.md (mechanisms, decision tree)
-04_ideas/                   one folder per idea: I1 information map · H1 transfer · H2 privileged info · N1–N7
+04_ideas/                   one folder per idea: I1 information map · H1 transfer · H2 privileged info · N2–N7
 05_experiment_design/       E1–E8 one file each + evaluation protocol + transferability diagnostics
 06_uncertainty_quantification/  U1 bootstrap · U2 permutation · U3 conformal · U4 model uncertainty · U5 multiplicity/power
-07_code/                    ablation/ (information map + UQ, runnable) · ctsvp_baseline/ (v1, runnable) · h1/h2 stubs
+07_code/                    ablation/ (information map + UQ, runnable) · h1_transfer/ (protein foundation-model template) · h2 stub
 08_results/                 simulation self-checks (figures, CSVs, logs); real-data results go here
 ```
 
@@ -67,12 +65,10 @@ It also shows two pitfalls. Naive cell-level permutation nulls are up to 13× to
 - **Matching/registration:** MaxFuse, STalign, PASTE2, Tangram.
 - **Foundation models:** Nicheformer, Spatium, HEIST, Novae, KRONOS, VirTues.
 - **Context/counterfactual:** MISTy, NCEM, BANKSY, CellCharter, STELLAR, Celcomen, Cellina.
-- **Spatial variability:** CELINA, SPARK-X, STANCE, and others (v1).
 
 ## History
 
-- **v1 (Oct 2026):** cell-type-specific spatially variable protein (ctSVP) detection, anchored on Li, Ge & Jiang's ctSVG benchmark. Kept as `07_code/ctsvp_baseline/`, `01_literature_review/notebooks_v1/` and `archive_v1/`.
-- **v2 (Nov 2026):** RNA ↔ protein information and transfer (team H1/H2 discussion), the information map, UQ, and this progressive structure.
+- **Nov 2026:** project refocused on RNA ↔ protein information and transfer (team H1/H2 discussion): information map, UQ, and this progressive structure. Earlier spatially-variable-gene material was removed; it is still in the git history (commit `294f5f3`) if ever needed.
 
 ## Team
 

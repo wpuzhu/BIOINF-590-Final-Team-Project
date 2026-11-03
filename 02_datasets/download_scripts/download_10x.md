@@ -21,9 +21,6 @@ Load in R:
 x <- Seurat::Read10X_h5("filtered_feature_bc_matrix.h5")   # list: `Gene Expression`, `Antibody Capture`
 ```
 
-## Xenium (source data of the Li et al. simulation)
-- Human breast: https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast
-- Others (ovarian, lymph node, lung, pancreas, mouse colon): https://www.10xgenomics.com/datasets (filter Product = Xenium)
-
-## Visium HD (ctSVG paper)
-See links in `02_datasets/README.md` §D16.
+## Xenium / Xenium Protein
+- Xenium Protein (same-cell RNA + protein): see [`download_paired_multiomics.md`](download_paired_multiomics.md)
+- RNA-only Xenium sets (H1 SPT side): https://www.10xgenomics.com/datasets (filter Product = Xenium)

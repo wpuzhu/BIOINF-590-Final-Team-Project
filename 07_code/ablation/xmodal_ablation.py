@@ -318,7 +318,7 @@ def region_holdout(d, F: Features, radius=30):
 
 def morans_i_within_type(values, d: PairedSpatial, radius=30, n_perm=199, seed=0):
     """Moran's I of `values` computed only on edges between cells of the same type (per sample),
-    with a within-type permutation p-value. Small, dependency-free stand-in for ctSVP tests."""
+    with a within-type permutation p-value. Dependency-free test of within-type spatial structure (used for residual maps)."""
     rng = np.random.default_rng(seed)
     W = radius_graph(d.coords, d.sample, radius).tolil()
     rows, cols = W.nonzero()

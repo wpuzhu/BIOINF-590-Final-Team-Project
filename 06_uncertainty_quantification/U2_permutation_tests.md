@@ -7,7 +7,7 @@
 | "neighbour *states* don't matter, only composition" | neighbourhood RNA among same-type cells | composition | E4c |
 | "two spatial fields are unrelated" (residual vs hypoxia, vs immune density) | **toroidal shift** of one field (or block rotation) | each field's own autocorrelation | `toroidal_shift_test(x, y, coords, sample)` |
 | "this gene group is no more important than a random group of the same size" | gene-set labels (random draws) | group size, expression level | E2 random sets |
-| "the feature is not spatially variable within type" | values among same-type cells | marginal distribution | within-type Moran's I |
+| "the residual has no spatial structure within type" | values among same-type cells | marginal distribution | within-type Moran's I |
 | "cell-level predictions are uncorrelated with truth" (probe null, N7) | target vector across units | – | permute targets at the unit level |
 
 ## Why toroidal shifts?

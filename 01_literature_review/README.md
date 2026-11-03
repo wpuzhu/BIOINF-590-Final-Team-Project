@@ -14,7 +14,6 @@ The methods sort by what they assume about pairing and what they output:
 | **D. Foundation models** | none (pretrained on one modality) | frozen embeddings, fine-tuned classifiers | H1 transfer; linear probes (N7) | [`algorithms/D_foundation_models.md`](algorithms/D_foundation_models.md) |
 | **E. Neighbourhood-context and counterfactual models** | within one modality | per-view importance, neighbour effects, simulated perturbations | model-level counterparts of our spatial ablations (E3/E4); N6 | [`algorithms/E_neighbourhood_context.md`](algorithms/E_neighbourhood_context.md) |
 | **F. Attribution and interpretability** | any trained model | feature/edge importances | explaining H1/H2 models; checking E2 at model level | [`algorithms/F_attribution.md`](algorithms/F_attribution.md) |
-| **G. Spatial-variability detectors** (v1) | one modality | per-feature (and per-cell-type) spatial variability p-values | residual maps (E6), N1, N2 | [`algorithms/G_spatial_variability.md`](algorithms/G_spatial_variability.md) |
 
 A one-page version of the same catalogue is [`methods_catalog_short.md`](methods_catalog_short.md).
 
@@ -41,7 +40,6 @@ Almost everything consumes an **AnnData** object (Python) or a **SpatialExperime
 | BANKSY | Py/R | AnnData / SpatialExperiment | normalised expression + coordinates | neighbourhood-augmented matrix | λ (neighbour weight), k |
 | CellCharter | Py | AnnData | latent from scVI (RNA) or trVAE-MSE (protein) | neighbourhood aggregation over hops | number of hops, cluster K |
 | STELLAR | Py (PyG) | annotated reference + unannotated target | cell × marker matrix + coordinates + labels | distance-threshold graph | distance threshold |
-| ctSVG/ctSVP detectors (v1) | R/Py | counts or intensities + coordinates + cell types | see `notebooks_v1/` | per method | – |
 
 ## Folder contents
 
@@ -49,9 +47,7 @@ Almost everything consumes an **AnnData** object (Python) or a **SpatialExperime
 01_literature_review/
 ├── README.md                ← this page (taxonomy + input formats)
 ├── methods_catalog_short.md ← one-page catalogue with links
-├── algorithms/              ← one file per family, each method: idea · input · output · how we use it · pitfalls
-├── notebooks_v1/            ← v1 template notebooks (ctSVG, protein-native methods, KRONOS/VirTues)
-└── archive_v1/              ← v1 literature review and plan (ctSVP biomarker project)
+└── algorithms/              ← one file per family (A–F), each method: idea · input · output · how we use it · pitfalls
 ```
 
 ## Key references that frame the whole project

@@ -10,10 +10,10 @@ The v2 question needs RNA and protein from the same tissue, so datasets are rank
 | Tier | Pairing | Datasets | Used for |
 |---|---|---|---|
 | **1a** | same cell (imaging) | **P1** Xenium Protein RCC, **P2** Xenium Protein ccRCC, **P6** CosMx Breast Multiomic (WTX + 64 proteins) | main ablation datasets (E1–E6); H2 stage 1 |
-| **1b** | same section, spot/pixel RNA | **P3** DBiTplus (whole transcriptome + ~50-plex CODEX), **D17a** spatial-CITE-seq (273 ADTs), **D13** Visium CytAssist Gene + Protein, **D17b/P5** SPOTS / Stereo-CITE-seq | spot-level E1–E4; E7 cross-dataset transfer; N1 |
+| **1b** | same section, spot/pixel RNA | **P3** DBiTplus (whole transcriptome + ~50-plex CODEX), **D17a** spatial-CITE-seq (273 ADTs), **D13** Visium CytAssist Gene + Protein, **D17b/P5** SPOTS / Stereo-CITE-seq | spot-level E1–E4; E7 cross-dataset transfer |
 | **2** | adjacent sections | **P4** SPATCH (Xenium 5K, CosMx 6K, Visium HD, Stereo-seq + 16-marker CODEX + scRNA-seq), D6 Hoch melanoma (IMC + RNAscope) | H1 main data; H2 stage 2; E8 registration error; N4 validation |
-| **3** | protein only | D1–D5, D7–D12 (IMC, MIBI, CODEX, CyCIF; e.g. **D8** Schürch CRC CODEX, 56 markers) | H1 protein targets; H2 stage 3 (does the student transfer?) |
-| **4** | RNA only | D14 Xenium, SPATCH SPT without CODEX, D15/D16 | H1 SPT side; N4 virtual protein |
+| **3** | protein only | D1–D3, D8–D11 (IMC, MIBI, CODEX, CyCIF; e.g. **D8** Schürch CRC CODEX, 56 markers) | H1 protein targets; H2 stage 3 (does the student transfer?) |
+| **4** | RNA only | public Xenium / CosMx / Visium HD sets; SPATCH SPT without CODEX | H1 SPT side; N4 virtual protein |
 
 > Check the license on each landing page before redistributing. 10x datasets need a short download form.
 
@@ -56,107 +56,34 @@ Serial sections from colon adenocarcinoma, hepatocellular carcinoma and ovarian 
 ---
 
 
-## Tier 3. Protein-only cohorts (H1 protein targets, H2 stage-3 deployment, E7 transfer targets)
-
-*Carried over from v1. IDs unchanged.*
-
-### D1. Keren et al. 2018: TNBC, MIBI-TOF
-*Cell* 174:1373. 41 triple-negative breast cancer patients, 36 markers, cell segmentation and phenotypes, survival. The paper classifies tumours as "compartmentalised" or "mixed", a ready-made spatial phenotype.
-- Data: https://www.angelolab.com/mibi-data
-- Quick access: `data("kerenSCE", package = "Statial")` (10-image subset, 57,811 cells, 36 proteins).
-- **Use**: development and testing; survival association; SpatioMark/Kontextual baselines.
-
-### D2. Jackson, Fischer et al. 2020: breast cancer, IMC
-*Nature* 578:615. ~720 images from ~350 patients across two cohorts (Basel, Zurich), 35 markers, single-cell data, clinical data.
-- Data: https://zenodo.org/records/3518284
-- Bioconductor: `imcdatasets::JacksonFischer_2020_BreastCancer()`
-- **Use**: **main benchmark dataset**. Basel and Zurich give a built-in replication cohort.
-
-### D3. Danenberg et al. 2022: METABRIC breast cancer, IMC
-*Nat Genet* 54:660. ~700 patients, 37 markers. Linked to METABRIC genomics and long-term survival. Defines 10 tumour microenvironment "structures".
-- Data: https://zenodo.org/records/5850952 (full-stack TIFFs, masks, single-cell tables; check for newer versions)
-- **Use**: large cohort for outcome association.
-
-### D4. Ali et al. 2020: METABRIC breast cancer, IMC
-*Nat Cancer* 1:163. 483 tumours, 37 markers.
-- Data: https://idr.openmicroscopy.org/study/idr0076 (CC BY 4.0)
-- **Use**: independent replication of D3 findings (image IDs are not shared with D3).
-
-### D5. Damond et al. 2019: pancreas, type 1 diabetes, IMC
-*Cell Metab* 29:755. 12 donors (non-diabetic, recent onset, long-duration), 38 markers.
-- `imcdatasets::Damond_2019_Pancreas()`; Mendeley: https://data.mendeley.com/datasets/cydmwsfztj
-- **Use**: non-cancer case; islet-centric spatial gradients as positive controls.
-
-### D6. Hoch, Schulz et al. 2022: metastatic melanoma, IMC
-*Sci Immunol* 7:eabk1692. Protein panel plus chemokine RNA panel on consecutive sections.
-- `imcdatasets::HochSchulz_2022_Melanoma()`
-- **Use**: chemokine-driven niches (CXCL9/10/13); protein–RNA consistency.
-
-### D7. IMMUcan example data
-Small multi-cancer IMC example used in the Bodenmiller-lab IMC workflow book.
-- `imcdatasets::IMMUcan_2022_CancerExample()`; workflow book: https://bodenmillergroup.github.io/IMCDataAnalysis/
-- **Use**: quick debugging.
-
-### D8. Schürch et al. 2020: colorectal cancer, CODEX
-*Cell* 182:1341. 35 advanced CRC patients (Crohn's-like reaction vs. diffuse inflammatory infiltration), 140 TMA spots, 56 markers, ~250k cells. Defined "cellular neighbourhoods".
-- Data: https://data.mendeley.com/datasets/mpjzbtfgfr/1 (single-cell CSV with CN labels and clinical data; images on TCIA)
-- **Use**: CODEX platform; neighbourhood-dependent ctSVPs (e.g., PD-1⁺ CD4 T cells in CN-9).
-
-### D9. Hickey et al. 2023 / HuBMAP: healthy human intestine, CODEX
-*Nature* 619:572. 64 sections from 8 donors, 57 markers, ~2.6M cells.
-- HuBMAP portal: https://portal.hubmapconsortium.org/ (search "CODEX intestine")
-- Processed tables are also linked from the STELLAR repo: https://github.com/snap-stanford/stellar
-- **Use**: scalability tests at 10^6 cells; healthy reference.
-
-### D10. HTAN multiplexed imaging (CyCIF / Orion / CODEX / MIBI)
-Human Tumor Atlas Network. Includes Lin et al. 2023 (*Cell*) whole-slide CyCIF of CRC.
-- https://humantumoratlas.org/explore (Level 3/4 single-cell tables are open-access for many atlases)
-- **Use**: whole-slide scale; extra platforms.
-
-### D11. spora [data]: harmonized spatial proteomics collection
-More than 31 harmonized public datasets (IMC, MIBI, CODEX, …) in one format, with a Python loader. Released with VirTues.
-- Datasets: https://spora.epfl.ch/datasets.html · loader: https://github.com/bunnelab/spora-io · benchmarks: https://github.com/bunnelab/spora-bench
-- **Use**: the easiest way to get many cohorts in one format; also VirTues input.
-
-### D12. Squidpy built-in examples
-- `squidpy.datasets.imc()`: IMC breast cancer (Jackson et al. 2020 subset)
-- `squidpy.datasets.mibitof()`: MIBI-TOF colorectal (Hartmann et al. 2021)
-- **Use**: one-line loading in Python notebooks.
-
 ## Tier 1b. Sequencing-based spatial RNA + protein on the same section (details)
 
 ### D13. 10x Visium CytAssist Gene + Protein Expression: human tonsil (FFPE)
 Whole transcriptome plus a 35-antibody immune panel (31 markers + 4 isotype controls), measured as **antibody UMI counts per spot**. CC BY 4.0.
 - Standard: https://www.10xgenomics.com/datasets/gene-protein-expression-library-of-human-tonsil-cytassist-ffpe-2-standard
 - With add-on antibodies (ICOS, STING, CD49B, MICA): https://www.10xgenomics.com/datasets/visium-cytassist-gene-and-protein-expression-library-of-human-tonsil-with-add-on-antibodies-h-e-6-5-mm-ffpe-2-standard
-- **Use**: the only dataset type where **spot-level ctSVG tools (CELINA, STANCE, C-SIDE, CTSV, spVC) run on protein as designed**. Deconvolve spots with the RNA modality (RCTD + a tonsil scRNA reference), then test the protein features.
+- **Use**: quick spot-level E1–E4. The 4 isotype controls are built-in negative-control "proteins": RNA should explain none of their variance.
 
 ### D17. Spatial-CITE-seq and SPOTS
 - Spatial-CITE-seq (Liu et al. 2023, *Nat Biotechnol*): 189 ADTs (mouse) / 273 ADTs (human tonsil, skin) + whole transcriptome on the same section. GEO **GSE213264**.
-- SPOTS (Ben-Chetrit et al. 2023, *Nat Biotechnol* 41:788): mouse spleen, breast tumour. GEO GSE198353 (verify).
-- **Use**: higher-plex spatial protein counts.
+- SPOTS (Ben-Chetrit et al. 2023, *Nat Biotechnol* 41:788): mouse spleen, breast tumour. GEO **GSE198353** (also the SpatialGlue / MultiGATE benchmark data).
+- **Use**: high-plex E2 (many proteins without a strong cognate signal); E7 transfer targets.
 
-## Legacy v1. Transcriptomics reference data for the ctSVG benchmarks
+## Tier 3. Protein-only cohorts (deployment targets for H1/H2 and E7)
 
-*Still used by `07_code/ctsvp_baseline` and for E6/N1 positive controls; not needed for H1/H2.*
+These cohorts never had RNA. They answer "does what we learned with RNA help where only protein exists?" Restrict to markers shared with the training panel, and report how many.
 
-### D14. 10x Xenium (source of the benchmark's realistic simulations)
-- Human breast (Janesick et al. 2023): https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast
-- Ovarian cancer, healthy lymph node: browse https://www.10xgenomics.com/datasets (filter: Xenium)
-- **Use**: reproduce the Li et al. realistic simulation before porting it to protein.
+| ID | Dataset | Platform | Size / markers | Role | Access |
+|---|---|---|---|---|---|
+| D8 | Schürch et al. 2020, colorectal cancer | CODEX | 35 patients, 140 TMA spots, ~250k cells, 56 markers; cellular-neighbourhood labels | **H1 protein target** (tissue-matched to SPATCH colon) | [Mendeley mpjzbtfgfr](https://data.mendeley.com/datasets/mpjzbtfgfr/1) |
+| D9 | Hickey et al. 2023, healthy intestine (HuBMAP) | CODEX | 8 donors, ~2.6M cells, 57 markers | H1 stretch target; STELLAR / Spatium example data | [HuBMAP](https://portal.hubmapconsortium.org/), STELLAR repo |
+| D2 | Jackson, Fischer et al. 2020, breast cancer | IMC | ~350 patients (Basel + Zurich), 35 markers | H2 stage 3 (two cohorts: deployment + replication) | [Zenodo 3518284](https://zenodo.org/records/3518284), `imcdatasets` |
+| D3 | Danenberg et al. 2022, METABRIC breast | IMC | ~700 patients, 37 markers | H2 stage 3 at scale | [Zenodo 5850952](https://zenodo.org/records/5850952) |
+| D1 | Keren et al. 2018, TNBC | MIBI-TOF | 41 patients, 36 markers | small MIBI target (platform shift) | [Angelo lab](https://www.angelolab.com/mibi-data); `Statial::kerenSCE` |
+| D6 | Hoch, Schulz et al. 2022, metastatic melanoma | IMC + RNAscope (consecutive sections) | protein panel + chemokine RNA panel | small paired-ish test of E3/E4 (chemokine RNA neighbourhoods → immune protein states) | `imcdatasets::HochSchulz_2022_Melanoma()` |
+| D10 | HTAN atlases (e.g. Lin et al. 2023 CRC) | CyCIF / Orion / CODEX / MIBI | whole slides, 20–60 markers | scale tests | [HTAN portal](https://humantumoratlas.org/explore) |
+| D11 | spora [data] (Bunne lab) | mixed | 31+ harmonised datasets | many cohorts in one format; VirTues input | [spora](https://spora.epfl.ch/datasets.html) |
 
-### D15. Datasets from the STANCE paper
-- HER2+ breast cancer ST: https://zenodo.org/records/4751624
-- Human kidney cancer: https://data.mendeley.com/datasets/g67bkbnhhg/1
-- Mouse olfactory bulb ST: https://www.spatialresearch.org/resources-published-datasets/doi-10-1126science-aaf2403/
+## Tier 4. RNA only
 
-### D16. Datasets from the ctSVG paper (Zhuang et al. 2025)
-Visium HD: [human CRC](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-human-crc), [human lung cancer](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-human-lung-cancer-if), [human pancreas](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-human-pancreas), [mouse brain](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-brain-he), [mouse embryo](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-embryo), [mouse intestine](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-intestine), [mouse kidney](https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-kidney).
-Xenium: [human lung cancer](https://www.10xgenomics.com/datasets/preview-data-ffpe-human-lung-cancer-with-xenium-multimodal-cell-segmentation-1-standard), [human pancreas](https://www.10xgenomics.com/datasets/ffpe-human-pancreas-with-xenium-multimodal-cell-segmentation-1-standard), [mouse colon](https://www.10xgenomics.com/datasets/fresh-frozen-mouse-colon-with-xenium-multimodal-cell-segmentation-1-standard).
-
----
-
-### D18. Anchor benchmark data (Li, Ge & Jiang 2025)
-Packaged realistic simulations, preprocessed Xenium-derived inputs, and all detection results: https://zenodo.org/records/21405877. Used by `run/realistic.R` in [weiqi-grace-li/ctsvg-benchmark](https://github.com/weiqi-grace-li/ctsvg-benchmark). The repo also bundles a breast-tumour simulation and the HER2+ ST real dataset.
-
----
+Public Xenium / CosMx / Visium HD sets (10x and Bruker dataset pages) and the SPT sections of SPATCH. **Use:** the H1 SPT side, and N4 (virtual protein), only for proteins the information map marks as RNA-explainable and transferable.

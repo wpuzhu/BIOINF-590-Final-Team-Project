@@ -13,7 +13,7 @@
 | **Covariate shift** | target has a different mix of inputs (cell types, contexts); P(protein \| RNA) unchanged |
 | **Concept shift** | P(protein \| RNA) itself differs in the target |
 | **Support shift** | target contains inputs never seen in training (extrapolation) |
-| **Residual ctSVP** | protein spatial variability within a cell type that remains after removing the RNA-predicted part |
+| **Residual spatial structure** | protein spatial pattern within a cell type that remains after removing the RNA-predicted part |
 | **Cluster bootstrap** | resample units (not cells) with replacement |
 | **Sign-flip test** | paired permutation test over units: flip the sign of each unit's difference |
 | **Toroidal shift** | spatial null that translates one field with wrap-around, keeping its autocorrelation |

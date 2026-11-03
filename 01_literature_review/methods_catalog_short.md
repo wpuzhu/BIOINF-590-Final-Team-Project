@@ -66,8 +66,3 @@ These make the "spatial context" part of our question explicit and offer model-l
 - **Integrated gradients / SHAP** (Captum, `shap`) on input genes or markers: model-level counterparts of E2.
 - **GNNExplainer / PGExplainer** (PyTorch Geometric) for which neighbours and edges a GNN uses: model-level counterpart of E3/E4.
 - **Linear probes** on frozen embeddings (as in H1) for cell type, niche, and *cognate-gene expression*. If a protein-pretrained embedding linearly predicts gene expression, the knowledge is shared.
-
-## G. Baselines carried over from v1 (still useful)
-
-- ctSVG / ctSVP detectors (CELINA, STANCE, SPARK-X, within-type Moran's I) in [`notebooks_v1/`](notebooks_v1/) and [`../07_code/ctsvp_baseline/`](../07_code/ctsvp_baseline/): used for **E6 residual maps** and for comparing within-cell-type spatial variability across modalities (idea N1 in [`../04_ideas/`](../04_ideas/)).
-- Protein-native methods from v1 (mistyR, Statial, imcRtools, scimap, CytoCommunity): baselines for protein-side tasks.

@@ -2,7 +2,7 @@
 
 **Question.** Which protein spatial structure remains after RNA (own + neighbourhood) is accounted for?
 
-**Code.** `residual_map(...)` (within-type Moran's I); `uq.toroidal_shift_test` for associations; full detectors in `07_code/ctsvp_baseline`
+**Code.** `residual_map(...)` (within-type Moran's I); `uq.toroidal_shift_test` for associations
 
 ## Manipulation (input level only)
 Residual = protein − **out-of-fold** prediction (cross-fitting). Then within-cell-type spatial autocorrelation, and association with candidate drivers (hypoxia score, vessel distance, immune density).

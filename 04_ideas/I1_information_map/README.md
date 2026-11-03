@@ -18,7 +18,7 @@ H1 and H2 ask *whether* RNA helps a protein model. They do not say *which part* 
 1. Variance ladder (E1). 2. Gene-group ablation (E2). 3. Radius sweep (E3). 4. Context controls (E4). 5. Region hold-out (E5). 6. Residual maps (E6). 7. Cross-dataset transfer (E7). 8. Pairing degradation (E8). All with the UQ protocol: unit-level splits, bootstrap CIs, permutation p-values, Holm/BH correction.
 
 ## Expected outcomes and how to read them
-A figure with proteins × {cell type, cognate, programme, neighbourhood, residual-SV}, coloured by ΔR² with CIs, plus a second panel for transfer (region and dataset). It predicts where H1/H2 should help: proteins with high, transferable RNA-explainable variance.
+A figure with proteins × {cell type, cognate, programme, neighbourhood, residual spatial structure}, coloured by ΔR² with CIs, plus a second panel for transfer (region and dataset). It predicts where H1/H2 should help: proteins with high, transferable RNA-explainable variance.
 
 ## Risks
 Linear probe underfits, so confirm with a non-linear model. Panel design inflates cognate share (Xenium boosted cognate genes), so replicate on CosMx WTX. Spillover fakes neighbourhood effects (A7).

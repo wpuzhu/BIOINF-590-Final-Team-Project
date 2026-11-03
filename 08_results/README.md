@@ -5,7 +5,6 @@
 | [`simulation/ablation/`](simulation/ablation/) | E1–E6, E8 on simulated paired data with known answers (`ablation_overview.png`, CSVs, console log) | ✔ |
 | [`simulation/uq/`](simulation/uq/) | U1–U5: bootstrap CIs, sign-flip tests, conditional permutation importance, toroidal vs naive nulls, Mondrian and weighted conformal, shift decomposition (`uq_overview.png`) | ✔ |
 | `real/xenium_protein_rcc/` | first real-data information map | to do (Week 1) |
-| v1 ctSVP results | [`../07_code/ctsvp_baseline/results/SUMMARY.md`](../07_code/ctsvp_baseline/results/SUMMARY.md) | ✔ (v1) |
 
 ## Simulation: what the framework recovered
 

@@ -22,7 +22,7 @@ Then `from_anndata(...)` in `07_code/ablation/xmodal_ablation.py`.
 
 ### P1 / P2: 10x Xenium Protein (RCC, ccRCC)
 - **Shape:** cell_feature_matrix (gene + protein features) → split by `feature_types`; centroids from `cells.parquet`. Protein: arcsinh, cofactor per marker (start at the 20th percentile of positive cells). One slide each, so **splitting units are spatial blocks** (250–500 µm) or the two slides against each other.
-- **Experiments:** E1–E6 (main), E8 (jitter sweep on exact pairs), H2 stage 1, N1, N2.
+- **Experiments:** E1–E6 (main), E8 (jitter sweep on exact pairs), H2 stage 1, N2.
 - **Pitfalls:** the panel was *designed* so cognate genes are present (25 genes boosted in RCC, 100 custom in ccRCC), which inflates the cognate share in E2 relative to an unbiased panel. Segmentation spillover (A7) can create artificial RNA–protein correlation between neighbours, so check with a nucleus-only protein readout if available.
 - **Expect:** lineage proteins (CD3E, CD8A, CD20, CD68, PanCK) transfer from the cognate gene. Activation/state proteins (HLA-DR, PD-L1-like, Ki-67) depend on programmes and context. Phospho/stability-regulated proteins (PTEN, β-catenin localisation) transfer poorly.
 
@@ -42,7 +42,7 @@ Then `from_anndata(...)` in `07_code/ablation/xmodal_ablation.py`.
 
 ### D17a: Spatial-CITE-seq (GSE213264; tonsil, skin; 273 ADTs)
 - **Shape:** ADT counts and mRNA counts per pixel. ADT: CLR or totalVI background-aware normalisation; RNA: log-norm.
-- **Experiments:** E2 with a very large protein panel (many ADTs have no strong cognate signal); E7 target; N1.
+- **Experiments:** E2 with a very large protein panel (many ADTs have no strong cognate signal); E7 target.
 - **Pitfalls:** ADT background (non-specific binding) creates a shared floor across proteins. Include **isotype controls** as negative-control "proteins": RNA should explain ~0 of them.
 - **Expect:** surface lineage markers transfer; intracellular or low-abundance ADTs barely do.
 
@@ -72,7 +72,7 @@ Schürch CRC CODEX (D8, 56 markers), Jackson/Fischer and Danenberg IMC breast (D
 
 ## Tier 4: RNA only
 
-Xenium/CosMx/Visium HD public sets, and SPATCH SPT without CODEX.
+Public Xenium/CosMx/Visium HD sets, and SPATCH SPT without CODEX.
 - **Use:** H1 SPT side; N4 deployment of virtual protein (only for proteins the information map marks as RNA-explainable *and* transferable).
 
 ---

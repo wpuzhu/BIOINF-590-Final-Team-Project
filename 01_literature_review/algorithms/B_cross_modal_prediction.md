@@ -54,7 +54,7 @@ Tangram, gimVI and SpaGE (best at predicting unmeasured spatial genes in Li et a
 
 ## Design notes for using predictors as information meters
 
-1. **The metric is held-out R² / Pearson per protein × cell type,** never pooled across cell types. Pooled R² mostly measures cell-type separation (the v1 confounding lesson).
+1. **The metric is held-out R² / Pearson per protein × cell type,** never pooled across cell types. Pooled R² mostly measures cell-type separation (composition confounding).
 2. **Split by patient/slide or by spatial block** wider than the largest neighbourhood radius ([`../../06_uncertainty_quantification/`](../../06_uncertainty_quantification/)).
 3. **Count predictors are a mismatch for protein intensities.** Use Gaussian/MSE losses on arcsinh-transformed protein, or totalVI's background-aware model for ADT counts. (Justin's slides note that Spatial-DC found count-likelihood methods did poorly on proteomics.)
 4. **Predicted protein inherits RNA's biases.** A virtual protein cannot show post-transcriptional regulation; report it only where the information map says RNA explains the protein *and* the mapping transfers.

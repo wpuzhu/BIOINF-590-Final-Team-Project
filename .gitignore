@@ -20,9 +20,4 @@ renv/library/
 .DS_Store
 # secrets
 .env
-# simple_pipeline: local environments and downloaded/processed data
-07_code/ctsvp_baseline/.venv/
-07_code/ctsvp_baseline/.Rlib/
-07_code/ctsvp_baseline/.Rmakevars
-07_code/ctsvp_baseline/data/
 __pycache__/
