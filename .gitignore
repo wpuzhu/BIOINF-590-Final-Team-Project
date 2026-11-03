@@ -1,5 +1,5 @@
 # data are downloaded, not committed
-datasets/raw/
+02_datasets/raw/
 model_assets/
 *.h5ad
 *.rds
@@ -21,7 +21,8 @@ renv/library/
 # secrets
 .env
 # simple_pipeline: local environments and downloaded/processed data
-experiments/ctsvp_baseline/.venv/
-experiments/ctsvp_baseline/.Rlib/
-experiments/ctsvp_baseline/.Rmakevars
-experiments/ctsvp_baseline/data/
+07_code/ctsvp_baseline/.venv/
+07_code/ctsvp_baseline/.Rlib/
+07_code/ctsvp_baseline/.Rmakevars
+07_code/ctsvp_baseline/data/
+__pycache__/

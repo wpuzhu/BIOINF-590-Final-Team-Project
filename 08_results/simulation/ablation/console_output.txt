@@ -1,0 +1,77 @@
+cells: 6000 genes: 150 proteins: ['CD3', 'Ki67', 'HLADR', 'PDL1', 'pS6', 'CD68']
+
+1) variance ladder
+ condition  1_celltype  2_+cognate_gene  3_+all_rna  4_+nbr_rna_30um
+protein                                                            
+CD3              0.55             0.84        0.84             0.84
+CD68             0.77             0.77        0.77             0.76
+HLADR           -0.00             0.40        0.51             0.50
+Ki67             0.14             0.80        0.79             0.79
+PDL1             0.17             0.18        0.17             0.40
+pS6             -0.00            -0.00       -0.00            -0.01
+
+2) gene ablation (delta R2)
+ condition  drop_all_cognates  drop_group_IFNG  drop_group_MHCII_programme  drop_own_cognate  drop_random_mean  full
+protein                                                                                                            
+CD3                    -0.30            -0.00                        0.00             -0.30               0.0   0.0
+CD68                    0.00            -0.00                       -0.00              0.00              -0.0   0.0
+HLADR                  -0.16             0.00                       -0.51             -0.16               0.0   0.0
+Ki67                   -0.67            -0.00                        0.00             -0.67               0.0   0.0
+PDL1                   -0.01            -0.01                        0.00             -0.00              -0.0   0.0
+pS6                    -0.01             0.00                       -0.00             -0.01              -0.0   0.0
+
+3) radius sweep
+ condition  radius_000  radius_010  radius_020  radius_030  radius_050  radius_100
+protein                                                                          
+CD3              0.84        0.84        0.84        0.84        0.84        0.84
+CD68             0.77        0.76        0.76        0.76        0.76        0.76
+HLADR            0.51        0.50        0.50        0.50        0.50        0.50
+Ki67             0.79        0.79        0.79        0.79        0.79        0.79
+PDL1             0.17        0.20        0.31        0.40        0.49        0.44
+pS6             -0.00       -0.00       -0.01       -0.01       -0.06       -0.10
+
+4) context controls
+ condition  a_own_rna_only  b_+real_neighbourhood  c_+nbr_shuffled_within_celltype  d_+nbr_shuffled_any  e_all_rna_shuffled
+protein                                                                                                                   
+CD3                  0.84                   0.84                             0.84                 0.84                0.54
+CD68                 0.77                   0.76                             0.76                 0.76                0.76
+HLADR                0.51                   0.50                             0.50                 0.50                0.00
+Ki67                 0.79                   0.79                             0.79                 0.79                0.12
+PDL1                 0.17                   0.40                             0.38                 0.16                0.16
+pS6                 -0.00                  -0.01                            -0.01                -0.01               -0.01
+
+5) region hold-out (pearson r)
+ heldout_region        core              margin              stroma        
+condition      own+nbr_rna own_rna own+nbr_rna own_rna own+nbr_rna own_rna
+protein                                                                   
+CD3                   0.86    0.87        0.93    0.93        0.92    0.93
+CD68                  0.83    0.84        0.88    0.88        0.89    0.90
+HLADR                 0.65    0.66        0.71    0.72        0.74    0.75
+Ki67                  0.90    0.91        0.88    0.89        0.83    0.85
+PDL1                  0.18    0.13        0.71    0.67        0.56    0.55
+pS6                   0.01    0.01       -0.03   -0.02        0.00    0.00
+
+6) residual Moran's I in tumour cells
+    protein cell_type  moran_I_protein  moran_I_residual  p_residual
+3      CD3     Tumor            0.001             0.035       0.015
+7     Ki67     Tumor           -0.013            -0.003       0.565
+11   HLADR     Tumor           -0.029            -0.029       0.955
+15    PDL1     Tumor            0.492             0.315       0.005
+19     pS6     Tumor            0.847             0.844       0.005
+23    CD68     Tumor           -0.032            -0.028       0.955
+
+8) pairing degradation (R2)
+ condition          jitter_000um  jitter_010um  jitter_020um  jitter_050um  jitter_100um
+jitter    protein                                                                      
+any_cell  CD3              0.84          0.64          0.54          0.54          0.54
+          CD68             0.76          0.76          0.76          0.76          0.76
+          HLADR            0.50          0.23          0.12          0.00         -0.00
+          Ki67             0.79          0.38          0.14          0.12          0.12
+          PDL1             0.40          0.38          0.32          0.27          0.27
+          pS6             -0.01         -0.00         -0.03         -0.02         -0.04
+same_type CD3              0.84          0.75          0.62          0.54          0.54
+          CD68             0.76          0.76          0.76          0.76          0.76
+          HLADR            0.50          0.41          0.22          0.01         -0.00
+          Ki67             0.79          0.56          0.26          0.14          0.12
+          PDL1             0.40          0.39          0.40          0.38          0.38
+          pS6             -0.01         -0.01         -0.01         -0.01         -0.02
