@@ -1,5 +1,5 @@
 # data are downloaded, not committed
-datasets/raw/
+02_datasets/raw/
 model_assets/
 *.h5ad
 *.rds
@@ -20,8 +20,4 @@ renv/library/
 .DS_Store
 # secrets
 .env
-# simple_pipeline: local environments and downloaded/processed data
-simple_pipeline/.venv/
-simple_pipeline/.Rlib/
-simple_pipeline/.Rmakevars
-simple_pipeline/data/
+__pycache__/

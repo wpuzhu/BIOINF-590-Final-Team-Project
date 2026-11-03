@@ -1,0 +1,106 @@
+
+U1 contrasts (unit = sample, 8 units; exact sign-flip has min p = 1/256)
+protein                                          contrast  mean_dR2  ci_lo  ci_hi  p_signflip  n_units  p_holm  q_bh
+    CD3                 cognate_gain (cognate - celltype)     0.306  0.293  0.319       0.004        8   0.117 0.013
+    CD3           neighbourhood_gain (nbr_real - own_rna)    -0.003 -0.004 -0.003       1.000        8   1.000 1.000
+    CD3     arrangement (nbr_real - nbr_shuf_within_type)    -0.000 -0.001  0.000       0.820        8   1.000 1.000
+    CD3 composition (nbr_shuf_within_type - nbr_shuf_any)    -0.000 -0.001  0.001       0.648        8   1.000 0.984
+    CD3             rna_content (nbr_real - rna_shuffled)     0.313  0.298  0.327       0.004        8   0.117 0.013
+   Ki67                 cognate_gain (cognate - celltype)     0.613  0.593  0.632       0.004        8   0.117 0.013
+   Ki67           neighbourhood_gain (nbr_real - own_rna)    -0.003 -0.004 -0.001       0.996        8   1.000 1.000
+   Ki67     arrangement (nbr_real - nbr_shuf_within_type)     0.001 -0.001  0.002       0.176        8   1.000 0.527
+   Ki67 composition (nbr_shuf_within_type - nbr_shuf_any)     0.000 -0.003  0.003       0.430        8   1.000 0.944
+   Ki67             rna_content (nbr_real - rna_shuffled)     0.626  0.608  0.641       0.004        8   0.117 0.013
+  HLADR                 cognate_gain (cognate - celltype)     0.417  0.401  0.434       0.004        8   0.117 0.013
+  HLADR           neighbourhood_gain (nbr_real - own_rna)    -0.010 -0.015 -0.006       0.996        8   1.000 1.000
+  HLADR     arrangement (nbr_real - nbr_shuf_within_type)    -0.000 -0.004  0.004       0.598        8   1.000 0.984
+  HLADR composition (nbr_shuf_within_type - nbr_shuf_any)    -0.001 -0.006  0.003       0.656        8   1.000 0.984
+  HLADR             rna_content (nbr_real - rna_shuffled)     0.522  0.510  0.533       0.004        8   0.117 0.013
+   PDL1                 cognate_gain (cognate - celltype)    -0.000 -0.003  0.002       0.516        8   1.000 0.944
+   PDL1           neighbourhood_gain (nbr_real - own_rna)     0.105  0.080  0.132       0.004        8   0.117 0.013
+   PDL1     arrangement (nbr_real - nbr_shuf_within_type)     0.000 -0.010  0.012       0.465        8   1.000 0.944
+   PDL1 composition (nbr_shuf_within_type - nbr_shuf_any)     0.113  0.097  0.130       0.004        8   0.117 0.013
+   PDL1             rna_content (nbr_real - rna_shuffled)     0.116  0.093  0.142       0.004        8   0.117 0.013
+    pS6                 cognate_gain (cognate - celltype)     0.000 -0.000  0.000       0.496        8   1.000 0.944
+    pS6           neighbourhood_gain (nbr_real - own_rna)    -0.005 -0.011 -0.000       0.941        8   1.000 1.000
+    pS6     arrangement (nbr_real - nbr_shuf_within_type)     0.000 -0.007  0.007       0.477        8   1.000 0.944
+    pS6 composition (nbr_shuf_within_type - nbr_shuf_any)    -0.005 -0.014  0.004       0.844        8   1.000 1.000
+    pS6             rna_content (nbr_real - rna_shuffled)    -0.004 -0.013  0.005       0.781        8   1.000 1.000
+   CD68                 cognate_gain (cognate - celltype)    -0.000 -0.000  0.000       0.789        8   1.000 1.000
+   CD68           neighbourhood_gain (nbr_real - own_rna)    -0.004 -0.006 -0.003       1.000        8   1.000 1.000
+   CD68     arrangement (nbr_real - nbr_shuf_within_type)    -0.000 -0.001  0.001       0.801        8   1.000 1.000
+   CD68 composition (nbr_shuf_within_type - nbr_shuf_any)     0.000 -0.002  0.002       0.473        8   1.000 0.944
+   CD68             rna_content (nbr_real - rna_shuffled)    -0.000 -0.002  0.002       0.535        8   1.000 0.944
+
+U2 conditional group permutation importance
+protein           group  importance_dR2  ci_lo  ci_hi  p_signflip
+  HLADR            CD3E           0.000 -0.000  0.000       0.152
+  HLADR            IFNG          -0.000 -0.000  0.000       0.551
+  HLADR MHCII_programme           1.011  0.980  1.035       0.004
+  HLADR           MKI67          -0.000 -0.000  0.000       0.711
+  HLADR        random_4          -0.000 -0.001  0.000       0.789
+   Ki67            CD3E           0.000 -0.000  0.000       0.434
+   Ki67            IFNG          -0.000 -0.000  0.000       0.582
+   Ki67 MHCII_programme          -0.000 -0.000  0.000       0.801
+   Ki67           MKI67           1.208  1.179  1.234       0.004
+   Ki67        random_4          -0.000 -0.000  0.000       0.691
+   PDL1            CD3E           0.000 -0.000  0.001       0.359
+   PDL1            IFNG           0.004  0.003  0.004       0.004
+   PDL1 MHCII_programme          -0.000 -0.002  0.001       0.746
+   PDL1           MKI67          -0.001 -0.001  0.000       0.898
+   PDL1        random_4           0.000 -0.000  0.001       0.250
+
+U3 residual associations in tumour cells: toroidal-shift vs naive cell permutation
+residual_of                covariate       r  p_toroidal  p_naive_cell_perm  null_sd_toroidal  null_sd_naive
+       PDL1 local_Tcell_density_60um  0.3510      0.0033              0.005            0.0495         0.0177
+       PDL1             y_coordinate  0.0380      0.1767              0.055            0.0271         0.0195
+        pS6 local_Tcell_density_60um  0.0115      0.7733              0.555            0.0401         0.0177
+        pS6             y_coordinate  0.9043      0.0033              0.005            0.2249         0.0169
+       Ki67 local_Tcell_density_60um -0.0061      0.7100              0.755            0.0180         0.0181
+       Ki67             y_coordinate -0.0130      0.3600              0.515            0.0135         0.0185
+
+U4 per-cell-type 90% conformal coverage (target 0.90)
+test_set           test_core_region  test_same_regions
+protein cell_type                                     
+CD3     Fibro                 0.833              0.906
+        Macro                 0.882              0.925
+        Tcell                 0.789              0.904
+        Tumor                 0.886              0.932
+CD68    Fibro                 0.917              0.919
+        Macro                 0.922              0.854
+        Tcell                 0.868              0.907
+        Tumor                 0.880              0.844
+HLADR   Fibro                 0.917              0.904
+        Macro                 0.941              0.934
+        Tcell                 0.842              0.893
+        Tumor                 0.928              0.899
+Ki67    Fibro                 0.833              0.899
+        Macro                 0.882              0.944
+        Tcell                 0.921              0.904
+        Tumor                 0.928              0.928
+PDL1    Fibro                 0.875              0.860
+        Macro                 0.882              0.887
+        Tcell                 0.789              0.889
+        Tumor                 0.940              0.935
+pS6     Fibro                 0.875              0.881
+        Macro                 0.882              0.958
+        Tcell                 0.921              0.875
+        Tumor                 0.894              0.902
+
+U5a weighted vs unweighted conformal coverage on the held-out core region
+protein  coverage_unweighted  coverage_weighted  q_unweighted  q_weighted  domain_auc
+    CD3                0.875              0.849         0.698       0.643       0.925
+   Ki67                0.891              0.880         0.723       0.695       0.925
+  HLADR                0.922              0.928         1.160       1.191       0.925
+   PDL1                0.724              0.950         1.323       2.270       0.925
+    pS6                0.714              0.852         1.461       1.847       0.925
+   CD68                0.889              0.839         0.800       0.713       0.925
+
+U5b shift decomposition (MSE units; protein z-scored overall)
+protein  domain_auc  var_target  mse_source  mse_source_weighted  mse_target_transfer  mse_target_oracle  covariate_shift_part  concept_shift_part  target_specific_gain
+    CD3       0.912       0.653       0.173                0.164                0.182              0.188                -0.010               0.018                -0.007
+   Ki67       0.912       1.152       0.196                0.190                0.194              0.205                -0.006               0.004                -0.011
+  HLADR       0.912       0.831       0.519                0.548                0.491              0.492                 0.029              -0.057                -0.001
+   PDL1       0.912       0.867       0.721                1.448                1.208              0.841                 0.727              -0.241                 0.366
+    pS6       0.912       1.579       0.725                1.470                1.576              1.593                 0.745               0.106                -0.017
+   CD68       0.912       0.739       0.250                0.225                0.253              0.256                -0.024               0.028                -0.003
