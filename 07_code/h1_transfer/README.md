@@ -9,3 +9,7 @@ To do (Week 1 go/no-go):
 - [ ] Pretraining-leakage check against Nicheformer's corpus list and Spatium's study list.
 
 `protein_foundation_models_template.ipynb`: how to load KRONOS and VirTues (and Mesmer/Cellpose for segmentation). Frozen embeddings + a linear probe are the protein-only baselines for H1 and the H2 student.
+
+## `ablation_identity_structure/`
+
+A runnable, simulation-based testbed for ablations A1–A3 (identity, panel overlap, structure, generic). It includes positive controls and uncertainty quantification. Results: `08_results/simulation/h1_ablation/`. Interpretation: `04_ideas/H1_transfer_learning/ablation_insights.md`.

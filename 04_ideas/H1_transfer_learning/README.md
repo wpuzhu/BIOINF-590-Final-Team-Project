@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Status** | planned (Justin's plan: [`justin_plan_summary.md`](justin_plan_summary.md)) · code stub in `07_code/h1_transfer/` |
+| **Status** | frozen-mode benchmark run by Justin (5 Nov); random-init controls pending · ablation testbed with insights: [`ablation_insights.md`](ablation_insights.md) · plan: [`justin_plan_summary.md`](justin_plan_summary.md) |
 | **Question** | Does pretraining on one modality (Nicheformer: RNA; Spatium: protein) beat from-scratch and best-native methods on the other modality? |
 | **Assumptions** | A2 (token identity), A3, A5, A8 (pretraining leakage) |
 | **Data** | SPATCH (CODEX + Xenium 5K/CosMx 6K), Schürch CRC CODEX |
