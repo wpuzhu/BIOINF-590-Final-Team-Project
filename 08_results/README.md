@@ -4,6 +4,7 @@
 |---|---|---|
 | [`simulation/ablation/`](simulation/ablation/) | E1–E6, E8 on simulated paired data with known answers (`ablation_overview.png`, CSVs, console log) | ✔ |
 | [`simulation/uq/`](simulation/uq/) | U1–U5: bootstrap CIs, sign-flip tests, conditional permutation importance, toroidal vs naive nulls, Mondrian and weighted conformal, shift decomposition (`uq_overview.png`) | ✔ |
+| [`simulation/h1_ablation/`](simulation/h1_ablation/) | H1 ablations A1–A3: identity vs structure vs generic vs panel overlap, with positive controls | ✔ |
 | `real/xenium_protein_rcc/` | first real-data information map | to do (Week 1) |
 
 ## Simulation: what the framework recovered

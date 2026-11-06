@@ -4,7 +4,7 @@
 |---|---|---|
 | [`ablation/`](ablation/) | **runnable**, self-checked on simulation | information map (E1–E6, E8) + uncertainty quantification and transferability diagnostics |
 | [`h2_privileged/`](h2_privileged/) | planned | H2 teacher → student (add Justin's `h2_scaffold.py` here) |
-| [`h1_transfer/`](h1_transfer/) | planned; includes `protein_foundation_models_template.ipynb` (KRONOS, VirTues, Mesmer/Cellpose) | H1 Nicheformer ↔ Spatium; protein-only baselines |
+| [`h1_transfer/`](h1_transfer/) | `ablation_identity_structure/` **runnable** (simulation testbed for A1–A3); `protein_foundation_models_template.ipynb` (KRONOS, VirTues) | H1 Nicheformer ↔ Spatium; what part of pretraining transfers |
 
 ```bash
 cd 07_code/ablation

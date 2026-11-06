@@ -1,0 +1,69 @@
+   scenario                mode  labels  contrast   mean  ci_lo  ci_hi  p_two_sided  n_units  p_holm
+    coupled            finetune       5     total  0.006 -0.006  0.018        0.562       15   1.000
+    coupled            finetune       5  identity -0.006 -0.016  0.003        0.625       15   1.000
+    coupled            finetune       5   mapping  0.010  0.001  0.020        0.312       15   1.000
+    coupled            finetune       5 structure -0.001 -0.008  0.008        0.812       15   1.000
+    coupled            finetune       5   generic  0.013  0.004  0.022        0.188       15   0.938
+    coupled  finetune_RNA_panel       5     total -0.002 -0.008  0.005        1.000       15   1.000
+    coupled finetune_RNA_target       5     total  0.076  0.067  0.086        0.062       15   0.312
+    coupled finetune_RNA_target       5  identity  0.077  0.068  0.086        0.062       15   0.312
+    coupled finetune_RNA_target       5   mapping  0.107  0.096  0.119        0.062       15   0.312
+    coupled finetune_RNA_target       5 structure  0.008 -0.001  0.017        0.375       15   0.375
+    coupled finetune_RNA_target       5   generic -0.009 -0.016 -0.002        0.188       15   0.375
+    coupled              frozen       5     total  0.040  0.022  0.057        0.125       15   0.500
+    coupled              frozen       5  identity -0.015 -0.028 -0.003        0.375       15   0.750
+    coupled              frozen       5   mapping -0.005 -0.019  0.008        0.812       15   0.812
+    coupled              frozen       5 structure -0.009 -0.016 -0.001        0.188       15   0.562
+    coupled              frozen       5   generic  0.064  0.048  0.081        0.062       15   0.375
+    coupled              frozen       5    vs_PCA -0.102 -0.115 -0.088        0.062       15   0.375
+coupled_P60            finetune       5     total  0.008 -0.002  0.017        0.438       15   1.000
+coupled_P60            finetune       5  identity -0.006 -0.012 -0.000        0.125       15   0.625
+coupled_P60            finetune       5   mapping  0.005 -0.007  0.019        0.688       15   1.000
+coupled_P60            finetune       5 structure  0.003 -0.003  0.009        0.500       15   1.000
+coupled_P60            finetune       5   generic  0.011 -0.000  0.021        0.375       15   1.000
+coupled_P60              frozen       5     total  0.228  0.201  0.258        0.062       15   0.375
+coupled_P60              frozen       5  identity  0.104  0.086  0.123        0.062       15   0.375
+coupled_P60              frozen       5   mapping  0.095  0.079  0.111        0.062       15   0.375
+coupled_P60              frozen       5 structure -0.045 -0.063 -0.029        0.062       15   0.375
+coupled_P60              frozen       5   generic  0.169  0.142  0.198        0.062       15   0.375
+coupled_P60              frozen       5    vs_PCA -0.121 -0.134 -0.108        0.062       15   0.375
+  decoupled            finetune       5     total -0.001 -0.012  0.011        0.938       15   1.000
+  decoupled            finetune       5  identity -0.021 -0.030 -0.012        0.125       15   0.625
+  decoupled            finetune       5   mapping -0.017 -0.026 -0.008        0.125       15   0.625
+  decoupled            finetune       5 structure -0.001 -0.009  0.007        0.938       15   1.000
+  decoupled            finetune       5   generic  0.021  0.012  0.029        0.125       15   0.625
+  decoupled              frozen       5     total  0.039  0.023  0.054        0.125       15   0.375
+  decoupled              frozen       5  identity -0.010 -0.022  0.003        0.438       15   0.625
+  decoupled              frozen       5   mapping -0.031 -0.040 -0.022        0.062       15   0.375
+  decoupled              frozen       5 structure -0.011 -0.022 -0.001        0.312       15   0.625
+  decoupled              frozen       5   generic  0.060  0.045  0.073        0.062       15   0.375
+  decoupled              frozen       5    vs_PCA -0.118 -0.125 -0.112        0.062       15   0.375
+  realistic            finetune       5     total  0.001 -0.011  0.012        0.938       15   1.000
+  realistic            finetune       5  identity -0.009 -0.014 -0.004        0.062       15   0.312
+  realistic            finetune       5   mapping -0.010 -0.019 -0.002        0.312       15   0.938
+  realistic            finetune       5 structure -0.004 -0.014  0.005        0.688       15   1.000
+  realistic            finetune       5   generic  0.014  0.007  0.022        0.125       15   0.500
+  realistic              frozen       5     total  0.050  0.032  0.069        0.062       15   0.375
+  realistic              frozen       5  identity -0.011 -0.023  0.001        0.438       15   0.438
+  realistic              frozen       5   mapping  0.013  0.005  0.022        0.062       15   0.375
+  realistic              frozen       5 structure  0.012  0.005  0.020        0.062       15   0.375
+  realistic              frozen       5   generic  0.049  0.037  0.061        0.062       15   0.375
+  realistic              frozen       5    vs_PCA -0.109 -0.124 -0.092        0.062       15   0.375
+
+   scenario  labels  overlap   gain  ci_lo  ci_hi
+    coupled       5     1.00  0.006 -0.006  0.018
+    coupled       5     0.75  0.007 -0.002  0.016
+    coupled       5     0.50  0.007 -0.004  0.016
+    coupled       5     0.25  0.006 -0.003  0.014
+coupled_P60       5     1.00  0.008 -0.002  0.017
+coupled_P60       5     0.75  0.002 -0.009  0.012
+coupled_P60       5     0.50  0.006 -0.004  0.016
+coupled_P60       5     0.25  0.007 -0.002  0.018
+  decoupled       5     1.00 -0.001 -0.013  0.011
+  decoupled       5     0.75  0.005 -0.006  0.017
+  decoupled       5     0.50  0.011  0.001  0.021
+  decoupled       5     0.25  0.009 -0.002  0.020
+  realistic       5     1.00  0.001 -0.011  0.012
+  realistic       5     0.75 -0.003 -0.013  0.007
+  realistic       5     0.50  0.002 -0.008  0.012
+  realistic       5     0.25  0.010  0.001  0.019
