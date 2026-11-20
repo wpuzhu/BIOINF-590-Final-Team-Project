@@ -1,0 +1,7 @@
+labels_per_class: [5, 20]
+folds: 5
+seeds: [0]
+datasets:
+  sim_transferable_protein: {path: /tmp/bioinf590_smoke/sim_transferable_protein.npz, modalities: [rna, protein]}
+models: {pca: {n_pcs: 20}}
+grid: {models: [pca], arms: [pretrained], a3_q: [], modes: [frozen]}

@@ -1,0 +1,25 @@
+# conda env create -f cluster/environment.yml   (on Great Lakes: module load python3.11-anaconda/2024.02 first)
+name: bioinf590
+channels: [pytorch, nvidia, conda-forge]
+dependencies:
+  - python=3.11
+  - pytorch=2.3
+  - pytorch-cuda=12.1
+  - numpy<2.1
+  - scipy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  - joblib
+  - zarr
+  - h5py
+  - anndata
+  - scanpy
+  - pyarrow
+  - pip
+  - pip:
+      - torch_geometric==2.5.*
+      - transformers>=4.40     # Nicheformer via Hugging Face (trust_remote_code)
+      - spatialdata-io          # optional: Xenium/CosMx readers
+      # Spatium: install from its repo (github.com/ploughhh/Spatium) per spatium.readthedocs.io

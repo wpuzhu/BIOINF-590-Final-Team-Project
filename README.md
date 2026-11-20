@@ -1,75 +1,51 @@
 # BIOINF 590 Final Team Project
 
-**What does spatial RNA know about spatial protein? Finding informative and transferable information between spatial transcriptomics and spatial proteomics**
+**Informative vs transferable information between spatial transcriptomics and spatial proteomics**
 
-Spatial transcriptomics (SPT) and multiplexed protein imaging produce the same kind of object: segmented cells with coordinates, neighbours and labels. They differ in what is measured: thousands of sparse transcript counts vs ~16–60 dense protein intensities. We ask:
+Team: Puzhu Wang · Meng-Jia (Justin) Lian · Nam Nguyen-Hoang
 
-1. **Informative:** which RNA information predicts each protein: cell identity, its own transcript, gene programmes, or neighbouring cells' RNA? At what spatial scale?
-2. **Transferable:** does that information hold in new regions, patients, tissues and platforms, and under imperfect RNA–protein pairing?
-3. **Why not:** when it fails to transfer, is it biology (translation, stability, PTMs, local signalling) or technique (shift, pairing error, platform, spillover)?
-4. **Useful:** can protein-only models gain from RNA, through pretraining (**H1**) or RNA used only during training (**H2**)?
+Spatial RNA and multiplexed protein imaging measure two views of the same tissue. We separate two questions that are often merged:
+- **Informative**: does adding RNA improve a protein-based prediction on the same cells?
+- **Transferable**: does a protein-only model trained with RNA's help do better on new patients that have no RNA?
 
-All with **uncertainty quantification** at the right unit (patients/blocks): cluster bootstrap, sign-flip and toroidal permutation tests, conformal prediction, shift decomposition.
+The project runs in two stages, with patient-level uncertainty quantification throughout.
 
-**→ Start at [`00_START_HERE/`](00_START_HERE/).**
+| Stage | Question | Models / mechanisms | Folder |
+|---|---|---|---|
+| **1 Cross-modal pretraining** | Does RNA pretraining help protein tasks (and vice versa)? If so, what carries over? | Nicheformer ↔ Spatium in a 2 × 2 with random-init, PCA, identity (A1), mapping (A2), overlap (A3) arms | [`stage1_cross_modal_pretraining/`](stage1_cross_modal_pretraining/) |
+| **2 RNA as privileged information** | Can RNA seen only during training improve a protein + spatial-graph student? Which part of RNA's information makes it across? | none vs distillation vs contrastive alignment vs RNA reconstruction, with controls and an input-level ablation ladder | [`stage2_privileged_transfer/`](stage2_privileged_transfer/) |
 
----
+**Start here:** [`docs/concept_and_design.md`](docs/concept_and_design.md) (definitions, designs, ablation ladder, UQ per experiment) → [`docs/related_work.md`](docs/related_work.md) → [`datasets/README.md`](datasets/README.md).
 
-## Repository layout (read in order)
+## Layout
 
 ```
-00_START_HERE/              concept, roadmap, 4-week plan, glossary
-01_literature_review/       algorithms by family, each with INPUT FORMAT, output, role, pitfalls
-│  ├── algorithms/          A joint embedding · B RNA→protein prediction · C matching/registration ·
-│  │                        D foundation models · E neighbourhood/counterfactual · F attribution
-02_datasets/                datasets by RNA–protein pairing tier + dataset_playbook.md + catalog + download scripts
-03_assumptions/             A1–A8, one file each + why_information_does_not_transfer.md (mechanisms, decision tree)
-04_ideas/                   one folder per idea: I1 information map · H1 transfer · H2 privileged info · N2–N7
-05_experiment_design/       E1–E8 one file each + evaluation protocol + transferability diagnostics
-06_uncertainty_quantification/  U1 bootstrap · U2 permutation · U3 conformal · U4 model uncertainty · U5 multiplicity/power
-07_code/                    ablation/ (information map + UQ, runnable) · h1_transfer/ (protein foundation-model template) · h2 stub
-08_results/                 simulation self-checks (figures, CSVs, logs); real-data results go here
+docs/                          concept & design, related work, glossary, future ideas (N2–N7)
+  background/                  v2 groundwork: literature review (with input formats), assumptions A1–A8,
+                               information-map experiments E1–E8, UQ notes U1–U5
+datasets/                      public datasets by stage (pairing, scale, leakage), catalog, registry.yaml, download scripts
+stage1_cross_modal_pretraining/
+  design/ simulation/ results/ pipeline/
+stage2_privileged_transfer/
+  design/ simulation/ results/ pipeline/
+shared/                        data schema + harmonisers + registration · paired spatial simulator · numpy MLP ·
+                               UQ library (hierarchical bootstrap, sign-flip, TOST, conformal) · information map
+cluster/                       Great Lakes: conda env, env.sh, make_jobs.py, SLURM array templates, CPU smoke test
 ```
 
-## Quick start
+## Simulation results so far
+
+- **Stage 1** (testbed, 5 labels/class): in-modality RNA pretraining +0.076 macro-F1 [0.066, 0.088]. Cross-modal ≈ 0 in both directions (RNA → protein +0.006 [−0.006, 0.018]; protein → RNA −0.010 to −0.018). Protein pretraining on 16 markers ≈ 0 even in-modality. → [results](stage1_cross_modal_pretraining/results/simulation_ablation_testbed/README.md)
+- **Stage 2** (4 known-truth scenarios): RNA that is informative but RNA-only (+0.32 with RNA) transfers ~0. Transferable RNA keeps 24–36% of its gain via distillation (+0.04 to +0.06). Self-training and label smoothing give 0 or less, so the gain is RNA's. A useless teacher hurts (−0.036). Graded nulls, pairing jitter and graph removal tell cell-intrinsic from niche-level transfer. → [results](stage2_privileged_transfer/results/simulation/README.md)
+
+## Reproduce
 
 ```bash
-cd 07_code/ablation
-pip install numpy pandas scipy scikit-learn matplotlib
-python run_simulation_demo.py   # experiments E1-E6, E8 on simulated data with known answers  (~1 min)
-python run_uq_demo.py           # bootstrap, permutation, conformal, shift decomposition       (~2 min)
-python make_uq_figure.py
+pip install numpy pandas scipy scikit-learn matplotlib pyyaml joblib
+bash cluster/smoke/run_smoke.sh                                        # both pipelines end-to-end on simulated data (CPU, ~3 min)
+cd stage2_privileged_transfer/simulation && python run_stage2_sim.py --experiment main && \
+   python run_stage2_sim.py --experiment ablations --seeds 2 && python analyze_stage2.py     # ~40 min on 2 cores
+cd stage1_cross_modal_pretraining/simulation/ablation_testbed && python summarize_2x2.py   # after run.py / run_reverse.py
 ```
 
-The simulation self-check recovers every planted information source, for example:
-- cognate gain for CD3: +0.31 R² (95% CI 0.29–0.32);
-- PD-L1's neighbourhood effect, peaking at ~50 µm and compositional;
-- pS6's RNA-independent spatial residual.
-
-It also shows two pitfalls. Naive cell-level permutation nulls are up to 13× too narrow. Same-section pairing error above ~10–20 µm erases cell-state information. Details: [`08_results/`](08_results/).
-
-## Key datasets (full list in [`02_datasets/`](02_datasets/))
-
-| Pairing | Dataset | RNA | Protein |
-|---|---|---|---|
-| same cell | 10x **Xenium Protein** RCC / ccRCC | 377-gene panel + added cognate genes | 27-plex |
-| same cell | Bruker **CosMx Breast Multiomic** | whole transcriptome (~18k) | 64-plex |
-| same section | **DBiTplus** (GSE308167), **spatial-CITE-seq** (GSE213264), Visium CytAssist Gene + Protein, SPOTS (GSE198353) | transcriptome (spots/pixels) | 30–273 |
-| adjacent | **SPATCH** (COAD/HCC/OV; Xenium 5K, CosMx 6K, Visium HD, Stereo-seq) | 5–6k genes | 16-marker CODEX |
-| protein only | Schürch CRC CODEX, Jackson/Danenberg IMC, Keren MIBI, Hickey CODEX, HTAN, spora | – | 30–60 |
-
-## Key methods (full write-ups in [`01_literature_review/`](01_literature_review/))
-
-- **Integration:** SpatialGlue, MultiGATE, PRESENT, totalVI, WNN.
-- **Prediction:** DGAT, STProtein, totalVI/scArches.
-- **Matching/registration:** MaxFuse, STalign, PASTE2, Tangram.
-- **Foundation models:** Nicheformer, Spatium, HEIST, Novae, KRONOS, VirTues.
-- **Context/counterfactual:** MISTy, NCEM, BANKSY, CellCharter, STELLAR, Celcomen, Cellina.
-
-## History
-
-- **Nov 2026:** project refocused on RNA ↔ protein information and transfer (team H1/H2 discussion): information map, UQ, and this progressive structure. Earlier spatially-variable-gene material was removed; it is still in the git history (commit `294f5f3`) if ever needed.
-
-## Team
-
-BIOINF 590, University of Michigan: Puzhu Wang, Meng-Jia "Justin" Lian, Nam Nguyen-Hoang. Each dataset and algorithm keeps its own license; please cite the original papers.
+Real data on UMich Great Lakes: [`cluster/README.md`](cluster/README.md).

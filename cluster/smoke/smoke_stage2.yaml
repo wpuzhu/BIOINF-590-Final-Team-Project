@@ -1,0 +1,14 @@
+# Smoke-test config: simulated data in the harmonised schema (written by export_sim_dataset.py)
+radius_um: 40
+label_frac: 0.05
+folds: 5
+seeds: [0]
+datasets:
+  sim_transferable_protein: {path: /tmp/bioinf590_smoke/sim_transferable_protein.npz}
+  sim_informative_only:     {path: /tmp/bioinf590_smoke/sim_informative_only.npz}
+mechanisms: [none, label_smooth, self_train, teacher, kd, kd_permuted]
+train: {epochs: 5, lr: 1.0e-3, wd: 1.0e-4, T: 2.0, lambda: 0.3, beta: 1.0, tau: 0.1}
+settings:
+  default: {}
+  jitter_60: {jitter_um: 60, mechanisms: [none, teacher, kd]}
+  null_within_type: {teacher_null: within_type, mechanisms: [none, teacher, kd]}
