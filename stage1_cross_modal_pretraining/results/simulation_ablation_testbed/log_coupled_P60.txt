@@ -1,0 +1,7 @@
+[coupled] pretrained: final loss real 0.0420 vs shuffled-corpus 0.0362 (28s)
+[coupled] seed 0 done (46s)
+[coupled] seed 1 done (64s)
+[coupled] seed 2 done (83s)
+[coupled] seed 3 done (102s)
+[coupled] seed 4 done (120s)
+(full table: mean_macro_f1.csv)

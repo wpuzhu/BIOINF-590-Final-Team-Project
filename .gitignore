@@ -1,23 +1,9 @@
-# data are downloaded, not committed
-02_datasets/raw/
-model_assets/
+__pycache__/
+*.pyc
+raw/
+harmonised/
 *.h5ad
-*.rds
-*.h5
-*.tiff
-*.tif
-*.zarr/
-misty_results/
-results_*.csv
-# environments / caches
-.venv/
+*.npz
+*.zarr
+logs/
 .ipynb_checkpoints/
-__pycache__/
-.Rproj.user/
-.Rhistory
-.RData
-renv/library/
-.DS_Store
-# secrets
-.env
-__pycache__/

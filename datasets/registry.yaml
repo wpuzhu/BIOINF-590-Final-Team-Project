@@ -1,0 +1,51 @@
+# How each dataset becomes the harmonised schema (shared/data/schema.md).
+# Paths are relative to $SCRATCH/raw. Column names follow the public releases as of Nov 2026:
+# harmonise.py prints what it finds and fails loudly on a missing column; CHECK on first use.
+datasets:
+  xenium_protein_rcc:            # P1, same cell; 1 patient -> descriptive / spatial-block folds
+    loader: xenium
+    pairing: {type: same_cell}
+    label_source: protein_gating
+    samples: [{path: xenium_protein_rcc/outs, sample: RCC1, patient: RCC1}]
+  xenium_protein_ccrcc:          # P2
+    loader: xenium
+    pairing: {type: same_cell}
+    samples: [{path: xenium_protein_ccrcc/outs, sample: ccRCC1, patient: ccRCC1}]
+  cosmx_multiomic_nsclc:         # P7: 980 RNA + 108 protein; one entry per released slide
+    loader: cosmx
+    pairing: {type: same_cell}
+    protein_regex: "^Mean\\."     # CHECK: protein mean-intensity columns in the metadata file
+    um_per_px: 0.12028
+    samples:
+      - {path: cosmx_multiomic/Lung5_Rep1, sample: Lung5_Rep1, patient: Lung5}
+      - {path: cosmx_multiomic/Lung6, sample: Lung6, patient: Lung6}
+      # add all released slides; patients, not slides, are the resampling unit
+  cosmx_breast_wtx64:            # P6
+    loader: cosmx
+    pairing: {type: same_cell}
+    protein_regex: "^Mean\\."
+    samples: [{path: cosmx_breast_multiomic, sample: Breast1, patient: Breast1}]
+  spatch_colon_xenium5k:         # P4 RNA side (export cell x gene table from the SPATCH server)
+    loader: xenium
+    pairing: {type: adjacent_section}
+    label_source: author
+    samples: [{path: spatch/colon/xenium5k/outs, sample: COAD_X5K, patient: COAD}]
+    labels: {path: spatch/colon/xenium5k_annotation.csv, cell_id: cell_id, columns: {cell_type_fine: celltype, cell_type_coarse: major_celltype}}
+  spatch_colon_codex:            # P4 protein side (16 markers, adjacent section)
+    loader: table
+    path: spatch/colon/codex_cells.csv
+    pairing: {type: adjacent_section, rna_dataset: spatch_colon_xenium5k}
+    columns: {cell_id: cell_id, patient: sample, x: x, y: y, label_fine: celltype, label_coarse: major_celltype}
+    um_per_px: 0.5077            # CHECK CODEX pixel size in the release
+  schurch_crc_codex:             # D8: 35 patients, 56 markers (Mendeley mpjzbtfgfr)
+    loader: table
+    path: mendeley/schurch2020/CRC_clusters_neighborhoods_markers.csv
+    pairing: {type: unpaired}
+    columns: {cell_id: CellID, patient: patients, sample: spots, x: "X:X", y: "Y:Y", label_fine: ClusterName}
+    um_per_px: 0.377
+    transform: none              # released values are already normalised; CHECK
+  xenium_comet_2026:             # P9: Zenodo 21713660 per-core quantification tables
+    loader: table
+    path: zenodo/xenium_comet_2026/Cell_quantifications/merged.csv   # concatenate cores first
+    pairing: {type: same_cell}
+    columns: {cell_id: cell_id, patient: core, x: x, y: y}

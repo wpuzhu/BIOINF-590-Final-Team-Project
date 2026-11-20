@@ -1,0 +1,56 @@
+# Stage 2 real-data configuration. Paths use $SCRATCH (set in cluster/env.sh).
+# One SLURM array task = (dataset, setting, fold, seed); cluster/make_jobs.py expands the grid.
+
+radius_um: 40
+label_frac: 0.05
+folds: 5
+seeds: [0, 1, 2]
+
+datasets:
+  cosmx_multiomic_nsclc:        # P7: 980 RNA + 108 protein, same cell (main)
+    path: $SCRATCH/harmonised/cosmx_multiomic_nsclc.h5ad
+  cosmx_multiomic_breast:       # P7 breast
+    path: $SCRATCH/harmonised/cosmx_multiomic_breast.h5ad
+  cosmx_breast_wtx64:           # P6: WTX + 64 protein (single section -> descriptive; spatial-block folds)
+    path: $SCRATCH/harmonised/cosmx_breast_wtx64.h5ad
+  xenium_protein_rcc:           # P1: 377+ genes + 27 protein, same cell
+    path: $SCRATCH/harmonised/xenium_protein_rcc.h5ad
+  spatch_colon_codex:           # P4: CODEX with registered neighbourhood RNA from adjacent Xenium 5K
+    path: $SCRATCH/harmonised/spatch_colon_codex.h5ad
+    registered_rna: $SCRATCH/harmonised/spatch_colon_codex_registered_rna.npy
+
+mechanisms: [none, label_smooth, self_train, teacher, kd, kd_feat, kd_permuted,
+             align_infonce, align_cca, recon_rna, recon_specific]
+
+train:
+  epochs: 100
+  lr: 1.0e-3
+  wd: 1.0e-4
+  T: 2.0
+  lambda: 0.3        # weight of hard-label CE vs distillation
+  beta: 1.0          # weight of auxiliary / feature / contrastive term
+  tau: 0.1
+
+# Ablation settings. Each runs [none, teacher, kd] unless `mechanisms` is given.
+# Pre-registered: decide the winner mechanism on `default`, then run the rest with it.
+settings:
+  default: {}
+  label_frac_0.01: {label_frac: 0.01, mechanisms: [none, teacher, kd]}
+  label_frac_0.02: {label_frac: 0.02, mechanisms: [none, teacher, kd]}
+  label_frac_0.20: {label_frac: 0.20, mechanisms: [none, teacher, kd]}
+  label_frac_0.50: {label_frac: 0.50, mechanisms: [none, teacher, kd]}
+  null_all:          {teacher_null: all,          mechanisms: [none, teacher, kd]}
+  null_within_type:  {teacher_null: within_type,  mechanisms: [none, teacher, kd]}
+  null_within_niche: {teacher_null: within_niche, mechanisms: [none, teacher, kd]}
+  null_type_average: {teacher_null: type_average, mechanisms: [none, teacher, kd]}
+  rna_neighbourhood_only: {teacher_rna: neighbourhood, mechanisms: [none, teacher, kd]}
+  jitter_15:  {jitter_um: 15,  mechanisms: [none, teacher, kd]}
+  jitter_30:  {jitter_um: 30,  mechanisms: [none, teacher, kd]}
+  jitter_60:  {jitter_um: 60,  mechanisms: [none, teacher, kd]}
+  jitter_120: {jitter_um: 120, mechanisms: [none, teacher, kd]}
+  graph_off:  {graph: false,   mechanisms: [none, teacher, kd]}
+  panel_10:   {panel: 10,      mechanisms: [none, teacher, kd]}
+  panel_20:   {panel: 20,      mechanisms: [none, teacher, kd]}
+  # drop markers that define subtypes (edit per dataset): tests whether RNA can teach what the
+  # student's panel no longer shows directly
+  drop_t_subtype_markers: {drop_markers: [FOXP3, PD-1, CD45RO, GZMB], mechanisms: [none, teacher, kd]}

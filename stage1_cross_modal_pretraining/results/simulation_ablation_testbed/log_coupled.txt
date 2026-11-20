@@ -1,0 +1,8 @@
+[coupled] pretrained: final loss real 0.0421 vs shuffled-corpus 0.0362 (26s)
+[coupled] seed 0 done (43s)
+[coupled] seed 1 done (60s)
+[coupled] seed 2 done (78s)
+[coupled] seed 3 done (95s)
+[coupled] seed 4 done (110s)
+[coupled] RNA reference done (182s)
+(full table: mean_macro_f1.csv)
